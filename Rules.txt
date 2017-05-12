@@ -1,0 +1,39 @@
+Welcome to bots!
+
+This is the Kernalization discord server bots repository. Every user on the
+team has a separate folder where they can edit, push, pull, and do anything 
+else they'd like. For right now, we're running on the honor's system. The 
+rules are simple and pretty straightforward. 
+
+RULES:
+
+1) Read the rules in the bots.doc/bots.odt files. This is the proposal 
+documentation, and is located in the root bots.git folder, so everyone has 
+access to it. 
+
+2) This is important: do not mess with anyone else's files without their 
+permission. This is where the honor's system comes in to play. I can view
+every change to every file in every directory. If a user complains that 
+you changed/deleted/did anything else to their files, I can see where you did
+it. If you want to pull their directory and make modifications, go for it!
+That's in the spirit of the project. Anybody can collaborate and modify 
+other's code. BUT. If you do, add it to your own directory, don't overwrite 
+theirs. Accidents happen, but I can tell when something malicious was done.
+
+3) Another honor's system key: give credit where credit is due! It can be 
+frustrating when people rip off your work, and is incredibly unethical. If 
+you modify someone else's work, give them credit somewhere in the 
+documentation.
+
+4) Common sense. I shouldn't have to list out every conceivable rule that 
+governs this project. You guys are intelligent (for the most part ;) ) so 
+just use your best knowledge. 
+
+
+
+Moderating **should** be light. This is a creative community. Make cool stuff,
+don't break other's cool stuff, and improve your own knowledge. 
+
+Bot away!
+
+@the_gray
