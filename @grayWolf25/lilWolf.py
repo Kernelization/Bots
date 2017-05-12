@@ -21,8 +21,10 @@ async def on_ready():
 async def on_message(message):
     if message.content.startswith('!howl'):
         await client.send_message(message.channel, 'AWOOOOOO')
+    if message.content.startswith(''):
     if message.content.startswith('!close'):
         await client.close()
+
 
 if __name__=="__main__":
     client.run('MzEyNDUwNDY4Njc4NzI5NzM5.C_bg5w.ZG4GVKj4HH5fyHuICKF1n7q_8dE')
