@@ -25,6 +25,25 @@ def stats():
     ret+="Number of members: "+str(members)+"\n"
     return ret
 
+def userHistory(username=""):
+    tempLOGFILE = open('log.txt', 'r')
+    lines = tempLOGFILE.readlines()
+    br = False
+    user = discord.utils.find(lambda m: m.display_name.startswith(username), client.get_all_members())
+    ret = ""
+    for line in lines:
+        if not br:
+            linesplit = line.split('\t')
+            ID = linesplit[0]
+            try:
+                if (ID.startswith(user.id)):
+                    br = True
+                    ret += "HISTORY of " + user.display_name + '\n'
+                    ret+= 'Last message: ' + linesplit[1] + '\n'
+            except(TypeError,AttributeError):
+                ret = "ERROR: User not found!"
+    tempLOGFILE.close()
+    return ret
 client = discord.Client(description="Test bot for the project!", command_prefix='>>')
 
 @client.event
@@ -37,6 +56,7 @@ async def on_ready():
     print(client.user.name)
     print(client.user.id)
     Prog_Proj1 = discord.utils.find(lambda c: c.name == 'Programming Project 1', client.get_all_channels())
+
     print('---------')
 @client.event
 async def on_message(message):
@@ -67,6 +87,12 @@ async def on_message(message):
                 await client.send_message(message.channel, "Logging is on")
             else:
                 await client.send_message(message.channel, "Logging is off")
+    if message.content.startswith('>>userHistory'):
+        spl = message.content.split("-")
+        if len(spl) == 1:
+            await client.send_message(message.channel, "No User!\nUsage: ```>>userHistory-<displayName>```\n")
+        elif len(spl) == 2:
+            await client.send_message(message.channel, userHistory(spl[1]))
     if(LOG):
         LOGFILE = open('log.txt', 'a+')
         LOGFILE.truncate()
