@@ -2,6 +2,13 @@ import discord
 from discord.ext.commands import Bot
 import asyncio
 
+def versionInfo():
+    info = ""
+    info += "**wolfBot 0.0.1 (Alpha)**\n"
+    info += "Author: Discord User @the_gray\n"
+    info += "For help, send ```\">>help\"```\n\n"
+
+    return info
 
 client = discord.Client(description="Test bot for the project!", command_prefix='>>')
 global LIL_WOLF_STATUS
@@ -14,27 +21,9 @@ async def on_ready():
     print('---------')
 @client.event
 async def on_message(message):
-    global LIL_WOLF_STATUS
-    if message.content.startswith('>>howl'):
-        await client.send_message(message.channel, 'AWOOOOOO')
-    if message.content.startswith('>>close'):
-        await client.close()
-    if message.content.startswith('>>Status'):
-        spl = message.content.split(' ')
-        if len(spl) > 1:
-            newStatus = spl[2]
-            for word in range(3,len(spl)):
-                newStatus+=spl[word]+' '
-            await client.send_message(message.channel, newStatus)
-            LIL_WOLF_STATUS = newStatus
-        else:
+    if(message.content == ">>Info"):
+        await client.send_message(message.channel, versionInfo())
 
-            if 'LIL_WOLF_STATUS' not in locals():
-                await client.send_message(message.channel, "No status as of yet")
-            else:
-                await client.send_message(message.channel, LIL_WOLF_STATUS)
-    else:
-        pass
 
 
 if __name__=="__main__":
