@@ -21,7 +21,7 @@ module.exports = {
     }
   },
   usage : () => {
-    return "<prefix>set <game> <arguments>";
+    return "set <game> <arguments>";
   },
   description : () => {
     return "Used for setting different bot information.";

@@ -15,7 +15,7 @@ module.exports = {
     }
   },
   usage : () => {
-    return "<prefix>reload <command>";
+    return "reload <command>";
   },
   description : () => {
     return "Used for reloading commands so the bot doesn't need restarting.";

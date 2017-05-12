@@ -6,7 +6,7 @@ module.exports = {
     msg.reply("Pong!");
   },
   usage : () => {
-    return "<prefix>ping";
+    return "ping";
   },
   description : () => {
     return "Pong!";
