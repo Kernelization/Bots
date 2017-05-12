@@ -2,6 +2,8 @@ import discord
 from discord.ext.commands import Bot
 import asyncio
 
+global LOG
+global LOGFILE
 def versionInfo():
     info = ""
     info += "**wolfBot 0.0.1 (Alpha)**\n"
@@ -24,9 +26,13 @@ def stats():
     return ret
 
 client = discord.Client(description="Test bot for the project!", command_prefix='>>')
-global LIL_WOLF_STATUS
+
 @client.event
 async def on_ready():
+    global LOG
+    global LOGFILE
+
+    LOG = False
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
@@ -34,7 +40,8 @@ async def on_ready():
     print('---------')
 @client.event
 async def on_message(message):
-
+    global LOG
+    global LOGFILE
     if(message.content == ">>Info"):
         await client.send_message(message.channel, versionInfo())
     if message.content.startswith('>>howl'):
@@ -42,10 +49,30 @@ async def on_message(message):
     if message.content.startswith('>>close'):
         await client.close()
     if message.content.startswith('>>stats'):
-
         await client.send_message(message.channel,stats())
+    if message.content.startswith("good boy") or message.content.startswith("good boi"):
+        await client.send_message(message.channel, "*pants*\n WOOF\n *licks "+message.author.mention+"'s face*")
+    if message.content.startswith('>>log'):
 
-
+        spl = message.content.split(' ')
+        onOff = spl[1]
+        if(onOff.startswith("ON")):
+            LOG = True
+            await client.send_message(message.channel, "Logging is on")
+        elif(onOff.startswith("OFF")):
+            LOG = False
+            await client.send_message(message.channel, "Logging is off")
+        if(onOff.startswith("status")):
+            if(LOG == True):
+                await client.send_message(message.channel, "Logging is on")
+            else:
+                await client.send_message(message.channel, "Logging is off")
+    if(LOG):
+        LOGFILE = open('log.txt', 'a+')
+        LOGFILE.truncate()
+        LOGFILE.write(message.author.id+'\t'+str(message.timestamp)+'\t'+message.content+'\n')
+        LOGFILE.close()
+        print(message.channel.name+'\t'+message.author.name+'\t'+str(message.timestamp)+'\t'+message.content)
 if __name__=="__main__":
     client.run('MzEyNDUwNDY4Njc4NzI5NzM5.C_bvcw.wWl0hNlkVBADqu3se_9YP3u7e3o')
 
