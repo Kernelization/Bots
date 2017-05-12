@@ -171,7 +171,10 @@ bot.on('disconnect', event =>{
 bot.on('guildMemberAdd', guildMember =>{
 	var generalChannel = getChannelByName(guildMember.guild, 'general');
 
-	generalChannel.send(guildMember.user.username +", welcome to " + guildMember.guild.name);	
+	generalChannel.send("<@" + bot.user.id + ">, welcome to **" + guildMember.guild.name + 
+		"** Thank you for joining us. Here we come to learn and work on cool and amazing projects. " +
+		"We are happy to have you onboard and would love to know more about you, your skills, interests, project suggestions etc.."+
+		"Please read the announcements section for general rules for the server. Have a great day :)");	
 	botLog(guildMember.guild.name + " welcomes " + guildMember.user.username + " to their server.");
 });
 
