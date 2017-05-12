@@ -1,4 +1,5 @@
 import discord
+import random
 from discord.ext.commands import Bot
 import asyncio
 
@@ -70,10 +71,9 @@ async def on_message(message):
         await client.close()
     if message.content.startswith('>>stats'):
         await client.send_message(message.channel,stats())
-    if message.content.startswith("good boy") or message.content.startswith("good boi"):
+    if message.content.startswith("good boy") or message.content.startswith("good boi") or message.content.startswith('>>good boy') or message.content.startswith('>>good boi'):
         await client.send_message(message.channel, "*pants*\n WOOF\n *licks "+message.author.mention+"'s face*")
     if message.content.startswith('>>log'):
-
         spl = message.content.split(' ')
         onOff = spl[1]
         if(onOff.startswith("ON")):
@@ -93,6 +93,17 @@ async def on_message(message):
             await client.send_message(message.channel, "No User!\nUsage: ```>>userHistory-<displayName>```\n")
         elif len(spl) == 2:
             await client.send_message(message.channel, userHistory(spl[1]))
+    if message.content.startswith('>>rekt'):
+        rektArr = [ 'https://www.tenor.co/view/rap-rapbattle-gif-5518154',
+                    'https://www.tenor.co /view/rekt-anime-gif-5720919',
+                    'https://www.tenor.co/view/rekt-anime-mayo-chiki-gif-4524940',
+                    'https://www.tenor.co/view/getrekt-shotsfired-sass-stephenhawking-hawking-gif-5271851',
+                    'https://www.tenor.co/view/rekt-gif-4842190']
+        rektRand = random.randint(0,len(rektArr)-1)
+        await client.send_message(message.channel, rektArr[rektRand])
+
+
+
     if(LOG):
         LOGFILE = open('./resources/log.txt', 'a+')
         LOGFILE.truncate()
