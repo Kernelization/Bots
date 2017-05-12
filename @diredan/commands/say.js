@@ -7,7 +7,7 @@ module.exports = {
     msg.channel.send(args.join(" "));
   },
   usage : () => {
-    return "<prefix>say <text>";
+    return "say <text>";
   },
   description : () => {
     return "Used to make the bot say text.";

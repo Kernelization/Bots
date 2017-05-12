@@ -11,7 +11,7 @@ module.exports = {
     // code ran here
   },
   usage : () => {
-    return "<prefix>test <arguments>";
+    return "test <arguments>";
   },
   description : () => {
     return "Used as a test command.";

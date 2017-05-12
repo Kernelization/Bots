@@ -26,7 +26,7 @@ module.exports = {
     }
   },
   usage : () => {
-    return "<prefix>rps rock/paper/scissors";
+    return "rps rock/paper/scissors";
   },
   description : () => {
     return "Used for playing rock, paper, scissors against the bot.";

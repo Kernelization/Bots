@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const fs = require("fs");
+const Config = require("../config.json");
 
 module.exports = {
   /*
@@ -14,7 +15,7 @@ module.exports = {
           var embed = new Discord.RichEmbed();
           embed.setColor(0xff00ff)
           embed.setTitle("COMMAND: " + args[0]);
-          embed.addField("Usage:", usage);
+          embed.addField("Usage:", Config.prefix + usage);
           embed.addField("Description:", description);
           msg.channel.send("", { embed: embed });
         } catch (err) {
@@ -32,7 +33,7 @@ module.exports = {
       }
   },
   usage : () => {
-    return "<prefix>help <command>";
+    return "help <command>";
   },
   description : () => {
     return "Used for getting help with commands.";
