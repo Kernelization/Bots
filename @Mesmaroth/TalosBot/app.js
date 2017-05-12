@@ -630,6 +630,7 @@ bot.on('message', message => {
   			'setgame', 'delcmd',
   			'addcmd', 'purge',
   			'notify', 'setchannel',
+  			'setavatar', 'setname',
   			'exit'];
 
   		var customCommands = [
