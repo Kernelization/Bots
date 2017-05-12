@@ -1,4 +1,5 @@
 {
   "token":"INSERT_TOKEN",
-  "prefix":"bot."
+  "prefix":"bot.",
+  "owner":"INSERT_YOUR_USER_ID"
 }
