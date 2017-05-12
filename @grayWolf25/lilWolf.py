@@ -5,6 +5,7 @@ import asyncio
 
 global LOG
 global LOGFILE
+global SETSTATUS
 def versionInfo():
     info = ""
     info += "**wolfBot 0.0.1 (Alpha)**\n"
@@ -13,6 +14,19 @@ def versionInfo():
 
     return info
 
+def commands():
+    ret = ""
+    ret+= "```COMMAND   SYNTAX   DESCRIPTION\n"
+    ret+= "Info   >>Info   Displays info about the wolfBot.\n"
+    ret+= "Commands   >>Commands   Displays this text info.\n"
+    ret+= "Howl   >>howl   Howls at you.\n"
+    ret+= "Stats   >>stats   Displays some basic stats about the server.\n"
+    ret+= "Log Status   >>log status   Displays the status of the logging software.\n"
+    ret+= "Log On/Off   >>log ON / >>>log OFF   Turns the logging on and off.\n"
+    ret+= "User History   >>userHistory-<displayName>   Shows the last timestamp of the last message sent by that user.\n"
+    ret+= "Rekt   >>rekt   self.getRekt().\n"
+    ret+="Rekt add   rekt <url-to-image>   Adds image from url to the rekt database.\n```"
+    return ret
 def stats():
     channels = 0
     members = 0
@@ -49,26 +63,37 @@ client = discord.Client(description="Test bot for the project!", command_prefix=
 
 @client.event
 async def on_ready():
+    global SETSTATUS
     global LOG
     global LOGFILE
-
     LOG = False
+    SETSTATUS = False
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
-    Prog_Proj1 = discord.utils.find(lambda c: c.name == 'Programming Project 1', client.get_all_channels())
-
     print('---------')
+
+
 @client.event
 async def on_message(message):
     global LOG
     global LOGFILE
+    global SETSTATUS
+    if(not SETSTATUS):
+        game = discord.Game()
+        game.name = '>>Commands for help'
+        game.url = '>>Commands for help'
+        status = discord.Status.online
+
+        await client.change_presence(game=game, status=status, afk=False)
+        SETSTATUS = True
     if(message.content == ">>Info"):
         await client.send_message(message.channel, versionInfo())
+    if(message.content == ">>Commands"):
+        await client.send_message(message.channel, commands())
     if message.content.startswith('>>howl'):
         await client.send_message(message.channel, message.author.mention+' AWOOOOOO')
-    if message.content.startswith('>>close'):
-        await client.close()
+
     if message.content.startswith('>>stats'):
         await client.send_message(message.channel,stats())
     if message.content.startswith("good boy") or message.content.startswith("good boi") or message.content.startswith('>>good boy') or message.content.startswith('>>good boi'):
@@ -94,13 +119,18 @@ async def on_message(message):
         elif len(spl) == 2:
             await client.send_message(message.channel, userHistory(spl[1]))
     if message.content.startswith('>>rekt'):
-        rektArr = [ 'https://www.tenor.co/view/rap-rapbattle-gif-5518154',
-                    'https://www.tenor.co/view/rekt-anime-gif-5720919',
-                    'https://www.tenor.co/view/rekt-anime-mayo-chiki-gif-4524940',
-                    'https://www.tenor.co/view/getrekt-shotsfired-sass-stephenhawking-hawking-gif-5271851',
-                    'https://www.tenor.co/view/rekt-gif-4842190']
-        rektRand = random.randint(0,len(rektArr)-1)
-        await client.send_message(message.channel, rektArr[rektRand])
+        spl = message.content.split(" ")
+        rektFile = open('./resources/rekt.txt','a+')
+        if(len(spl) == 1):
+            rektLines = rektFile.readlines()
+            rektArr = []
+            for line in rektLines:
+                rektArr.append(line)
+            rektRand = random.randint(0,len(rektArr)-1)
+            await client.send_message(message.channel, rektArr[rektRand])
+        else:
+            rektFile.write(spl[1]+'\n')
+        rektFile.close()
 
 
 
