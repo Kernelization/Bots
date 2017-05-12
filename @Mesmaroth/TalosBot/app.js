@@ -15,6 +15,7 @@ const picturePath = path.resolve(__dirname, 'pictures');
 const soundsPath = path.resolve(__dirname, 'sounds');
 const bannedCommands = [
 	'exit', 'setgame',
+	'setavatar', 'setname',
 	'setchannel', 'notify',
 	'purge', 'delcmd',
 	'addcmd', 'help',
