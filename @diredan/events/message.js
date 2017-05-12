@@ -29,7 +29,7 @@ module.exports = {
     try {
       require("../commands/" + cmd).run(args, Client, msg);
     } catch(err) {
-      console.log(err);
+      // console.log(err);
     }
   }
 }

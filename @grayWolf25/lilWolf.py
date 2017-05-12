@@ -10,6 +10,19 @@ def versionInfo():
 
     return info
 
+def stats():
+    channels = 0
+    members = 0
+    ret = ""
+    for channel in client.get_all_channels():
+        channels += 1
+    for member in client.get_all_members():
+        members += 1
+
+    ret+="Number of channels: "+str(channels)+"\n"
+    ret+="Number of members: "+str(members)+"\n"
+    return ret
+
 client = discord.Client(description="Test bot for the project!", command_prefix='>>')
 global LIL_WOLF_STATUS
 @client.event
@@ -24,10 +37,14 @@ async def on_message(message):
 
     if(message.content == ">>Info"):
         await client.send_message(message.channel, versionInfo())
-    if message.content.startswith('!howl'):
-        await client.send_message(message.channel, 'AWOOOOOO')
-    if message.content.startswith('!close'):
+    if message.content.startswith('>>howl'):
+        await client.send_message(message.channel, message.author.mention+' AWOOOOOO')
+    if message.content.startswith('>>close'):
         await client.close()
+    if message.content.startswith('>>stats'):
+
+        await client.send_message(message.channel,stats())
+
 
 if __name__=="__main__":
     client.run('MzEyNDUwNDY4Njc4NzI5NzM5.C_bvcw.wWl0hNlkVBADqu3se_9YP3u7e3o')

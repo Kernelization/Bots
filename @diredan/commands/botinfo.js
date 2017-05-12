@@ -28,6 +28,6 @@ module.exports = {
     return "botinfo";
   },
   description : () => {
-    return "Used as a test command.";
+    return "Used to get info about the bot.";
   }
 }

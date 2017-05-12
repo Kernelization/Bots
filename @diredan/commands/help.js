@@ -12,12 +12,12 @@ module.exports = {
           const command_file = require("./" + args[0]);
           const usage = command_file.usage();
           const description = command_file.description();
-          var embed = new Discord.RichEmbed();
-          embed.setColor(0xff00ff)
-          embed.setTitle("COMMAND: " + args[0]);
-          embed.addField("Usage:", Config.prefix + usage);
-          embed.addField("Description:", description);
-          msg.channel.send("", { embed: embed });
+          message = "```\nCommand: " + args[0] + "\n\n";
+          message += "Usage: " + Config.prefix + usage;
+          message += "\n";
+          message += "Description: " + description;
+          message += "```";
+          msg.channel.send(message);
         } catch (err) {
           msg.channel.send("```Command: \"" + args[0] + "\" does not exist!```");
         }
@@ -25,7 +25,7 @@ module.exports = {
         var message = "```\nCommands:\n";
         fs.readdir("./commands/", (err, files) => {
           files.forEach(file => {
-            message += file.replace(".js", "") + ", ";
+            message += file.replace(".js", "") + " ->:<- " + require("./" + file).description() + "\n";
           });
           message += "\n```";
           msg.channel.send(message);
