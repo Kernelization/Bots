@@ -26,7 +26,7 @@ def stats():
     return ret
 
 def userHistory(username=""):
-    tempLOGFILE = open('log.txt', 'r')
+    tempLOGFILE = open('./resources/log.txt', 'r')
     lines = tempLOGFILE.readlines()
     br = False
     user = discord.utils.find(lambda m: m.display_name.startswith(username), client.get_all_members())
@@ -94,7 +94,7 @@ async def on_message(message):
         elif len(spl) == 2:
             await client.send_message(message.channel, userHistory(spl[1]))
     if(LOG):
-        LOGFILE = open('log.txt', 'a+')
+        LOGFILE = open('./resources/log.txt', 'a+')
         LOGFILE.truncate()
         LOGFILE.write(message.author.id+'\t'+str(message.timestamp)+'\t'+message.content+'\n')
         LOGFILE.close()
