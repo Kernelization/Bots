@@ -254,6 +254,14 @@ bot.on('message', message => {
 		}
 	}
 
+	if(isCommand(mContent, 'setname') && isAdmin(message)){
+		if(mContent.indexOf(' ') !== -1){
+			var username = mContent.split(' ')[1];
+			bot.user.setUsername(username);
+			console.log("DISCORD: Username set to " + username);
+		}
+	}
+
 	// Sets the preferred channel for live streaming notifications
 	if(isCommand(mContent, 'setchannel') && isAdmin(message)){
 		if(mContent.indexOf(' ') !== -1){
