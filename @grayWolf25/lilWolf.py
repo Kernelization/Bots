@@ -120,15 +120,18 @@ async def on_message(message):
             await client.send_message(message.channel, userHistory(spl[1]))
     if message.content.startswith('>>rekt'):
         spl = message.content.split(" ")
-        rektFile = open('./resources/rekt.txt','a+')
         if(len(spl) == 1):
+            rektFile = open('./resources/rekt.txt', 'r')
             rektLines = rektFile.readlines()
+
             rektArr = []
             for line in rektLines:
+                print("TEST\n")
                 rektArr.append(line)
             rektRand = random.randint(0,len(rektArr)-1)
             await client.send_message(message.channel, rektArr[rektRand])
         else:
+            rektFile = open('./resources/rekt.txt','a+')
             rektFile.write(spl[1]+'\n')
         rektFile.close()
 
