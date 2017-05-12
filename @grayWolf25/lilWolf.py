@@ -24,10 +24,19 @@ async def on_message(message):
 
     if(message.content == ">>Info"):
         await client.send_message(message.channel, versionInfo())
-    if message.content.startswith('!howl'):
-        await client.send_message(message.channel, 'AWOOOOOO')
-    if message.content.startswith('!close'):
+    if message.content.startswith('>>howl'):
+        await client.send_message(message.channel, '@'+message.author.nick+' AWOOOOOO')
+    if message.content.startswith('>>close'):
         await client.close()
+    if message.content.startswith('>>stats'):
+        channels = 0
+        members = 0
+        for channel in client.get_all_channels():
+            channels+=1
+        for member in client.get_all_members():
+            members+=1
+        await client.send_message(message.channel, 'Number of channels: '+str(channels)+'\nNumber of users: '+str(members))
+
 
 if __name__=="__main__":
     client.run('MzEyNDUwNDY4Njc4NzI5NzM5.C_bvcw.wWl0hNlkVBADqu3se_9YP3u7e3o')
