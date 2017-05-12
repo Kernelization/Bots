@@ -95,7 +95,7 @@ async def on_message(message):
             await client.send_message(message.channel, userHistory(spl[1]))
     if message.content.startswith('>>rekt'):
         rektArr = [ 'https://www.tenor.co/view/rap-rapbattle-gif-5518154',
-                    'https://www.tenor.co /view/rekt-anime-gif-5720919',
+                    'https://www.tenor.co/view/rekt-anime-gif-5720919',
                     'https://www.tenor.co/view/rekt-anime-mayo-chiki-gif-4524940',
                     'https://www.tenor.co/view/getrekt-shotsfired-sass-stephenhawking-hawking-gif-5271851',
                     'https://www.tenor.co/view/rekt-gif-4842190']
