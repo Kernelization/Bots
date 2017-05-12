@@ -993,6 +993,20 @@ bot.on('message', message => {
 
   			if(isNumber(param)){
   				param = Number(param);
+
+  				fs.readdir(soundsPath, (error, files) =>{
+  					if(error) return sendError("Reading sounds folder", error, mChannel);
+
+  					for(var i = 0; i < files.length; i++){
+  						if(param === (i+1)){
+  							fs.unlinkSync(path.join(soundsPath, files[i]));
+  							mChannel.send("Sound `" + files[i].split('.')[0] + '` deleted.')
+  							return;
+  						}
+  					}
+
+  					mChannel.send("Could not find a sound with that index.");
+  				});
   			}
   		}
   	}
