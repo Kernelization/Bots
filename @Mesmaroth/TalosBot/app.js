@@ -246,6 +246,14 @@ bot.on('message', message => {
 		return;
 	}
 
+	if(isCommand(mContent, 'setavatar') && isAdmin(message)){
+		if(mContent.indexOf(' ') !== -1){
+			var url = message.content.split(' ')[1];
+			bot.user.setAvatar(url);
+			console.log("DISCORD: Avatar changed");
+		}
+	}
+
 	// Sets the preferred channel for live streaming notifications
 	if(isCommand(mContent, 'setchannel') && isAdmin(message)){
 		if(mContent.indexOf(' ') !== -1){
