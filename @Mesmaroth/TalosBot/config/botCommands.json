@@ -1,0 +1,11 @@
+{
+	"GLOBAL": [
+		{
+			"command": "ping",
+			"message": "pong",
+			"type": "text",
+			"editable": false,
+			"comment": "Test command"
+		}
+	]
+}
