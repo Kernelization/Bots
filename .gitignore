@@ -3,3 +3,5 @@
 @Mesmaroth/TalosBot/sounds/
 
 @Mesmaroth/TalosBot/node_modules/
+
+@Mesmaroth/TalosBot/config/notifychannels\.json
