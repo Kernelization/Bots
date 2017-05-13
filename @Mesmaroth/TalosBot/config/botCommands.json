@@ -5,7 +5,16 @@
 			"message": "pong",
 			"type": "text",
 			"editable": false,
-			"comment": "Test command"
+			"comment": "Test command for all server"
+		}
+	],
+	"SERVER_ID": [
+		{
+			"command": "ayy",
+			"message": "lmao",
+			"type": "text",
+			"editable": true,
+			"comment": "Test command for a server command"
 		}
 	]
 }
