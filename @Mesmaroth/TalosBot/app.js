@@ -270,6 +270,34 @@ bot.on('message', message => {
 		}
 	}
 
+	if(isCommand(mContent, 'setinit') && isAdmin(message)){
+		if(mContent.indexOf(' ') !== -1){
+			var init  = mContent.split(' ')[1];
+
+			CMDINT = init;
+
+			fs.readFile(botPreference, (error, file) =>{
+				if(error) return sendError("Reading preference config file", error, mChannel);
+
+				try{
+					file = JSON.parse(file);
+				}catch(error){
+					if(error) return sendError("Parsing prefernce config file", error, mChannel);
+				}
+
+				file.initcmd = init;
+
+				fs.writeFile(botPreference, JSON.stringify(file, null, '\t'), error =>{
+					if(error) return sendError("Writing to preference config file", error, mChannel);
+
+					mChannel.send("Command initializer set as `" + init + "`");
+				});
+			});
+
+		}
+		return;
+	}
+
 	// Sets the preferred channel for live streaming notifications
 	if(isCommand(mContent, 'setchannel') && isAdmin(message)){
 		if(mContent.indexOf(' ') !== -1){
