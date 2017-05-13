@@ -23,7 +23,7 @@ const bannedCommands = [
 	'about', 'source',
 	'invite', 'uptime',
 	'twitch', 'commands',
-	'sounds']
+	'sounds', 'setadminrole', 'setinit'];
 
 var adminGroups = ["admin"];
 var notifyChannel = {}
