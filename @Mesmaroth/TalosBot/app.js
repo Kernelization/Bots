@@ -8,7 +8,7 @@ const request = require('request');
 const bot = new Discord.Client();
 bot.login(botLogin.token);
 
-const adminRole = "admin";
+
 const notifyChannelFile = path.resolve(__dirname, 'config/notifychannels.json');
 const botCommandsFile = path.resolve(__dirname, 'config/botCommands.json');
 const botPreference = path.resolve(__dirname, 'config/preference.json');
@@ -23,8 +23,9 @@ const bannedCommands = [
 	'about', 'source',
 	'invite', 'uptime',
 	'twitch', 'commands',
-	'sounds']
+	'sounds', 'setadminrole', 'setinit'];
 
+var adminGroups = ["admin"];
 var notifyChannel = {}
 var botVersion = "?#";
 var CMDINT = "!";
@@ -63,6 +64,7 @@ try{
 		var file = fs.readFileSync(botPreference);		
 		file = JSON.parse(file);
 		CMDINT = file.initcmd;
+		adminGroups = file.adminGroups;
 	}	
 } catch(error){
 	if(error) {
@@ -87,10 +89,12 @@ function isCommand(message, command){
 
 // Checks for a specific role the user is in to run admin commands
 function isAdmin(message){
-	var roles = message.member.roles.array();
-	for(var role = 0; role < roles.length; role++){
-		if(roles[role].name.toLowerCase() === adminRole)			
-			return true;
+	var memberRoles = message.member.roles.array();
+	for(var role = 0; role < memberRoles.length; role++){
+		for(var group = 0; group < adminGroups.length; group++){
+			if(memberRoles[role].name.toLowerCase() === adminGroups[group])
+				return true;
+		}
 	}
 	message.channel.send("You aren't admin for this command.");
 	return false;
@@ -250,6 +254,7 @@ bot.on('message', message => {
 			var game = mContent.slice(mContent.indexOf(' ') + 1);
 			setGame(game);
 			botLog("Game set to: " + game);
+			mChannel.send("Game set to: " + game);
 		}
 		return;
 	}
@@ -294,6 +299,34 @@ bot.on('message', message => {
 				});
 			});
 
+		}
+		return;
+	}
+
+	// Adds a role to the admin group list
+	if(isCommand(mContent, 'addadminrole') && isAdmin(message)){
+		if(mContent.indexOf(' ') !== -1){
+			var param = mContent.split(' ')[1].toLowerCase();
+
+			adminGroups.push(param);
+
+			fs.readFile(botPreference, (error, file) =>{
+				if(error) return sendError("Reading Preference File", error, mChannel);
+
+				try{
+					file = JSON.parse(file);
+				}catch(error){
+					if(error) return sendError("Parsing Preference File", error, mChannel);
+				}
+
+				file.adminGroups.push(param);
+
+				fs.writeFile(botPreference, JSON.stringify(file, null, '\t'), error =>{
+					if(error) return sendError("Writing Preference File", error, mChannel);
+
+					mChannel.send("Role `" + param + "` has been added to admin group list");
+				});
+			});
 		}
 		return;
 	}
@@ -681,6 +714,7 @@ bot.on('message', message => {
   		var adminCommands = [
   			'setgame', 'delcmd',
   			'addcmd', 'purge',
+  			'setinit', 'setadminrole',
   			'notify', 'setchannel',
   			'setavatar', 'setname',
   			'exit'];
