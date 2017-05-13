@@ -677,3 +677,176 @@ Rekt add   rekt <url-to-image>   Adds image from url to the rekt database.
 311663764975910922	2017-05-12 23:37:29.070000	The hell
 102582760656338944	2017-05-12 23:38:07.519000	You guys should read about asychronus programming, callbacks etc..
 311663764975910922	2017-05-12 23:38:53.794000	Super useful. I've studied it, but it's been a bit
+311663764975910922	2017-05-12 23:44:09.727000	>>log ON
+312450468678729739	2017-05-12 23:44:10.063000	Logging is on
+102582760656338944	2017-05-12 23:54:25.209000	>help
+312499153181868034	2017-05-12 23:54:25.373000	**Help**
+102582760656338944	2017-05-12 23:54:29.897000	>setinit $
+312499153181868034	2017-05-12 23:54:30.202000	Command initializer set as `>setinit`
+102582760656338944	2017-05-12 23:54:44.461000	>dfd
+102582760656338944	2017-05-12 23:54:46.669000	>setinit
+102582760656338944	2017-05-12 23:54:48.688000	>help
+102582760656338944	2017-05-13 00:00:00.343000	!help
+102582760656338944	2017-05-13 00:01:23.872000	>help
+312499153181868034	2017-05-13 00:01:24.133000	**Help**
+102582760656338944	2017-05-13 00:04:10.080000	>exit
+102582760656338944	2017-05-13 00:04:14.909000	!exit
+102582760656338944	2017-05-13 00:05:27.783000	!help
+312499153181868034	2017-05-13 00:05:28.034000	**Help**
+102582760656338944	2017-05-13 00:08:33.188000	>help
+312499153181868034	2017-05-13 00:08:33.506000	**Help**
+102582760656338944	2017-05-13 00:08:43.982000	>purge bot 3
+102582760656338944	2017-05-13 00:08:52.794000	>purge bot
+102582760656338944	2017-05-13 00:08:57.652000	>purge me
+102582760656338944	2017-05-13 00:09:02.550000	>purge
+102582760656338944	2017-05-13 00:09:18.573000	>purge
+102582760656338944	2017-05-13 00:09:25.660000	>purge
+102582760656338944	2017-05-13 00:09:30.668000	>purge
+102582760656338944	2017-05-13 00:09:48.480000	I like the channel clean... 😄
+102582760656338944	2017-05-13 00:10:00.227000	>setinit $
+312499153181868034	2017-05-13 00:10:00.533000	Command initializer set as `$`
+102582760656338944	2017-05-13 00:10:05.879000	$help
+312499153181868034	2017-05-13 00:10:06.261000	**Help**
+102582760656338944	2017-05-13 00:10:13.553000	$setinit -
+312499153181868034	2017-05-13 00:10:13.788000	Command initializer set as `-`
+102582760656338944	2017-05-13 00:10:17.994000	$help
+102582760656338944	2017-05-13 00:10:19.745000	-help
+312499153181868034	2017-05-13 00:10:19.970000	**Help**
+102582760656338944	2017-05-13 00:12:29.217000	-setinit !
+312499153181868034	2017-05-13 00:12:29.360000	Command initializer set as `!`
+312500702897504257	2017-05-13 00:18:31.013000	
+312500702897504257	2017-05-13 00:19:59.782000	
+102582760656338944	2017-05-13 00:25:50.232000	!exit
+102582760656338944	2017-05-13 00:28:40.677000	<@239517706766909440> Here's an example of having image be uploaded by the bot throught the custom command. You attach a file and set the comment to be the command
+102582760656338944	2017-05-13 00:28:58.489000	!addcmd >smooth
+312499153181868034	2017-05-13 00:28:58.653000	Command `>smooth` added
+102582760656338944	2017-05-13 00:29:04.500000	!setinit >
+312499153181868034	2017-05-13 00:29:04.701000	Command initializer set as `>`
+102582760656338944	2017-05-13 00:29:09.911000	>smooth
+312499153181868034	2017-05-13 00:29:10.161000	
+102582760656338944	2017-05-13 00:29:48.934000	vs making a text custom command that displays the link. And then discord handles the rest on the embed picture preview thing.
+102582760656338944	2017-05-13 00:30:14.768000	>addcmd >y
+312499153181868034	2017-05-13 00:30:14.965000	Command `>y` added
+102582760656338944	2017-05-13 00:31:53.879000	>addcmd >elliot https://media.giphy.com/media/ztKD5hxjvUeSA/giphy.gif
+312499153181868034	2017-05-13 00:31:54.043000	Command `>elliot` added
+312500702897504257	2017-05-13 00:31:54.792000	
+311663764975910922	2017-05-13 02:49:11.127000	>>log ON
+312450468678729739	2017-05-13 02:49:11.226000	Logging is on
+311663764975910922	2017-05-13 02:49:19.701000	>>Commands
+312450468678729739	2017-05-13 02:49:19.754000	```COMMAND   SYNTAX   DESCRIPTION
+Info   >>Info   Displays info about the wolfBot.
+Commands   >>Commands   Displays this text info.
+Howl   >>howl   Howls at you.
+Stats   >>stats   Displays some basic stats about the server.
+Log Status   >>log status   Displays the status of the logging software.
+Log On/Off   >>log ON / >>>log OFF   Turns the logging on and off.
+User History   >>userHistory-<displayName>   Shows the last timestamp of the last message sent by that user.
+Rekt   >>rekt   self.getRekt().
+Rekt add   rekt <url-to-image>   Adds image from url to the rekt database.
+```
+312500702897504257	2017-05-13 02:49:26.668000	
+311663764975910922	2017-05-13 02:49:37.216000	<@!102582760656338944> how do you make your command menu so pretty?
+102582760656338944	2017-05-13 02:49:43.722000	I think it would be better to use <#312310124465094658> for testing and use this channel for discussion. Unless you are demonstrating then bot
+102582760656338944	2017-05-13 02:49:51.742000	<@311663764975910922> Embed
+311663764975910922	2017-05-13 02:49:53.978000	Ah ight, that's cool then
+102582760656338944	2017-05-13 02:50:17.628000	let me get the sources
+102582760656338944	2017-05-13 02:50:36.577000	https://discord.js.org/#/docs/main/stable/typedef/MessageOptions
+311663764975910922	2017-05-13 02:50:39.573000	Separate Github from the Kernalization github? 😦
+102582760656338944	2017-05-13 02:50:56.494000	https://discordapp.com/developers/docs/resources/channel#embed-object
+102582760656338944	2017-05-13 02:51:16.526000	Whoops
+102582760656338944	2017-05-13 02:51:31.578000	You're not using nodejs but it's essentiall the same
+102582760656338944	2017-05-13 02:51:37.144000	What library you using?
+311663764975910922	2017-05-13 02:51:46.221000	Discord.py
+102582760656338944	2017-05-13 02:53:02.459000	<@311663764975910922> https://discordapp.com/developers/docs/resources/channel#embed-object
+102582760656338944	2017-05-13 02:53:22.532000	http://oembed.com/
+148854270693867521	2017-05-13 02:53:28.920000	what IDE you using
+102582760656338944	2017-05-13 02:53:31.285000	Found it on your lib
+311663764975910922	2017-05-13 02:53:36.140000	pyCharm
+148854270693867521	2017-05-13 02:53:36.790000	there's a .idea folder in your github
+148854270693867521	2017-05-13 02:53:40.023000	ok
+102582760656338944	2017-05-13 02:53:44.434000	I'm just using a text editor Sublime
+148854270693867521	2017-05-13 02:55:04.488000	.help\
+148854270693867521	2017-05-13 02:55:08.220000	.help
+180571722586652672	2017-05-13 02:55:08.433000	**Bot Commands**
+
+**Admin Commands**
+`.setUsername [name]`: Sets the username of bot
+`.setAvatar [URL]`: Sets the avatar of the bot
+`.exit`: Disconnects the bot
+
+**General**
+`.about`: About this bot
+`.source`: Source link
+`.invite`: Get invite link to your bot
+`.setVC`: Set the defualt channel your bot joins when ever the bot connects
+`.join`: Bot will attempt to join your channel
+
+**Music**
+`.queue or playing`: To view all songs in queue
+`.play [YT_URL]`: Plays a song from a youtube link
+`.play [index_number]`: Plays a song from a file that has been saved to the bot
+`.play [search key term]`: Plays the first result of youtube search
+`.play`: Plays song in queue if it has been stopped
+`.stop`: Stops the song from playing
+`.skip`: To skip the currently playing song
+`.replay`: Stops and replays song from the start
+`.local`: Displays all the songs saved by the bot
+`.remove [index_number]`: Removes a specific song from queue
+`.save [YT_URL]`: Saves a song from youtube and stores it
+`.save`: Saves current song that's playing
+`.remlocal [index_number]`: Removes a song that has been saved locally
+`.readd`: Re-adds the currently playing song at the bottom of the queue
+`.playlist`: List all playlist
+`.playlist [index_number]`: List all songs of the playlist
+`.playlist save [PLAYLIST_NAME]`: Saves playlist
+`.playlist play [index_number]`: Loads the playlist in queue and plays if nothing is playing
+`.playlist remove [index_number]`: Removes the playlist
+148854270693867521	2017-05-13 02:55:25.773000	.play tobu
+180571722586652672	2017-05-13 02:55:26.104000	**Youtube Search Error**
+```Video id (UCAA6pKrh72sARBb7JCfp8AA) does not match expected format (/^[a-zA-Z0-9-_]{11}$/)```
+102582760656338944	2017-05-13 02:55:59.322000	Hmm, let me find out whats the problem
+312499153181868034	2017-05-13 02:56:04.614000	<@312782036970635264>, welcome to **Kernelization** Thank you for joining us. Here we come to learn and work on cool and amazing projects. We are happy to have you onboard and would love to know more about you, your skills, interests, project suggestions etc..Please read the announcements section for general rules for the server. Have a great day :)
+196845683280445441	2017-05-13 02:56:08.859000	its his project
+102582760656338944	2017-05-13 02:56:08.938000	.play tobu
+180571722586652672	2017-05-13 02:56:09.296000	**Youtube Search Error**
+```Video id (UCAA6pKrh72sARBb7JCfp8AA) does not match expected format (/^[a-zA-Z0-9-_]{11}$/)```
+148854270693867521	2017-05-13 02:56:16.271000	<@312782036970635264> is a friend of mine
+102582760656338944	2017-05-13 02:56:18.094000	.play pinkfloyd brick in the wall
+148854270693867521	2017-05-13 02:56:18.927000	heyo
+180571722586652672	2017-05-13 02:56:19.550000	**Playing:** Pink Floyd - Another Brick In The Wall (HQ)
+102582760656338944	2017-05-13 02:56:22.357000	.skip
+196845683280445441	2017-05-13 02:56:23.257000	he has been working on it for quite some time now
+312782036970635264	2017-05-13 02:56:34.291000	Hi
+311663764975910922	2017-05-13 02:56:38.168000	Trying to figure out how to do it with discord.py
+196845683280445441	2017-05-13 02:56:38.937000	Hello <@312782036970635264>
+312782036970635264	2017-05-13 02:56:45.496000	I like scratch
+312782036970635264	2017-05-13 02:56:46.346000	jk
+148854270693867521	2017-05-13 02:56:51.398000	.play tobu candyland
+180571722586652672	2017-05-13 02:56:52.616000	**Playing:** Tobu - Candyland
+148854270693867521	2017-05-13 02:56:55.749000	that works
+102582760656338944	2017-05-13 02:57:11.380000	I wonder why just play Tobu wasn't searched though
+102582760656338944	2017-05-13 02:57:18.032000	I think the search was too small?
+102582760656338944	2017-05-13 02:57:27.295000	I'll investigate
+312782036970635264	2017-05-13 02:57:36.814000	Most of my programing goes into robotics as I am apart of a FTC robotics team
+148854270693867521	2017-05-13 02:57:38.930000	Did you make <@180571722586652672>?
+102582760656338944	2017-05-13 02:57:44.938000	I did, yes.
+102582760656338944	2017-05-13 02:57:46.704000	😄
+148854270693867521	2017-05-13 02:57:57.547000	also you should make an intro in <#311497136091168778>
+102582760656338944	2017-05-13 02:58:03.424000	Got ticked off when people are using it and a failure occurs
+148854270693867521	2017-05-13 02:58:06.676000	nice
+148854270693867521	2017-05-13 02:58:13.466000	Tobu is an artist so
+148854270693867521	2017-05-13 02:58:18.929000	Should it have searched?
+312782036970635264	2017-05-13 02:58:23.289000	Oh, I see
+102582760656338944	2017-05-13 02:58:37.752000	Yeah, usually the first result on youtube for when you just right tobu
+312782036970635264	2017-05-13 02:58:44.051000	Still learning all this discord stuff lol
+148854270693867521	2017-05-13 02:58:44.522000	hm
+148854270693867521	2017-05-13 02:58:59.017000	Oh the first result is a channel
+148854270693867521	2017-05-13 02:59:02.178000	that's probably why
+102582760656338944	2017-05-13 02:59:09.540000	Yup
+102582760656338944	2017-05-13 02:59:13.291000	Just spotted that
+102582760656338944	2017-05-13 02:59:15.888000	I gotta fix that
+148854270693867521	2017-05-13 02:59:18.316000	so just have it skip any channels
+148854270693867521	2017-05-13 02:59:20.312000	ez fix
+102582760656338944	2017-05-13 02:59:37.706000	Thanks for finding that! haha
+148854270693867521	2017-05-13 02:59:46.546000	np
+134785279126011905	2017-05-13 03:00:44.423000	FTC ey?

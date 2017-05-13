@@ -15,17 +15,20 @@ def versionInfo():
     return info
 
 def commands():
-    ret = ""
-    ret+= "```COMMAND   SYNTAX   DESCRIPTION\n"
-    ret+= "Info   >>Info   Displays info about the wolfBot.\n"
-    ret+= "Commands   >>Commands   Displays this text info.\n"
-    ret+= "Howl   >>howl   Howls at you.\n"
-    ret+= "Stats   >>stats   Displays some basic stats about the server.\n"
-    ret+= "Log Status   >>log status   Displays the status of the logging software.\n"
-    ret+= "Log On/Off   >>log ON / >>>log OFF   Turns the logging on and off.\n"
-    ret+= "User History   >>userHistory-<displayName>   Shows the last timestamp of the last message sent by that user.\n"
-    ret+= "Rekt   >>rekt   self.getRekt().\n"
-    ret+="Rekt add   rekt <url-to-image>   Adds image from url to the rekt database.\n```"
+    ret = discord.Embed()
+    ret.add_field(name='wolfBot Commands',value='COMMAND\nSYNTAX   DESCRIPTION',inline=False)
+    ret.add_field(name='Info',value='>>Info   Displays info about the wolfBot',inline=False)
+    ret.add_field(name='Commands',value='>>Commands   Displays this text info',inline=False)
+    ret.add_field(name='Howl',value='>>howl   Howls at you',inline=False)
+    ret.add_field(name='Stats',value='>>stats   Displays some basic stats about the server',inline=False)
+    ret.add_field(name='Log Status',value='>>log status   Displays the status of the logging software',inline=False)
+    ret.add_field(name='Log On/Off',value='>>log ON / >>log OFF   Turns the logging on and off',inline=False)
+    ret.add_field(name='User History',value='userHistory-<displayName>   Shows the last timestamp of the last message sent by the user',inline=False)
+    ret.add_field(name='Rekt',value='>>rekt   self.getRekt()',inline=False)
+    ret.add_field(name='Rekt add',value='>>rekt <url-to-image>   Adds image from url to the rekt database',inline=False)
+
+    ret.set_footer(text='WOOF WOOF --@the_gray')
+
     return ret
 def stats():
     channels = 0
@@ -35,6 +38,7 @@ def stats():
         channels += 1
     for member in client.get_all_members():
         members += 1
+
 
     ret+="Number of channels: "+str(channels)+"\n"
     ret+="Number of members: "+str(members)+"\n"
@@ -90,7 +94,7 @@ async def on_message(message):
     if(message.content == ">>Info"):
         await client.send_message(message.channel, versionInfo())
     if(message.content == ">>Commands"):
-        await client.send_message(message.channel, commands())
+        await client.send_message(message.channel,embed=commands())
     if message.content.startswith('>>howl'):
         await client.send_message(message.channel, message.author.mention+' AWOOOOOO')
 
