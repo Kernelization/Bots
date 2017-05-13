@@ -13,3 +13,7 @@ Run 'npm install' in this directory to download modules needed to run this bot
 TODO:
 	- editcmd: Edit a command to be able to change the command or it's contents
 	- editsound: Renameing a sound file to something else
+	- addsound: with youtube links and the ability to enter a parameter for the sound name
+	- Add a exp system to reward players for their contribution
+	- Add a leader board system listing the top players with the highest xp for their contribution
+	- Add cleverbot api
