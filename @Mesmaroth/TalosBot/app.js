@@ -26,7 +26,7 @@ const bannedCommands = [
 
 var notifyChannel = {}
 var botVersion = "?#";
-var CMDINT = ">";
+var CMDINT = "!";
 
 try{
 	botVersion = require(path.resolve(__dirname, 'package.json')).version;
