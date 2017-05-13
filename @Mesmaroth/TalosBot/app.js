@@ -65,7 +65,6 @@ try{
 		file = JSON.parse(file);
 		CMDINT = file.initcmd;
 		adminGroups = file.adminGroups;
-
 	}	
 } catch(error){
 	if(error) {
@@ -89,11 +88,11 @@ function isCommand(message, command){
 }
 
 // Checks for a specific role the user is in to run admin commands
-function isAdmin(message){	
-	var roles = message.member.roles.array();
-	for(var role = 0; role < roles.length; role++){
+function isAdmin(message){
+	var memberRoles = message.member.roles.array();
+	for(var role = 0; role < memberRoles.length; role++){
 		for(var group = 0; group < adminGroups.length; group++){
-			if(roles[role].name.toLowerCase() === adminRole[group])
+			if(memberRoles[role].name.toLowerCase() === adminGroups[group])
 				return true;
 		}
 	}
