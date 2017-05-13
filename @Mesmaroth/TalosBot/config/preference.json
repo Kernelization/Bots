@@ -1,3 +1,4 @@
 {
-	"initcmd": "!"
+	"initcmd": "!",
+	"adminGroups": ["admin"]
 }
