@@ -17,7 +17,6 @@ def versionInfo():
 
 def commands():
     ret = discord.Embed()
-    ret.color = discord.Colour(39e600)
 
     ret.add_field(name='Info',value='>>Info',inline=True)
     ret.add_field(name='Commands',value='>>Commands or >>Help',inline=True)
@@ -153,7 +152,7 @@ async def on_message(message):
         SETSTATUS = True
     if(message.content == ">>Info"):
         await client.send_message(message.channel, versionInfo())
-    if(message.content == ">>Commands") or (message.content == ">>Help"):
+    if(message.content == ">>Commands") or (message.content == ">>Help") or (message.content == ">>help"):
         await client.send_message(message.channel, embed=commands())
     if message.content.startswith('>>howl'):
         await client.send_message(message.channel, message.author.mention+' AWOOOOOO')
