@@ -8,7 +8,7 @@ const request = require('request');
 const bot = new Discord.Client();
 bot.login(botLogin.token);
 
-const adminRole = "admin";
+
 const notifyChannelFile = path.resolve(__dirname, 'config/notifychannels.json');
 const botCommandsFile = path.resolve(__dirname, 'config/botCommands.json');
 const botPreference = path.resolve(__dirname, 'config/preference.json');
@@ -25,6 +25,7 @@ const bannedCommands = [
 	'twitch', 'commands',
 	'sounds']
 
+var adminGroups = ["admin"];
 var notifyChannel = {}
 var botVersion = "?#";
 var CMDINT = "!";
@@ -63,6 +64,8 @@ try{
 		var file = fs.readFileSync(botPreference);		
 		file = JSON.parse(file);
 		CMDINT = file.initcmd;
+		adminGroups = file.adminGroups;
+
 	}	
 } catch(error){
 	if(error) {
@@ -86,11 +89,13 @@ function isCommand(message, command){
 }
 
 // Checks for a specific role the user is in to run admin commands
-function isAdmin(message){
+function isAdmin(message){	
 	var roles = message.member.roles.array();
 	for(var role = 0; role < roles.length; role++){
-		if(roles[role].name.toLowerCase() === adminRole)			
-			return true;
+		for(var group = 0; group < adminGroups.length; group++){
+			if(roles[role].name.toLowerCase() === adminRole[group])
+				return true;
+		}
 	}
 	message.channel.send("You aren't admin for this command.");
 	return false;
