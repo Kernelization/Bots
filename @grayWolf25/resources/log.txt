@@ -579,3 +579,101 @@ https://www.reddit.com/r/gaming/comments/6aqyjl/leaked_training_video/
 311663764975910922	2017-05-12 22:44:15.692000	Text file on my machine, which is being sent to the git.
 143409882207485954	2017-05-12 22:44:34.532000	You mean it's being sent when you push it right
 311663764975910922	2017-05-12 22:44:39.991000	Bingo
+239517706766909440	2017-05-12 22:45:00.502000	no
+239517706766909440	2017-05-12 22:45:09.963000	I'll go over all that when we do the livestream
+312500702897504257	2017-05-12 22:45:14.395000	
+312450468678729739	2017-05-12 22:47:50.220000	Logging is on
+311663764975910922	2017-05-12 22:47:50.021000	>>log status
+311663764975910922	2017-05-12 22:53:09.099000	>>log ON
+312450468678729739	2017-05-12 22:53:09.272000	Logging is on
+311663764975910922	2017-05-12 22:53:48.297000	>>rekt https://www.tenor.co/view/reaction-rekt-gif-7225045
+312450468678729739	2017-05-12 22:55:13.994000	Logging is on
+311663764975910922	2017-05-12 22:55:13.906000	>>log ON
+311663764975910922	2017-05-12 22:55:41.435000	>>rekt https://www.tenor.co/view/obama-getrekt-rekt-get-gif-5262475
+311663764975910922	2017-05-12 22:56:22.388000	>>rekt https://www.tenor.co/view/fail-haha-oops-getrekt-wasted-gif-7589642
+102582760656338944	2017-05-12 23:00:00.037000	Yeah <@239517706766909440>
+102582760656338944	2017-05-12 23:00:15.420000	`>addsound` with your mp3 file
+239517706766909440	2017-05-12 23:00:30.502000	it needs to be an http link?
+102582760656338944	2017-05-12 23:00:34.209000	The name of the mp3 file is the name of the command
+102582760656338944	2017-05-12 23:00:39.996000	No, if you have the file
+102582760656338944	2017-05-12 23:00:47.057000	Clcik the icon on the left to upload a file
+102582760656338944	2017-05-12 23:01:08.559000	That or drag the mp3 file to discord and set the message to be `>addsound`
+311663764975910922	2017-05-12 23:09:11.967000	>>log ON
+312450468678729739	2017-05-12 23:09:12.062000	Logging is on
+311663764975910922	2017-05-12 23:09:17.658000	>>commands
+312450468678729739	2017-05-12 23:09:29.230000	COMMAND		SYNTAX		DESCRIPTION	Info		```>>Info```		Displays info about the wolfBot.
+Commands		```>>Commands```		Displays this text info.
+Howl		```>>howl```		Howls at you.
+Stats		```>>stats```		Displays some basic stats about the server.
+Log Status		```>>log status```		Displays the status of the logging software.
+Log On/Off		```>>log ON / >>>log OFF```		Turns the logging on and off.
+User History		```>>userHistory-<displayName>```		Shows the last timestamp of the last message sent by that user.
+Rekt		```>>rekt```		self.getRekt().
+Rekt add		```rekt <url-to-image>```		Adds image from url to the rekt database.
+311663764975910922	2017-05-12 23:09:29.222000	>>Commands
+311663764975910922	2017-05-12 23:09:49.428000	Oh that's ugly as hell
+311663764975910922	2017-05-12 23:11:16.864000	>>log ON
+312450468678729739	2017-05-12 23:11:16.915000	Logging is on
+311663764975910922	2017-05-12 23:11:20.919000	>>Commands
+312450468678729739	2017-05-12 23:11:21.029000	```COMMAND		SYNTAX		DESCRIPTION	Info		>>Info		Displays info about the wolfBot.
+Commands		```>>Commands```		Displays this text info.
+Howl		>>howl		Howls at you.
+Stats		>>stats		Displays some basic stats about the server.
+Log Status		>>log status		Displays the status of the logging software.
+Log On/Off		>>log ON / >>>log OFF		Turns the logging on and off.
+User History		>>userHistory-<displayName>		Shows the last timestamp of the last message sent by that user.
+Rekt		>>rekt		self.getRekt().
+Rekt add		rekt <url-to-image>		Adds image from url to the rekt database.
+```
+311663764975910922	2017-05-12 23:11:49.526000	>>log ON
+312450468678729739	2017-05-12 23:11:49.736000	Logging is on
+312450468678729739	2017-05-12 23:11:52.761000	```COMMAND		SYNTAX		DESCRIPTION	Info		>>Info		Displays info about the wolfBot.
+Commands		>>Commands		Displays this text info.
+Howl		>>howl		Howls at you.
+Stats		>>stats		Displays some basic stats about the server.
+Log Status		>>log status		Displays the status of the logging software.
+Log On/Off		>>log ON / >>>log OFF		Turns the logging on and off.
+User History		>>userHistory-<displayName>		Shows the last timestamp of the last message sent by that user.
+Rekt		>>rekt		self.getRekt().
+Rekt add		rekt <url-to-image>		Adds image from url to the rekt database.
+```
+311663764975910922	2017-05-12 23:11:52.385000	>>Commands
+312450468678729739	2017-05-12 23:13:54.973000	Logging is on
+311663764975910922	2017-05-12 23:13:54.796000	>>log ON
+312450468678729739	2017-05-12 23:13:59.370000	```COMMAND   SYNTAX   DESCRIPTION	Info   >>Info   Displays info about the wolfBot.
+Commands   >>Commands   Displays this text info.
+Howl   >>howl   Howls at you.
+Stats   >>stats   Displays some basic stats about the server.
+Log Status   >>log status   Displays the status of the logging software.
+Log On/Off   >>log ON / >>>log OFF   Turns the logging on and off.
+User History   >>userHistory-<displayName>   Shows the last timestamp of the last message sent by that user.
+Rekt   >>rekt   self.getRekt().
+Rekt add   rekt <url-to-image>   Adds image from url to the rekt database.
+```
+311663764975910922	2017-05-12 23:13:59.267000	>>Commands
+311663764975910922	2017-05-12 23:14:43.075000	>>log ON
+312450468678729739	2017-05-12 23:14:44.052000	Logging is on
+311663764975910922	2017-05-12 23:14:47.713000	>>Commands
+312450468678729739	2017-05-12 23:14:47.811000	```COMMAND   SYNTAX   DESCRIPTION
+Info   >>Info   Displays info about the wolfBot.
+Commands   >>Commands   Displays this text info.
+Howl   >>howl   Howls at you.
+Stats   >>stats   Displays some basic stats about the server.
+Log Status   >>log status   Displays the status of the logging software.
+Log On/Off   >>log ON / >>>log OFF   Turns the logging on and off.
+User History   >>userHistory-<displayName>   Shows the last timestamp of the last message sent by that user.
+Rekt   >>rekt   self.getRekt().
+Rekt add   rekt <url-to-image>   Adds image from url to the rekt database.
+```
+311663764975910922	2017-05-12 23:16:26.823000	>>log ON
+312450468678729739	2017-05-12 23:16:26.864000	Logging is on
+312450468678729739	2017-05-12 23:35:06.311000	Logging is on
+311663764975910922	2017-05-12 23:35:06.044000	>>log ON
+102582760656338944	2017-05-12 23:36:15.501000	Anyone know about bot sharding here?
+312500702897504257	2017-05-12 23:36:36.122000	
+311663764975910922	2017-05-12 23:36:42.174000	Not a single clue
+311663764975910922	2017-05-12 23:37:07.201000	Haha asyncio is kicking my ass too
+311663764975910922	2017-05-12 23:37:13.553000	asyncio to me:
+311663764975910922	2017-05-12 23:37:29.070000	The hell
+102582760656338944	2017-05-12 23:38:07.519000	You guys should read about asychronus programming, callbacks etc..
+311663764975910922	2017-05-12 23:38:53.794000	Super useful. I've studied it, but it's been a bit
