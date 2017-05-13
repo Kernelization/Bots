@@ -1,0 +1,14 @@
+{
+  "name": "wopr",
+  "version": "1.0.0",
+  "description": "Simple Discord bot that plays tic tac toe with you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "toastyyy",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  }
+}
