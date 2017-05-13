@@ -1728,3 +1728,545 @@ goto a
 102582760656338944	2017-05-13 06:44:00.102000	<@239517706766909440> I can possibly do that where it downloads the file
 311663764975910922	2017-05-13 06:44:00.714000	Alright gents, I'm heading to bed. It's late/early where I am
 134785279126011905	2017-05-13 06:44:10.087000	Night dude
+239517706766909440	2017-05-13 06:45:00.155000	>>rekt http://i.imgur.com/TwykbBy.png
+312500702897504257	2017-05-13 06:45:15.202000	
+239517706766909440	2017-05-13 06:45:16.418000	that would be interesting
+239517706766909440	2017-05-13 06:45:20.183000	thought you went to bed 😉
+134785279126011905	2017-05-13 06:46:07.524000	>> rekt http://i.imgur.com/XvmeCYF.gif
+239517706766909440	2017-05-13 06:50:25.887000	>>rekt http://i.imgur.com/MLi2rja.jpg
+102582760656338944	2017-05-13 06:50:30.954000	I'm at the gym
+102582760656338944	2017-05-13 06:50:41.186000	Just walking
+102582760656338944	2017-05-13 06:50:59.583000	
+102582760656338944	2017-05-13 06:51:09.465000	Hahaha
+239517706766909440	2017-05-13 06:51:09.767000	>>rekt http://i.imgur.com/NY7Cw25.jpg
+239517706766909440	2017-05-13 06:51:46.036000	>>rekt http://i.imgur.com/DcCdM9U.jpg
+239517706766909440	2017-05-13 06:53:25.872000	>>rekt http://i.imgur.com/RQ0ycsw.jpg
+312450468678729739	2017-05-13 06:53:46.137000	http://i.imgur.com/NY7Cw25.jpg
+239517706766909440	2017-05-13 06:53:45.770000	>>rekt
+312450468678729739	2017-05-13 06:53:49.216000	https://www.tenor.co/view/fail-haha-oops-getrekt-wasted-gif-7589642
+239517706766909440	2017-05-13 06:53:48.935000	>>rekt
+239517706766909440	2017-05-13 06:54:01.139000	>>rekt
+312450468678729739	2017-05-13 06:54:01.824000	http://i.imgur.com/DcCdM9U.jpg
+239517706766909440	2017-05-13 06:54:03.520000	>>rekt
+312450468678729739	2017-05-13 06:54:03.765000	https://www.tenor.co/view/reaction-rekt-gif-7225045
+134785279126011905	2017-05-13 06:54:06.490000	>>rekt
+312450468678729739	2017-05-13 06:54:06.692000	http://i.imgur.com/0SXLBSV.gifv
+239517706766909440	2017-05-13 06:54:14.833000	>>rekt
+312450468678729739	2017-05-13 06:54:14.927000	https://www.tenor.co/view/reaction-rekt-gif-7225045
+239517706766909440	2017-05-13 06:54:17.040000	>>rekt
+312450468678729739	2017-05-13 06:54:17.334000	http://gph.is/1EfPmWh
+239517706766909440	2017-05-13 06:54:20.530000	>>rekt
+312450468678729739	2017-05-13 06:54:20.683000	http://i.imgur.com/0SXLBSV.gifv
+239517706766909440	2017-05-13 06:54:22.427000	>>rekt
+312450468678729739	2017-05-13 06:54:22.605000	https://www.tenor.co/view/rekt-gif-4842190
+239517706766909440	2017-05-13 06:54:24.689000	>>rekt
+312450468678729739	2017-05-13 06:54:25.267000	https://www.tenor.co/view/rekt-gif-4842190
+239517706766909440	2017-05-13 06:54:27.221000	hmm
+239517706766909440	2017-05-13 06:54:28.747000	>>rekt
+312450468678729739	2017-05-13 06:54:29.157000	https://www.tenor.co/view/rap-rapbattle-gif-5518154
+239517706766909440	2017-05-13 06:54:30.728000	>>rekt
+312450468678729739	2017-05-13 06:54:30.946000	https://www.tenor.co/view/rekt-gif-4842190
+312450468678729739	2017-05-13 06:54:33.310000	https://www.tenor.co/view/rap-rapbattle-gif-5518154
+239517706766909440	2017-05-13 06:54:33.168000	>>rekt
+134785279126011905	2017-05-13 06:55:05.794000	Those gifs were corrupted for me, the two medival times fighting ones
+134785279126011905	2017-05-13 06:55:11.807000	were they for you?
+239517706766909440	2017-05-13 06:55:14.375000	I would maybe add a check in that function to make sure it doesn't pick teh same one twice in a row
+239517706766909440	2017-05-13 06:55:24.971000	nope, worked fine for me
+134785279126011905	2017-05-13 06:55:30.609000	Rip internet then
+239517706766909440	2017-05-13 06:55:40.718000	I think that calls for a
+312450468678729739	2017-05-13 06:55:42.147000	https://www.tenor.co/view/rap-rapbattle-gif-5518154
+239517706766909440	2017-05-13 06:55:41.862000	>>rekt
+239517706766909440	2017-05-13 06:55:44.933000	>>rekt
+312450468678729739	2017-05-13 06:55:45.057000	https://www.tenor.co/view/rekt-anime-mayo-chiki-gif-4524940
+239517706766909440	2017-05-13 06:55:47.166000	>>rekt
+312450468678729739	2017-05-13 06:55:47.369000	https://www.tenor.co/view/rekt-gif-4842190
+239517706766909440	2017-05-13 06:55:48.838000	>>rekt
+312450468678729739	2017-05-13 06:55:49.132000	https://www.tenor.co/view/rekt-anime-gif-5720919
+312450468678729739	2017-05-13 06:55:50.876000	https://www.tenor.co/view/rap-rapbattle-gif-5518154
+239517706766909440	2017-05-13 06:55:50.701000	>>rekt
+239517706766909440	2017-05-13 06:55:52.653000	>>rekt
+312450468678729739	2017-05-13 06:55:52.947000	https://www.tenor.co/view/obama-getrekt-rekt-get-gif-5262475
+239517706766909440	2017-05-13 06:55:58.499000	yeah it picks the same ones a lot
+239517706766909440	2017-05-13 06:55:59.737000	>>rekt
+312450468678729739	2017-05-13 06:55:59.817000	http://i.imgur.com/TwykbBy.png
+239517706766909440	2017-05-13 06:56:01.862000	>>rekt
+312450468678729739	2017-05-13 06:56:02.242000	http://i.imgur.com/MLi2rja.jpg
+134785279126011905	2017-05-13 06:56:03.127000	SHIT AS I TRY AND LOAD THEM THEY DISTORT AND CORRUPT
+239517706766909440	2017-05-13 06:56:16.888000	WELL GOD DAMN
+134785279126011905	2017-05-13 06:56:48.546000	
+134785279126011905	2017-05-13 06:56:55.244000	I aint kidding man
+134785279126011905	2017-05-13 07:06:54.659000	
+134785279126011905	2017-05-13 07:07:10.493000	like really dude just uhg
+239517706766909440	2017-05-13 07:07:39.542000	case sensitivity 😃
+239517706766909440	2017-05-13 07:07:48.686000	that looks like codecademy?
+134785279126011905	2017-05-13 07:07:56.526000	ye im learning Python
+196845683280445441	2017-05-13 07:14:43.952000	He knows what he is doing
+196845683280445441	2017-05-13 07:14:46.176000	I agree as well
+102582760656338944	2017-05-13 07:47:11.385000	I think I finished Python course codecademy but that was in 2013. And completly forgot about it
+102582760656338944	2017-05-13 07:48:07.085000	Good thing I have this though.
+102582760656338944	2017-05-13 07:56:35.685000	<@!239517706766909440> Which would you rather have now? A way to play direct url mp3 paths for the music bot or a way to download a direct mp3 url path to save to the Talos bot to play sounds on. I want to work on something right now. haha
+102582760656338944	2017-05-13 08:02:49.712000	>commands
+312499153181868034	2017-05-13 08:02:49.830000	**Commands**
+102582760656338944	2017-05-13 08:03:05.190000	>purge 1
+102582760656338944	2017-05-13 08:03:08.920000	>purge 1
+102582760656338944	2017-05-13 08:03:13.243000	>purge 1
+102582760656338944	2017-05-13 08:03:16.298000	>ourge 1
+102582760656338944	2017-05-13 08:03:19.892000	>purge 1
+102582760656338944	2017-05-13 08:03:23.314000	>purge 2
+102582760656338944	2017-05-13 08:03:29.911000	>purge 2
+102582760656338944	2017-05-13 08:03:37.229000	>purge 3
+102582760656338944	2017-05-13 08:03:49.153000	>purge 5
+102582760656338944	2017-05-13 08:04:05.290000	>purge 5
+102582760656338944	2017-05-13 08:05:56.323000	>purge me 3
+102582760656338944	2017-05-13 08:06:08.129000	>purge me 3
+102582760656338944	2017-05-13 08:06:24.296000	>purge me 4
+312499153181868034	2017-05-13 08:06:24.699000	**Deleting Messages Error**
+```Provided too few or too many messages to delete. Must provide at least 2 and fewer than 100 messages to delete.```
+102582760656338944	2017-05-13 08:06:31.850000	>purge me 10
+102582760656338944	2017-05-13 08:06:37.174000	>purge me 5
+312499153181868034	2017-05-13 08:06:37.575000	**Deleting Messages Error**
+```Provided too few or too many messages to delete. Must provide at least 2 and fewer than 100 messages to delete.```
+311892632282333184	2017-05-13 08:06:37.818000	lmao
+311892632282333184	2017-05-13 08:07:03.891000	boring
+would just use tuts point and learn oop from videos on youtube.
+then teach myself libs
+311892632282333184	2017-05-13 08:07:19.113000	But thats what i like doing )*:
+102582760656338944	2017-05-13 08:09:12.148000	Idk, reading from a screen stress me out especially whole books.
+102582760656338944	2017-05-13 08:10:07.245000	I mean, I still watch videos and read online tutorials but if I need to learn it in detail and all then A book is the only choice
+312499153181868034	2017-05-13 08:12:02.707000	<@154767647538413570>, welcome to **Kernelization** Thank you for joining us. Here we come to learn and work on cool and amazing projects. We are happy to have you onboard and would love to know more about you, your skills, interests, project suggestions etc..Please read the announcements section for general rules for the server. Have a great day :)
+102582760656338944	2017-05-13 08:12:36.618000	Welcome Rawr
+102582760656338944	2017-05-13 08:17:35.745000	https://images.discordapp.net/.eJwNxksKwyAQANC7uK_OGH_JNXqAIEY0kKg401Xp3Rt4i_cVn3mJTVTmQZtSx0mpz0MS9xlLlqX3cuU4TpKp3yoyx1Tv3JgUgl4RnNXGeG81rlotqIOzLgAYxPAw6p1mzo1q510DerC4vADx-Q4oRyvi9wcwSyfc.TGTRkKRcBR8GqBaDdQGbi2YRucQ?width=529&height=529
+102582760656338944	2017-05-13 08:18:01.468000	https://images.discordapp.net/.eJwFwcsNwyAMANBduBdsJ-aTNTpAhAgikRJA4J6q7t73vuozbrWpU6TPzZjjmqmNQ09pI5asS2vlzrFfU6f2mCgS0_nkKtMgUECwTOvqHBMGMguSt2w9MDn2YXHWvNPIuc6zyU6ADhiXFyAy2x1Q91rU7w80vSgB.QxmVSsSfV5jcO85OTHRy2LPM7_s?width=529&height=528
+102582760656338944	2017-05-13 08:18:25.986000	https://cdn.discordapp.com/attachments/102910652447752192/312865681047552000/Screenshot_20170513-011452_01.png
+311892632282333184	2017-05-13 08:39:41.340000	Hey, does anyone know of a good VPS in Netherlands with a good privacy policy and ssh access?
+311892632282333184	2017-05-13 08:58:31.910000	h
+311892632282333184	2017-05-13 08:58:37.241000	k
+196845683280445441	2017-05-13 09:10:47.951000	Good books for web dev?
+196845683280445441	2017-05-13 09:11:02.708000	Frontend and backend both
+102582760656338944	2017-05-13 09:14:30.889000	Was thinking about this, but frontend seems like it can be learned in good detail online
+https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=sr_1_2?ie=UTF8&qid=1494666838&sr=8-2&keywords=html+css
+102582760656338944	2017-05-13 09:18:33.717000	>purge me 5
+102582760656338944	2017-05-13 09:18:39.297000	>purge me 1
+102582760656338944	2017-05-13 09:18:45.271000	>purge me 3
+312499153181868034	2017-05-13 09:18:45.966000	**Deleting Messages Error**
+```Provided too few or too many messages to delete. Must provide at least 2 and fewer than 100 messages to delete.```
+102582760656338944	2017-05-13 09:45:51.258000	.join
+311892632282333184	2017-05-13 09:51:33.721000	...
+guys
+311892632282333184	2017-05-13 09:51:48.280000	Arn't memes meant to go in the memes one?
+311892632282333184	2017-05-13 09:51:49.362000	lmao
+311892632282333184	2017-05-13 09:51:53.561000	*channle
+311892632282333184	2017-05-13 09:52:08.484000	Channel
+196845683280445441	2017-05-13 09:59:04.452000	Alright,done with all my exams
+237658542922792971	2017-05-13 10:02:13.621000	Is it worth using Github? By uploading small projections and website. So it will be easier/better to find jobs in programming? And have it on my CV ??
+311892632282333184	2017-05-13 10:04:32.411000	What Exams <@196845683280445441>
+311892632282333184	2017-05-13 10:04:34.621000	?
+196845683280445441	2017-05-13 10:08:34.792000	College
+196845683280445441	2017-05-13 10:08:37.384000	Finals
+311892632282333184	2017-05-13 10:09:33.476000	congrats.
+computer science?
+132462281635135489	2017-05-13 10:27:01.249000	lol i love this kind of pics
+224084213710848000	2017-05-13 10:30:48.623000	i even never hear about MS08-064 lol
+311892632282333184	2017-05-13 10:30:49.094000	<@!102582760656338944>  I'd go for this <https://www.amazon.com/Learning-PHP-MySQL-JavaScript-Javascript/dp/1491918667/ref=pd_sim_14_2?_encoding=UTF8&pd_rd_i=1491918667&pd_rd_r=DP9SJM98F73WE2RS1ZNX&pd_rd_w=rUSgK&pd_rd_wg=Wp0e5&psc=1&refRID=DP9SJM98F73WE2RS1ZNX> .
+224084213710848000	2017-05-13 10:30:54.817000	*heard
+311892632282333184	2017-05-13 10:31:28.858000	Im pretty sure they have one that teachs hquery
+311892632282333184	2017-05-13 10:31:33.210000	*jquery
+311892632282333184	2017-05-13 10:31:49.273000	its a special edt
+Iv got it on my desktop somewhere
+311892632282333184	2017-05-13 10:32:18.932000	That's a good project Idea. A Ebook repository
+224084213710848000	2017-05-13 10:32:42.729000	hmm...
+224084213710848000	2017-05-13 10:33:07.279000	i actually thinking about free downloadable paid-ebook
+224084213710848000	2017-05-13 10:33:08.550000	lol
+196845683280445441	2017-05-13 10:34:14.957000	Yeah
+239517706766909440	2017-05-13 10:37:59.811000	awesome!
+239517706766909440	2017-05-13 10:38:30.484000	I'd say download
+239517706766909440	2017-05-13 10:39:27.802000	yes, but this is bot testing
+239517706766909440	2017-05-13 10:39:31.760000	hence why it's in this channel
+239517706766909440	2017-05-13 10:40:02.112000	I would say yes
+239517706766909440	2017-05-13 10:40:09.325000	It's a good way to show employers your code.
+239517706766909440	2017-05-13 10:40:33.775000	walking into an interview and being able to say "Here's 6 projects I've done in my spare time" will get you the job a lot of the time
+239517706766909440	2017-05-13 10:40:49.814000	whenever I do an interview I always bring a few of my microcontroller projects
+237658542922792971	2017-05-13 10:44:10.435000	<@!239517706766909440>  thanks, but what do you mean with  "microcontroller projects"
+239517706766909440	2017-05-13 10:44:41.695000	just projects that I did in my spare time... for example I created a board that connects my two 300-CD jukeboxes together.
+239517706766909440	2017-05-13 10:44:59.704000	I had to revese engineer the protocol that the original system used and create a replacement board because they are obsolete now
+239517706766909440	2017-05-13 10:45:25.014000	another one is a weather clock I made. it uses a humidity, temperature and barometric pressure sensor to give accurate weather data
+239517706766909440	2017-05-13 10:45:42.605000	it also submits this data to weatherunderground, and pulls down forecast data as well
+237658542922792971	2017-05-13 10:49:00.898000	nice!!🔥
+132462281635135489	2017-05-13 11:04:41.374000	http://www.techspot.com/news/69294-terminator-2-movie-almost-totally-recreated-gta-v.html
+311892632282333184	2017-05-13 11:12:19.945000	what
+197421801431629824	2017-05-13 11:12:36.170000	Congrats <@196845683280445441>
+311892632282333184	2017-05-13 11:12:37.078000	U can get almost any book fro free with a bit of google foo
+311892632282333184	2017-05-13 11:12:49.383000	"Name of book" filetype:pdf
+311892632282333184	2017-05-13 11:14:55.105000	<@!102582760656338944> 
+Sorry, didn't realize you wanted frontend.
+My books backend.
+143237398027829248	2017-05-13 11:20:55.879000	Congrats john, I finished my last final for php so I'm done for the summer.
+196845683280445441	2017-05-13 11:31:49.609000	Great
+196845683280445441	2017-05-13 11:32:05.095000	I am transitioning to full time learner now
+196845683280445441	2017-05-13 11:35:00.027000	Are these the only 2 books(
+196845683280445441	2017-05-13 11:35:03.043000	*?
+170190461846159360	2017-05-13 11:50:40.097000	https://cdn.discordapp.com/attachments/280463052120391680/312919209774415872/when_you_delete_a_block_of_code_that_you_thought_was_useless_360.gif
+224084213710848000	2017-05-13 12:20:31.330000	<@311892632282333184> not that easy
+224084213710848000	2017-05-13 12:20:45.244000	some books can't be found that way
+311892632282333184	2017-05-13 12:20:56.524000	I said most.
+311892632282333184	2017-05-13 12:21:03.087000	*almost
+311892632282333184	2017-05-13 12:21:05.821000	not all.
+224084213710848000	2017-05-13 12:21:11.983000	*for
+311892632282333184	2017-05-13 12:21:13.793000	and yes that easy
+311892632282333184	2017-05-13 12:21:34.875000	I'v found so many books that way.
+224084213710848000	2017-05-13 12:21:58.861000	and i said "some"
+224084213710848000	2017-05-13 12:22:00.732000	lol
+312782036970635264	2017-05-13 12:22:11.689000	.help
+180571722586652672	2017-05-13 12:22:11.922000	**Bot Commands**
+
+**Admin Commands**
+`.setUsername [name]`: Sets the username of bot
+`.setAvatar [URL]`: Sets the avatar of the bot
+`.exit`: Disconnects the bot
+
+**General**
+`.about`: About this bot
+`.source`: Source link
+`.invite`: Get invite link to your bot
+`.setVC`: Set the defualt channel your bot joins when ever the bot connects
+`.join`: Bot will attempt to join your channel
+
+**Music**
+`.queue or playing`: To view all songs in queue
+`.play [YT_URL]`: Plays a song from a youtube link
+`.play [index_number]`: Plays a song from a file that has been saved to the bot
+`.play [search key term]`: Plays the first result of youtube search
+`.play`: Plays song in queue if it has been stopped
+`.stop`: Stops the song from playing
+`.skip`: To skip the currently playing song
+`.replay`: Stops and replays song from the start
+`.local`: Displays all the songs saved by the bot
+`.remove [index_number]`: Removes a specific song from queue
+`.save [YT_URL]`: Saves a song from youtube and stores it
+`.save`: Saves current song that's playing
+`.remlocal [index_number]`: Removes a song that has been saved locally
+`.readd`: Re-adds the currently playing song at the bottom of the queue
+`.playlist`: List all playlist
+`.playlist [index_number]`: List all songs of the playlist
+`.playlist save [PLAYLIST_NAME]`: Saves playlist
+`.playlist play [index_number]`: Loads the playlist in queue and plays if nothing is playing
+`.playlist remove [index_number]`: Removes the playlist
+224084213710848000	2017-05-13 12:22:25.377000	what's your fave web?
+311892632282333184	2017-05-13 12:22:52.443000	Yes,
+ but I had already said that you couldn't find all book's that way.
+311892632282333184	2017-05-13 12:23:00.511000	Fave Web?
+224084213710848000	2017-05-13 12:23:35.427000	like flazx.us
+311892632282333184	2017-05-13 12:23:38.797000	Learning the zipfile module
+311892632282333184	2017-05-13 12:23:40.330000	
+224084213710848000	2017-05-13 12:23:42.522000	but it's long dead
+224084213710848000	2017-05-13 12:23:52.373000	it was good source
+224084213710848000	2017-05-13 12:24:06.010000	lots of good books  in there
+224084213710848000	2017-05-13 12:24:26.049000	fave = favorite
+311892632282333184	2017-05-13 12:30:56.446000	there we go.
+fixed all the ... syntax errors
+311892632282333184	2017-05-13 12:30:59.192000	
+311892632282333184	2017-05-13 12:32:02.806000	o fuck,
+I forgot to close the file_handle
+224084213710848000	2017-05-13 12:35:32.050000	daymn
+224084213710848000	2017-05-13 12:35:42.969000	that's a descent start
+224084213710848000	2017-05-13 12:36:21.339000	*decent
+311892632282333184	2017-05-13 12:44:12.066000	It's easy as fuck.
+311892632282333184	2017-05-13 12:44:34.696000	I'm already done with everything I need.
+Learning it for a project.
+224084213710848000	2017-05-13 12:47:25.515000	so you wasn't beginner?
+224084213710848000	2017-05-13 13:00:45.157000	congrats
+102997559437430784	2017-05-13 13:18:01.176000	So much going on in this discord, i love it
+102997559437430784	2017-05-13 13:21:43.834000	So how does WCrypt actually spread, am curious
+102997559437430784	2017-05-13 13:22:36.842000	<@!143409882207485954> have a look at Social Engineering toolkit on kali
+143453649769594880	2017-05-13 13:43:18.742000	this chat just seems like so much caner rn xD
+312782036970635264	2017-05-13 13:43:51.346000	What the hesk is going on XD
+281512718744289280	2017-05-13 13:56:44.229000	https://www.reddit.com/r/hacking/comments/6ax99o/how_possible_is_a_program_similar_to_the_uplink/?st=J2NC51K6&sh=4438cf34
+150600964640866304	2017-05-13 13:56:44.863000	I highly doubt it's an targeted attack
+252480099130015744	2017-05-13 13:57:35.927000	yeh i saw the news today
+252480099130015744	2017-05-13 13:57:49.638000	not only hospitals but also train stations
+252480099130015744	2017-05-13 13:57:59.964000	wait lemme send a link
+150600964640866304	2017-05-13 13:58:09.947000	These scripts target everything
+150600964640866304	2017-05-13 13:58:29.270000	Those hackers don't even know what they're hacking at all
+132462281635135489	2017-05-13 13:58:40.512000	gg john
+150600964640866304	2017-05-13 13:58:51.038000	Bitcoins should be banned imo
+150600964640866304	2017-05-13 13:59:01.174000	I've been saying this for years
+150600964640866304	2017-05-13 13:59:28.551000	There's no fking reason to use bitcoins as a legitimate person
+150600964640866304	2017-05-13 13:59:39.810000	/rant
+252480099130015744	2017-05-13 13:59:50.533000	https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwiQh8vWg-3TAhUFl5QKHbbmDh4QFgg4MAM&url=http%3A%2F%2Fwww.telegraph.co.uk%2Fnews%2F2017%2F05%2F13%2Fcyber-attack-hits-german-train-stations-hackers-target-deutsche%2F&usg=AFQjCNE3lKa8JxnVW_VVDWtAEfaRpebT9w&sig2=Mudk6825wVYYu1jkW-ZCcQ
+150600964640866304	2017-05-13 14:01:11.414000	People need to patch their fking shit to
+252480099130015744	2017-05-13 14:01:27.019000	http://thehackernews.com/2017/05/wannacry-ransomware-unlock.html
+150600964640866304	2017-05-13 14:01:33.810000	These idiots are getting millions of money and they can't even get shit right
+150600964640866304	2017-05-13 14:01:51.087000	I'm actually pissed off
+252480099130015744	2017-05-13 14:01:58	mhm
+150600964640866304	2017-05-13 14:02:28.132000	Maybe their software only works for Windows XP systems?
+229708305570856960	2017-05-13 14:02:36.526000	i dunno but its NSA shit
+229708305570856960	2017-05-13 14:02:40.354000	all i know
+229708305570856960	2017-05-13 14:02:42.091000	😂
+229708305570856960	2017-05-13 14:03:02.693000	so i presume i'd be fine sitting on linux <:ThinkingPaint:261308578814623747>
+150600964640866304	2017-05-13 14:03:40.401000	Depends lol
+150600964640866304	2017-05-13 14:03:59.335000	Are you running metasploitable?
+150600964640866304	2017-05-13 14:04:02.285000	:D
+144441686418784256	2017-05-13 14:30:47.366000	This is basically what I hope to achieve in HackPi
+144441686418784256	2017-05-13 14:31:07.778000	The native iOS app should have a very techy and futuristic feel to it
+144441686418784256	2017-05-13 14:31:11.818000	and so should the web UI
+144441686418784256	2017-05-13 14:31:18.582000	makes hacking look like a real life video game
+143409882207485954	2017-05-13 14:52:47.974000	lol
+143409882207485954	2017-05-13 14:52:49.666000	sick
+96952790961631232	2017-05-13 15:01:01.353000	That's super awesome 😉
+96952790961631232	2017-05-13 15:02:11.384000	>>rekt
+312450468678729739	2017-05-13 15:02:11.683000	http://gph.is/1EfPmWh
+96952790961631232	2017-05-13 15:02:34.866000	It's on the github the bot, right ?
+148854270693867521	2017-05-13 15:03:25.231000	When three is less than 2
+144441686418784256	2017-05-13 15:08:59.899000	would appreciate some help xD
+148854270693867521	2017-05-13 15:09:15.632000	With a banana
+144441686418784256	2017-05-13 15:09:16.772000	I cant write backend, client HTML and JS, and react-native help all alone
+144441686418784256	2017-05-13 15:09:20.969000	Well, I can
+144441686418784256	2017-05-13 15:09:24.073000	would take me ages tho
+96952790961631232	2017-05-13 15:11:09.681000	<@311663764975910922> Hey i looked at your code on github for the rekt command. Wouldn't it be cool if you look for the command ">>gif" and split the message on the space, expecting a type of gif, which will then nominate the .txt file associated with the various URLs ?
+96952790961631232	2017-05-13 15:11:25.675000	something life >>gif rekt
+96952790961631232	2017-05-13 15:11:35.707000	would output the same as >> rekt
+96952790961631232	2017-05-13 15:12:01.869000	and >>gif rekt http://www.rekt.gif/1 would be the same as >>rekt http://www.rekt.gif/1
+96952790961631232	2017-05-13 15:16:55.612000	I could try my hand at it.... You'll see if I've done it by the time you get online 😉
+281512718744289280	2017-05-13 15:21:33.510000	Oh great
+281512718744289280	2017-05-13 15:22:21.636000	I was planning a GUI sort of gateway. Able to detect whether a connection is telnet, ssh, ftp or other
+281512718744289280	2017-05-13 15:23:18.719000	There aren't many popular tools that aren't command line based though. Are we allowed to post Discord links?
+311892632282333184	2017-05-13 15:24:06.348000	<@150600964640866304>
+311892632282333184	2017-05-13 15:24:14.659000	What are u on about
+281512718744289280	2017-05-13 15:25:16.387000	https://discord.gg/aHxwwXb Creating a gateway program similar to the one in Uplink. Anyone is welcome ^^
+252480099130015744	2017-05-13 15:26:32.651000	>stfu
+252480099130015744	2017-05-13 15:27:09.483000	>sounds stfu
+312499153181868034	2017-05-13 15:27:09.560000	**Sounds**
+252480099130015744	2017-05-13 15:27:30.801000	>uptime
+312499153181868034	2017-05-13 15:27:30.939000	**Uptime:** 10 hour(s) : 27 minute(s) : 59 second(s)
+252480099130015744	2017-05-13 15:27:50.351000	>commands
+312499153181868034	2017-05-13 15:27:50.744000	**Commands**
+252480099130015744	2017-05-13 15:28:03.300000	>shittalos
+312499153181868034	2017-05-13 15:28:03.426000	Go get a life noob
+252480099130015744	2017-05-13 15:28:10.134000	ahahahh
+252480099130015744	2017-05-13 15:28:11.822000	nice one
+252480099130015744	2017-05-13 15:28:29.130000	>rekt
+312499153181868034	2017-05-13 15:28:29.527000	https://giphy.com/gifs/TEcDhtKS2QPqE
+252480099130015744	2017-05-13 15:29:33.162000	.help
+180571722586652672	2017-05-13 15:29:33.410000	**Bot Commands**
+
+**Admin Commands**
+`.setUsername [name]`: Sets the username of bot
+`.setAvatar [URL]`: Sets the avatar of the bot
+`.exit`: Disconnects the bot
+
+**General**
+`.about`: About this bot
+`.source`: Source link
+`.invite`: Get invite link to your bot
+`.setVC`: Set the defualt channel your bot joins when ever the bot connects
+`.join`: Bot will attempt to join your channel
+
+**Music**
+`.queue or playing`: To view all songs in queue
+`.play [YT_URL]`: Plays a song from a youtube link
+`.play [index_number]`: Plays a song from a file that has been saved to the bot
+`.play [search key term]`: Plays the first result of youtube search
+`.play`: Plays song in queue if it has been stopped
+`.stop`: Stops the song from playing
+`.skip`: To skip the currently playing song
+`.replay`: Stops and replays song from the start
+`.local`: Displays all the songs saved by the bot
+`.remove [index_number]`: Removes a specific song from queue
+`.save [YT_URL]`: Saves a song from youtube and stores it
+`.save`: Saves current song that's playing
+`.remlocal [index_number]`: Removes a song that has been saved locally
+`.readd`: Re-adds the currently playing song at the bottom of the queue
+`.playlist`: List all playlist
+`.playlist [index_number]`: List all songs of the playlist
+`.playlist save [PLAYLIST_NAME]`: Saves playlist
+`.playlist play [index_number]`: Loads the playlist in queue and plays if nothing is playing
+`.playlist remove [index_number]`: Removes the playlist
+252480099130015744	2017-05-13 15:29:57.767000	.about
+180571722586652672	2017-05-13 15:30:00.474000	
+183474870821191680	2017-05-13 15:30:14.964000	guys what is all about WannaCry Worm ?
+252480099130015744	2017-05-13 15:30:22.271000	.invite
+180571722586652672	2017-05-13 15:30:22.647000	**Invite:** https://discordapp.com/oauth2/authorize?client_id=180571699215859712&permissions=36740096&scope=bot
+224084213710848000	2017-05-13 15:30:36.475000	https://www.youtube.com/watch?v=VFLop9Z8jBg
+224084213710848000	2017-05-13 15:30:42.925000	one of my faves
+224084213710848000	2017-05-13 15:31:08.693000	wipeout's ost is one the best
+224084213710848000	2017-05-13 15:31:16.376000	.playlist
+180571722586652672	2017-05-13 15:31:16.522000	**Playlist**
+**1.** Classic Music
+**2.** Game Music
+224084213710848000	2017-05-13 15:31:20.733000	2
+224084213710848000	2017-05-13 15:31:28.809000	.playlist 2
+180571722586652672	2017-05-13 15:31:28.851000	**Playlist - Game Music**
+**1.** Fable 2 Music - Summer Fields
+**2.** Hiatus - River
+**3.** Luftahraan OST - Stephen Webster - Streets of Luftahraan
+**4.** Stellaris Soundtrack - Distant Nebula
+**5.** Ori and the Blind Forest OST - 06 - First Steps Into Sunken Glades
+252480099130015744	2017-05-13 15:31:50.688000	.local
+180571722586652672	2017-05-13 15:31:50.907000	**Local Songs**
+**1.** ALEXISONFIRE No Transitory
+**2.** Chrono Trigger - Enhasa (Time Circuits)
+**3.** Dark Souls 3 Stress Test Menu Music
+**4.** I AM THE WALRUS
+**5.** Johann Sebastian Bach - Bouree In E Minor
+**6.** MACINTOSH PLUS - リサフランク420  現代のコンピュー
+**7.** Magazine
+**8.** Of Monsters And Men - Little Talks - Lyrics [My Head Is An Animal] HD
+**9.** Pin by Yeah Yeah Yeahs  Yeah Yeah Yeahs
+**10.** Plaid - Ralome
+**11.** Queens Of The Stone Age - Go With The Flow
+**12.** Sable - Surf
+**13.** San Holo - Fly
+**14.** Star Wars [Soundtrack] - Fan Score by Daniel Ciurlizza
+**15.** Super Mario Game Over Theme Chill Trap Remix
+**16.** Tame Impala - The Moment Music Video
+**17.** Two Steps From Hell - Skyworld
+**18.** a-ha - Take On Me _Official Video_
+224084213710848000	2017-05-13 15:32:05.750000	.play 1
+252480099130015744	2017-05-13 15:32:31.208000	.play super mario game over theme chill
+180571722586652672	2017-05-13 15:32:32.731000	**Playing:** Super Mario Game Over Theme (Chill Trap Remix)
+224084213710848000	2017-05-13 15:32:39.927000	.play
+180571722586652672	2017-05-13 15:32:40.061000	Already playing something
+144441686418784256	2017-05-13 15:32:46.851000	Well thats the thing, in NodeJS, you run them in the background, and process output
+144441686418784256	2017-05-13 15:32:51.923000	and then turn that into GUI
+144441686418784256	2017-05-13 15:33:13.748000	Im planning to do that with as many tools as I can
+224084213710848000	2017-05-13 15:34:11.217000	.play Fable 2 Music - Summer Fields
+180571722586652672	2017-05-13 15:34:11.391000	Bot is playing something.
+224084213710848000	2017-05-13 15:34:23.418000	wtf
+224084213710848000	2017-05-13 15:34:46.076000	.stop
+224084213710848000	2017-05-13 15:34:53.929000	.play Fable 2 Music - Summer Fields
+252480099130015744	2017-05-13 15:36:29.569000	.source
+180571722586652672	2017-05-13 15:36:29.808000	**Source:** https://github.com/Mesmaroth/discord-HathorBot
+252480099130015744	2017-05-13 15:42:33.554000	>>help
+224084213710848000	2017-05-13 15:43:07.554000	how to use this bot for music?
+252480099130015744	2017-05-13 15:43:27.397000	.play [name of music]
+180571722586652672	2017-05-13 15:43:29.161000	**Playing:** Martin Garrix, Bebe Rexha – In The Name Of Love Music Video
+224084213710848000	2017-05-13 15:43:41.474000	i did
+170190461846159360	2017-05-13 15:43:47.186000	https://www.youtube.com/watch?v=YkvKICWaRT4
+224084213710848000	2017-05-13 15:43:49.213000	but i didn't hear anything
+170190461846159360	2017-05-13 15:43:54.541000	what about something like this:D
+252480099130015744	2017-05-13 15:44:02.347000	come in jammin voice channel
+170190461846159360	2017-05-13 15:44:04.462000	their website is not working atm
+224084213710848000	2017-05-13 15:44:22.709000	...
+224084213710848000	2017-05-13 15:44:27.953000	i see...
+224084213710848000	2017-05-13 15:44:33.956000	thx, bro
+311663764975910922	2017-05-13 15:44:37.756000	Ayy all whattup
+252480099130015744	2017-05-13 15:44:39.693000	all g
+311663764975910922	2017-05-13 15:44:55.389000	<@!96952790961631232> I'm actually adding a command to map a custom gif to a custom command.
+224084213710848000	2017-05-13 15:44:58.610000	but only in jammin?
+252480099130015744	2017-05-13 15:45:05.465000	any channel
+96952790961631232	2017-05-13 15:45:19.135000	A single gif ?
+252480099130015744	2017-05-13 15:45:22.073000	.stop
+170190461846159360	2017-05-13 15:45:39.249000	also this one was not supporting midi input
+224084213710848000	2017-05-13 15:45:42.027000	i didn't heard it on programming project 1
+224084213710848000	2017-05-13 15:45:50.858000	.playlist
+180571722586652672	2017-05-13 15:45:50.985000	**Playlist**
+**1.** Classic Music
+**2.** Game Music
+224084213710848000	2017-05-13 15:45:57.501000	.playlist 2
+180571722586652672	2017-05-13 15:45:57.649000	**Playlist - Game Music**
+**1.** Fable 2 Music - Summer Fields
+**2.** Hiatus - River
+**3.** Luftahraan OST - Stephen Webster - Streets of Luftahraan
+**4.** Stellaris Soundtrack - Distant Nebula
+**5.** Ori and the Blind Forest OST - 06 - First Steps Into Sunken Glades
+224084213710848000	2017-05-13 15:46:03.791000	.play 2
+180571722586652672	2017-05-13 15:46:04.069000	**Playing:** Chrono Trigger - Enhasa (Time Circuits)
+311663764975910922	2017-05-13 15:46:06.863000	Nah I'll make it to where I could say >>gif hackerman and it'll choose a random url from the hackerman dictionary
+224084213710848000	2017-05-13 15:46:14.892000	.stop
+252480099130015744	2017-05-13 15:46:18.070000	.join
+224084213710848000	2017-05-13 15:46:22.320000	wut??
+224084213710848000	2017-05-13 15:46:45.747000	chrono trigger is alesso??
+224084213710848000	2017-05-13 15:46:56.994000	how could that be??
+252480099130015744	2017-05-13 15:47:02.019000	idk
+224084213710848000	2017-05-13 15:47:16.960000	it's alesso - in the name of love
+224084213710848000	2017-05-13 15:47:25.520000	.playlist 2
+180571722586652672	2017-05-13 15:47:25.652000	**Playlist - Game Music**
+**1.** Fable 2 Music - Summer Fields
+**2.** Hiatus - River
+**3.** Luftahraan OST - Stephen Webster - Streets of Luftahraan
+**4.** Stellaris Soundtrack - Distant Nebula
+**5.** Ori and the Blind Forest OST - 06 - First Steps Into Sunken Glades
+224084213710848000	2017-05-13 15:47:33.599000	.play 4
+180571722586652672	2017-05-13 15:47:33.741000	**Playing:** I AM THE WALRUS
+252480099130015744	2017-05-13 15:47:45.626000	hat
+224084213710848000	2017-05-13 15:47:46.180000	.stop
+252480099130015744	2017-05-13 15:47:47.810000	what
+311663764975910922	2017-05-13 15:47:58.382000	>>user-History-sjonnycapten
+96952790961631232	2017-05-13 15:47:59.956000	Exactly what I thought 😄
+312450468678729739	2017-05-13 15:48:06.671000	Logging is on
+96952790961631232	2017-05-13 15:48:06.319000	>>log ON
+252480099130015744	2017-05-13 15:48:09.023000	.play 1
+180571722586652672	2017-05-13 15:48:09.171000	**Playing:** ALEXISONFIRE No Transitory
+96952790961631232	2017-05-13 15:48:18.287000	rep
+224084213710848000	2017-05-13 15:48:22.100000	all is the same song
+311663764975910922	2017-05-13 15:48:26.397000	>>rekt
+312450468678729739	2017-05-13 15:48:26.548000	http://i.imgur.com/TwykbBy.png
+224084213710848000	2017-05-13 15:48:29.357000	* confused *
+252480099130015744	2017-05-13 15:48:38.077000	.skip
+180571722586652672	2017-05-13 15:48:38.202000	**Playing:** Martin Garrix, Bebe Rexha – In The Name Of Love Music Video
+252480099130015744	2017-05-13 15:48:41.824000	.skip
+180571722586652672	2017-05-13 15:48:41.913000	**Playing:** Chrono Trigger - Enhasa (Time Circuits)
+312450468678729739	2017-05-13 15:48:45.494000	ERROR: User not found!
+311663764975910922	2017-05-13 15:48:45.325000	>>userHistory-sjonnycapten#0529
+224084213710848000	2017-05-13 15:48:50.724000	ah sorry
+252480099130015744	2017-05-13 15:48:52.043000	.skip
+180571722586652672	2017-05-13 15:48:52.175000	**Playing:** I AM THE WALRUS
+224084213710848000	2017-05-13 15:48:56.052000	it wasn't alesso
+224084213710848000	2017-05-13 15:49:03.311000	it's martin garrix
+224084213710848000	2017-05-13 15:49:08.131000	my bad
+252480099130015744	2017-05-13 15:49:08.992000	.skip
+252480099130015744	2017-05-13 15:49:18.354000	.playlist
+180571722586652672	2017-05-13 15:49:18.514000	**Playlist**
+**1.** Classic Music
+**2.** Game Music
+252480099130015744	2017-05-13 15:50:26.668000	.playlist play 1
+252480099130015744	2017-05-13 15:50:39.800000	.playlist play 2
+180571722586652672	2017-05-13 15:50:39.904000	Loaded `Game Music` to queue
+252480099130015744	2017-05-13 15:50:51.119000	.playlist remove 1
+180571722586652672	2017-05-13 15:50:51.295000	Playlist `Classic Music` removed
+252480099130015744	2017-05-13 15:50:56.337000	.skip
+180571722586652672	2017-05-13 15:50:56.583000	**Playing:** Johann Sebastian Bach - Bouree In E Minor
+252480099130015744	2017-05-13 15:51:06.634000	.playlist
+180571722586652672	2017-05-13 15:51:06.731000	**Playlist**
+**1.** Game Music
+252480099130015744	2017-05-13 15:51:12.159000	fuclk
+224084213710848000	2017-05-13 15:51:19.327000	lol
+224084213710848000	2017-05-13 15:51:41.323000	you just removed an entire playlist
+252480099130015744	2017-05-13 15:51:44.201000	i rather stick to deezer aye
+252480099130015744	2017-05-13 15:51:46.933000	ahahah
+224084213710848000	2017-05-13 15:52:13.627000	this bot is confusing af
+252480099130015744	2017-05-13 15:52:14.249000	.skip
+180571722586652672	2017-05-13 15:52:14.419000	**Playing:** Arthur Rubinstein - Chopin Nocturne Op. 55, No. 1 in F Minor
+252480099130015744	2017-05-13 15:52:25.405000	yeh
+252480099130015744	2017-05-13 15:52:30.248000	.stop
+312450468678729739	2017-05-13 15:52:51.242000	ERROR: User not found!
+311663764975910922	2017-05-13 15:52:50.933000	>>userHistory-sjonnycapten#0529
+224084213710848000	2017-05-13 15:52:54.617000	<@!252480099130015744> let's talk in here
+312450468678729739	2017-05-13 15:53:03.411000	No user history in logs!
+311663764975910922	2017-05-13 15:53:03.032000	>>userHistory-sjonnycapten
+312450468678729739	2017-05-13 15:53:03.444000	Last message on >>log ON
+311663764975910922	2017-05-13 15:53:10.042000	Shite
+224084213710848000	2017-05-13 15:53:15.500000	what kinda lang you know?
+311663764975910922	2017-05-13 15:53:41.245000	>>userHIstory-sjonnycapten
+252480099130015744	2017-05-13 15:53:41.704000	.queue
+180571722586652672	2017-05-13 15:53:41.953000	**Queue - Playlist**
+**Playing:** Arthur Rubinstein - Chopin Nocturne Op. 55, No. 1 in F Minor
+
+**1. **Mozart - Eine Kleine Nachtmusik, K 525 Allegro
+**2. **Prelude and Fugue No. 1 in C major, BWV 846, from Bach's Well-tempered Clavier, Gulda pianist
+**3. **Beethoven: For Elise (Für Elise), Bagatelle No. 25 in A minor
+**4. **Frédéric Chopin - Prelude in E-Minor (op.28 no. 4)
+**5. **Fable 2 Music - Summer Fields
+**6. **Hiatus - River
+**7. **Luftahraan OST - Stephen Webster - Streets of Luftahraan
+**8. **Stellaris Soundtrack - Distant Nebula
+**9. **Ori and the Blind Forest OST - 06 - First Steps Into Sunken Glades
+224084213710848000	2017-05-13 15:53:54.571000	let's move to <#311262843771027457>
+312450468678729739	2017-05-13 15:54:00.456000	No user history in logs!
+311663764975910922	2017-05-13 15:53:59.792000	>>userHistory-sjonnycapten
+312450468678729739	2017-05-13 15:54:00.548000	Last message on 2017-05-12 20:11:23.375000
+252480099130015744	2017-05-13 15:54:02.461000	sure
+252480099130015744	2017-05-13 15:54:52.050000	.remove 123456789
+180571722586652672	2017-05-13 15:54:52.140000	No queued song found with that index number.
+252480099130015744	2017-05-13 15:55:03.822000	.remove 1-9
+180571722586652672	2017-05-13 15:55:03.949000	No queued song found with that index number.

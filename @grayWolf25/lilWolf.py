@@ -127,7 +127,13 @@ async def on_message(message):
         if len(spl) == 1:
             await client.send_message(message.channel, "No User!\nUsage: ```>>userHistory-<displayName>```\n")
         elif len(spl) == 2:
-            await client.send_message(message.channel, userHistory(spl[1]))
+            try:
+                await client.send_message(message.channel, userHistory(spl[1]))
+            except(discord.errors.HTTPException):
+                await client.send_message(message.channel, 'No user history in logs!')
+                f = open('./resources/log.txt','r')
+                firstlinedate = f.readline().split('\t')[1]
+                await client.send_message(message.channel, 'First message on '+firstlinedate)
     if message.content.startswith('>>rekt'):
         spl = message.content.split(" ")
         if(len(spl) == 1):
