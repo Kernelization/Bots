@@ -16,6 +16,8 @@ def versionInfo():
 
 def commands():
     ret = discord.Embed()
+    ret.color = discord.Colour(39e600)
+
     ret.add_field(name='Info',value='>>Info',inline=True)
     ret.add_field(name='Commands',value='>>Commands or >>Help',inline=True)
     ret.add_field(name='Howl',value='>>howl',inline=True)

@@ -973,3 +973,374 @@ Number of bots: 4
 312450468678729739	2017-05-13 04:00:17.193000	**wolfBot 0.0.1 (Alpha)**
 Author: Discord User @the_gray
 For help, send ```">>help"```
+102582760656338944	2017-05-13 04:01:29.064000	>exit
+102582760656338944	2017-05-13 04:01:47.590000	>setgame Half-Life 3
+102582760656338944	2017-05-13 04:02:48.973000	<@148854270693867521> I ran out of songs to play
+102582760656338944	2017-05-13 04:02:52.836000	:p
+148854270693867521	2017-05-13 04:02:57.093000	rip
+102582760656338944	2017-05-13 04:03:00.878000	.local
+180571722586652672	2017-05-13 04:03:01.017000	**Local Songs**
+**1.** Chrono Trigger - Enhasa (Time Circuits)
+**2.** Dark Souls 3 Stress Test Menu Music
+**3.** I AM THE WALRUS
+**4.** Johann Sebastian Bach - Bouree In E Minor
+**5.** MACINTOSH PLUS - リサフランク420  現代のコンピュー
+**6.** Magazine
+**7.** Of Monsters And Men - Little Talks - Lyrics [My Head Is An Animal] HD
+**8.** Pin by Yeah Yeah Yeahs  Yeah Yeah Yeahs
+**9.** Plaid - Ralome
+**10.** Queens Of The Stone Age - Go With The Flow
+**11.** Sable - Surf
+**12.** Star Wars [Soundtrack] - Fan Score by Daniel Ciurlizza
+**13.** Super Mario Game Over Theme Chill Trap Remix
+**14.** Two Steps From Hell - Skyworld
+**15.** a-ha - Take On Me _Official Video_
+102582760656338944	2017-05-13 04:03:04.316000	.play 5
+180571722586652672	2017-05-13 04:03:04.439000	**Playing:** MACINTOSH PLUS - リサフランク420  現代のコンピュー
+148854270693867521	2017-05-13 04:03:17.677000	oh
+148854270693867521	2017-05-13 04:03:18.753000	wait
+239517706766909440	2017-05-13 04:04:03.390000	ayylmao
+312499153181868034	2017-05-13 04:04:03.542000	http://memecrunch.com/meme/1CRCN/ayy-lmao/image.png
+239517706766909440	2017-05-13 04:04:11.937000	so wonderful
+311663764975910922	2017-05-13 04:04:22.497000	>>Help
+312450468678729739	2017-05-13 04:04:22.778000	
+102582760656338944	2017-05-13 04:04:34.984000	I keep spelling `kernal` too!
+312450468678729739	2017-05-13 04:04:39.477000	HISTORY of (US)Mesmaroth
+Last message: 2017-05-12 21:05:50.113000
+311663764975910922	2017-05-13 04:04:39.373000	>>userHistory-(US)Mesmaroth
+148854270693867521	2017-05-13 04:04:51.840000	.play le internet medley
+180571722586652672	2017-05-13 04:04:53.387000	**Added to Queue:**
+The GAG Quartet - le Internet Medley (OVER 40 MEMES IN ONE SONG)
+148854270693867521	2017-05-13 04:05:01.731000	.queue
+180571722586652672	2017-05-13 04:05:01.821000	**Queue - Playlist**
+**Playing:** MACINTOSH PLUS - リサフランク420  現代のコンピュー
+
+**1. **The GAG Quartet - le Internet Medley (OVER 40 MEMES IN ONE SONG)
+102582760656338944	2017-05-13 04:05:03.672000	Add a color to the box too
+102582760656338944	2017-05-13 04:05:07.755000	>about
+312499153181868034	2017-05-13 04:05:07.960000	**About**
+102582760656338944	2017-05-13 04:05:19.816000	>exit
+239517706766909440	2017-05-13 04:05:20.082000	who has a phone?
+239517706766909440	2017-05-13 04:05:30.464000	my phone is acting weird. can't receive the confirmation call for amazon aws
+102582760656338944	2017-05-13 04:05:30.602000	>setname half-life 3
+239517706766909440	2017-05-13 04:05:42.990000	you just need to answer the call and type in 9047
+102582760656338944	2017-05-13 04:05:45.993000	>setgame Half-Life 3
+102582760656338944	2017-05-13 04:05:56.169000	>commands
+239517706766909440	2017-05-13 04:06:13.354000	anyone?
+102582760656338944	2017-05-13 04:06:17.804000	>commands
+102582760656338944	2017-05-13 04:06:28.741000	!setinit >
+239517706766909440	2017-05-13 04:06:33.203000	either there's something wrong with my phone, or they're having a problem calling
+239517706766909440	2017-05-13 04:07:00.181000	.play 10
+180571722586652672	2017-05-13 04:07:00.328000	Bot is playing something.
+239517706766909440	2017-05-13 04:07:32.128000	@here
+239517706766909440	2017-05-13 04:08:20.637000	>>userHistory-Tieran The Blind
+312450468678729739	2017-05-13 04:08:20.836000	HISTORY of Tieran The Blind
+Last message: 2017-05-12 20:35:36.470000
+102582760656338944	2017-05-13 04:09:05.860000	>setgame Half-life 3
+102582760656338944	2017-05-13 04:09:14.314000	!setinit >
+312499153181868034	2017-05-13 04:09:14.449000	Command initializer set as `>`
+102582760656338944	2017-05-13 04:09:19.072000	>setgame Half-Life 3
+148854270693867521	2017-05-13 04:09:27.545000	.skip
+180571722586652672	2017-05-13 04:09:27.683000	**Playing:** The GAG Quartet - le Internet Medley (OVER 40 MEMES IN ONE SONG)
+239517706766909440	2017-05-13 04:09:28.274000	>>setgame Rocking my Sox
+239517706766909440	2017-05-13 04:09:32.555000	lulz.
+239517706766909440	2017-05-13 04:09:44.244000	I need a volunteer 😛
+102582760656338944	2017-05-13 04:09:50.914000	There we go now `>setgame testgame` <@239517706766909440>
+239517706766909440	2017-05-13 04:09:55.131000	come on, you know you want to share your phone number with a random stranger
+102582760656338944	2017-05-13 04:10:07.547000	pls
+312782036970635264	2017-05-13 04:10:10.146000	).queue
+312782036970635264	2017-05-13 04:10:11.943000	.queue
+180571722586652672	2017-05-13 04:10:12.082000	**Queue - Playlist**
+**Playing:** The GAG Quartet - le Internet Medley (OVER 40 MEMES IN ONE SONG)
+239517706766909440	2017-05-13 04:10:16.217000	oh I wanted to mess with lilWolf
+239517706766909440	2017-05-13 04:10:24.038000	>setgame Rox my Sox
+239517706766909440	2017-05-13 04:10:33.647000	>setgame with myself.
+102582760656338944	2017-05-13 04:10:34.795000	alright thanks
+102582760656338944	2017-05-13 04:10:55.313000	I'm actually testing roles and see which groups are allowed
+102582760656338944	2017-05-13 04:11:00.234000	Ah
+102582760656338944	2017-05-13 04:11:05.104000	its because your admin
+102582760656338944	2017-05-13 04:11:09.794000	can you do me a favor
+239517706766909440	2017-05-13 04:11:09.779000	yuppers 😃
+239517706766909440	2017-05-13 04:11:12.720000	sure can.
+102582760656338944	2017-05-13 04:11:14.397000	can you remove me from admin
+239517706766909440	2017-05-13 04:11:22.619000	only if you do me a favour after 😃
+102582760656338944	2017-05-13 04:11:26.033000	Yes
+239517706766909440	2017-05-13 04:11:31.160000	removed
+102582760656338944	2017-05-13 04:11:34.999000	Alright thanks
+312782036970635264	2017-05-13 04:11:36.545000	.play
+180571722586652672	2017-05-13 04:11:36.725000	Already playing something
+102582760656338944	2017-05-13 04:11:41.675000	>setgame testgame
+312499153181868034	2017-05-13 04:11:41.755000	You aren't admin for this command.
+148854270693867521	2017-05-13 04:11:42.052000	.help
+180571722586652672	2017-05-13 04:11:42.123000	**Bot Commands**
+
+**Admin Commands**
+`.setUsername [name]`: Sets the username of bot
+`.setAvatar [URL]`: Sets the avatar of the bot
+`.exit`: Disconnects the bot
+
+**General**
+`.about`: About this bot
+`.source`: Source link
+`.invite`: Get invite link to your bot
+`.setVC`: Set the defualt channel your bot joins when ever the bot connects
+`.join`: Bot will attempt to join your channel
+
+**Music**
+`.queue or playing`: To view all songs in queue
+`.play [YT_URL]`: Plays a song from a youtube link
+`.play [index_number]`: Plays a song from a file that has been saved to the bot
+`.play [search key term]`: Plays the first result of youtube search
+`.play`: Plays song in queue if it has been stopped
+`.stop`: Stops the song from playing
+`.skip`: To skip the currently playing song
+`.replay`: Stops and replays song from the start
+`.local`: Displays all the songs saved by the bot
+`.remove [index_number]`: Removes a specific song from queue
+`.save [YT_URL]`: Saves a song from youtube and stores it
+`.save`: Saves current song that's playing
+`.remlocal [index_number]`: Removes a song that has been saved locally
+`.readd`: Re-adds the currently playing song at the bottom of the queue
+`.playlist`: List all playlist
+`.playlist [index_number]`: List all songs of the playlist
+`.playlist save [PLAYLIST_NAME]`: Saves playlist
+`.playlist play [index_number]`: Loads the playlist in queue and plays if nothing is playing
+`.playlist remove [index_number]`: Removes the playlist
+102582760656338944	2017-05-13 04:11:45.240000	Thanks
+102582760656338944	2017-05-13 04:11:55.432000	Now do `>setgroup developers`
+312782036970635264	2017-05-13 04:11:55.773000	ha
+312782036970635264	2017-05-13 04:11:58.866000	Thanks
+239517706766909440	2017-05-13 04:12:09.877000	>setgroup developers
+102582760656338944	2017-05-13 04:12:14.938000	actually
+102582760656338944	2017-05-13 04:12:16.125000	It's
+239517706766909440	2017-05-13 04:12:25.481000	>setgroup Developers
+312782036970635264	2017-05-13 04:12:26.723000	.stop
+148854270693867521	2017-05-13 04:12:31.879000	whyyy
+102582760656338944	2017-05-13 04:12:32.713000	`>setAdminRole developers`
+102582760656338944	2017-05-13 04:12:33.744000	sorry
+239517706766909440	2017-05-13 04:12:35.010000	ah
+312782036970635264	2017-05-13 04:12:36.650000	.play 10
+180571722586652672	2017-05-13 04:12:36.816000	**Playing:** Queens Of The Stone Age - Go With The Flow
+239517706766909440	2017-05-13 04:12:39.813000	>setAdminRole Developers
+148854270693867521	2017-05-13 04:12:46.959000	what?
+239517706766909440	2017-05-13 04:12:54.251000	is it case sensitive?
+148854270693867521	2017-05-13 04:13:02.758000	<@!102582760656338944> I think your bot broke again
+239517706766909440	2017-05-13 04:13:03.584000	>setAdminRole developers
+102582760656338944	2017-05-13 04:13:07.148000	`>addadminrole developers`
+312782036970635264	2017-05-13 04:13:07.620000	.stop
+102582760656338944	2017-05-13 04:13:08.579000	try
+102582760656338944	2017-05-13 04:13:09.478000	that
+312782036970635264	2017-05-13 04:13:10.476000	.play  le Internet Medley
+180571722586652672	2017-05-13 04:13:10.847000	**Playing:** The GAG Quartet - le Internet Medley (OVER 40 MEMES IN ONE SONG)
+148854270693867521	2017-05-13 04:13:11.816000	.queue
+180571722586652672	2017-05-13 04:13:11.935000	**Queue - Playlist**
+**Playing:** The GAG Quartet - le Internet Medley (OVER 40 MEMES IN ONE SONG)
+
+**1. **Queens Of The Stone Age - Go With The Flow
+**2. **The GAG Quartet - le Internet Medley (OVER 40 MEMES IN ONE SONG)
+239517706766909440	2017-05-13 04:13:14.491000	>addadminrole developers
+102582760656338944	2017-05-13 04:13:17.332000	there
+102582760656338944	2017-05-13 04:13:17.692000	we g
+102582760656338944	2017-05-13 04:13:20.341000	go
+148854270693867521	2017-05-13 04:13:20.877000	wait
+102582760656338944	2017-05-13 04:13:22.368000	got an error
+148854270693867521	2017-05-13 04:13:23.251000	.remove 1
+180571722586652672	2017-05-13 04:13:23.322000	**Removed:** Queens Of The Stone Age - Go With The Flow from queue
+148854270693867521	2017-05-13 04:13:26.441000	.remove 2
+180571722586652672	2017-05-13 04:13:26.589000	No queued song found with that index number.
+148854270693867521	2017-05-13 04:13:32.039000	.remove 1
+180571722586652672	2017-05-13 04:13:32.187000	**Removed:** The GAG Quartet - le Internet Medley (OVER 40 MEMES IN ONE SONG) from queue
+148854270693867521	2017-05-13 04:13:34.290000	.queue
+180571722586652672	2017-05-13 04:13:34.400000	**Queue - Playlist**
+**Playing:** The GAG Quartet - le Internet Medley (OVER 40 MEMES IN ONE SONG)
+148854270693867521	2017-05-13 04:13:36.088000	.stop
+148854270693867521	2017-05-13 04:13:38.004000	.remove 1
+180571722586652672	2017-05-13 04:13:38.189000	No queued song found with that index number.
+148854270693867521	2017-05-13 04:13:40.563000	.queue
+180571722586652672	2017-05-13 04:13:40.741000	**Queue - Playlist**
+**Playing:** The GAG Quartet - le Internet Medley (OVER 40 MEMES IN ONE SONG)
+239517706766909440	2017-05-13 04:13:45.318000	I restored your admin
+148854270693867521	2017-05-13 04:13:45.765000	.help
+180571722586652672	2017-05-13 04:13:45.883000	**Bot Commands**
+
+**Admin Commands**
+`.setUsername [name]`: Sets the username of bot
+`.setAvatar [URL]`: Sets the avatar of the bot
+`.exit`: Disconnects the bot
+
+**General**
+`.about`: About this bot
+`.source`: Source link
+`.invite`: Get invite link to your bot
+`.setVC`: Set the defualt channel your bot joins when ever the bot connects
+`.join`: Bot will attempt to join your channel
+
+**Music**
+`.queue or playing`: To view all songs in queue
+`.play [YT_URL]`: Plays a song from a youtube link
+`.play [index_number]`: Plays a song from a file that has been saved to the bot
+`.play [search key term]`: Plays the first result of youtube search
+`.play`: Plays song in queue if it has been stopped
+`.stop`: Stops the song from playing
+`.skip`: To skip the currently playing song
+`.replay`: Stops and replays song from the start
+`.local`: Displays all the songs saved by the bot
+`.remove [index_number]`: Removes a specific song from queue
+`.save [YT_URL]`: Saves a song from youtube and stores it
+`.save`: Saves current song that's playing
+`.remlocal [index_number]`: Removes a song that has been saved locally
+`.readd`: Re-adds the currently playing song at the bottom of the queue
+`.playlist`: List all playlist
+`.playlist [index_number]`: List all songs of the playlist
+`.playlist save [PLAYLIST_NAME]`: Saves playlist
+`.playlist play [index_number]`: Loads the playlist in queue and plays if nothing is playing
+`.playlist remove [index_number]`: Removes the playlist
+148854270693867521	2017-05-13 04:13:51.375000	.skip
+180571722586652672	2017-05-13 04:13:51.518000	**Skipped:** The GAG Quartet - le Internet Medley (OVER 40 MEMES IN ONE SONG)
+148854270693867521	2017-05-13 04:13:53.937000	there
+312782036970635264	2017-05-13 04:14:26.965000	I don't hear anything
+148854270693867521	2017-05-13 04:14:36.335000	There's nothing playing
+312782036970635264	2017-05-13 04:14:48.259000	Oh, I though you didnt want that
+239517706766909440	2017-05-13 04:15:03.598000	.source
+180571722586652672	2017-05-13 04:15:03.646000	**Source:** https://github.com/Mesmaroth/discord-HathorBot
+148854270693867521	2017-05-13 04:15:20.511000	someone play something
+312782036970635264	2017-05-13 04:15:30.332000	I will in a second
+311892632282333184	2017-05-13 04:15:55.509000	hey whens this tutle teaches wireshark call.
+Can't wait to hear this.
+311892632282333184	2017-05-13 04:16:02.752000	<@!144027115392729088>
+312782036970635264	2017-05-13 04:16:20.895000	.play https://www.youtube.com/watch?v=oj6X_xqZ4Ws
+180571722586652672	2017-05-13 04:16:23.103000	**Playing:** San Holo - Fly
+102582760656338944	2017-05-13 04:16:43.728000	Remove me from admin <@239517706766909440>
+102582760656338944	2017-05-13 04:16:53.801000	>exit
+312782036970635264	2017-05-13 04:16:55.461000	.local
+180571722586652672	2017-05-13 04:16:55.679000	**Local Songs**
+**1.** Chrono Trigger - Enhasa (Time Circuits)
+**2.** Dark Souls 3 Stress Test Menu Music
+**3.** I AM THE WALRUS
+**4.** Johann Sebastian Bach - Bouree In E Minor
+**5.** MACINTOSH PLUS - リサフランク420  現代のコンピュー
+**6.** Magazine
+**7.** Of Monsters And Men - Little Talks - Lyrics [My Head Is An Animal] HD
+**8.** Pin by Yeah Yeah Yeahs  Yeah Yeah Yeahs
+**9.** Plaid - Ralome
+**10.** Queens Of The Stone Age - Go With The Flow
+**11.** Sable - Surf
+**12.** Star Wars [Soundtrack] - Fan Score by Daniel Ciurlizza
+**13.** Super Mario Game Over Theme Chill Trap Remix
+**14.** Two Steps From Hell - Skyworld
+**15.** a-ha - Take On Me _Official Video_
+239517706766909440	2017-05-13 04:17:06.350000	hmmm, no phone call?
+102582760656338944	2017-05-13 04:17:08.174000	>setgame test
+312499153181868034	2017-05-13 04:17:08.366000	You aren't admin for this command.
+312782036970635264	2017-05-13 04:17:10.137000	.save
+180571722586652672	2017-05-13 04:17:10.215000	**Saved:** *San Holo - Fly*
+239517706766909440	2017-05-13 04:17:13.350000	that's a US number, right?
+102582760656338944	2017-05-13 04:17:15.211000	havent gotten the call yet
+102582760656338944	2017-05-13 04:17:16.685000	yea
+102582760656338944	2017-05-13 04:17:17.295000	us
+102582760656338944	2017-05-13 04:17:29.803000	do `>addadminrole developers`
+239517706766909440	2017-05-13 04:17:40.396000	>addadminrole developers
+312499153181868034	2017-05-13 04:17:40.575000	Role `developers` has been added to admin group list
+102582760656338944	2017-05-13 04:17:52.903000	It left me a voice mail
+102582760656338944	2017-05-13 04:17:55.266000	wtf
+102582760656338944	2017-05-13 04:18:08.846000	>setgame Half-Life 3
+102582760656338944	2017-05-13 04:18:10.610000	Thgere
+102582760656338944	2017-05-13 04:18:12.543000	We go
+239517706766909440	2017-05-13 04:18:24.154000	omfg
+239517706766909440	2017-05-13 04:18:26.789000	stupid AWS
+102582760656338944	2017-05-13 04:18:28.298000	Gave power to developers group for the bot
+312782036970635264	2017-05-13 04:18:34.728000	.about
+180571722586652672	2017-05-13 04:18:35.838000	
+102582760656338944	2017-05-13 04:18:50.571000	<@239517706766909440> Yeah, it left me a voice mail saying the number was not a match or something. Did you get that too?
+239517706766909440	2017-05-13 04:19:04.777000	no... weird, so it didn't ring?
+102582760656338944	2017-05-13 04:19:07.842000	wt
+102582760656338944	2017-05-13 04:19:08.877000	wtf
+102582760656338944	2017-05-13 04:19:09.994000	.about
+180571722586652672	2017-05-13 04:19:11.211000	
+102582760656338944	2017-05-13 04:19:17.870000	That is not suppose to be that
+102582760656338944	2017-05-13 04:19:22.185000	Gotta fix that
+312782036970635264	2017-05-13 04:19:27.558000	lol
+312782036970635264	2017-05-13 04:19:34.810000	I thought something was wrong
+312782036970635264	2017-05-13 04:19:45.226000	.source
+180571722586652672	2017-05-13 04:19:45.267000	**Source:** https://github.com/Mesmaroth/discord-HathorBot
+102582760656338944	2017-05-13 04:20:11.112000	It's going to be about the same details as my other bot
+102582760656338944	2017-05-13 04:20:12.481000	>about
+312499153181868034	2017-05-13 04:20:12.622000	**About**
+102582760656338944	2017-05-13 04:20:45.171000	Try again
+102582760656338944	2017-05-13 04:20:51.981000	It never rang
+148854270693867521	2017-05-13 04:21:01.070000	.loop
+180571722586652672	2017-05-13 04:21:01.202000	Started looping queue
+148854270693867521	2017-05-13 04:21:04.528000	.loop
+180571722586652672	2017-05-13 04:21:04.760000	Stopped looping queue
+312782036970635264	2017-05-13 04:21:09.788000	.stop
+102582760656338944	2017-05-13 04:21:15.299000	.local
+180571722586652672	2017-05-13 04:21:15.411000	**Local Songs**
+**1.** Chrono Trigger - Enhasa (Time Circuits)
+**2.** Dark Souls 3 Stress Test Menu Music
+**3.** I AM THE WALRUS
+**4.** Johann Sebastian Bach - Bouree In E Minor
+**5.** MACINTOSH PLUS - リサフランク420  現代のコンピュー
+**6.** Magazine
+**7.** Of Monsters And Men - Little Talks - Lyrics [My Head Is An Animal] HD
+**8.** Pin by Yeah Yeah Yeahs  Yeah Yeah Yeahs
+**9.** Plaid - Ralome
+**10.** Queens Of The Stone Age - Go With The Flow
+**11.** Sable - Surf
+**12.** San Holo - Fly
+**13.** Star Wars [Soundtrack] - Fan Score by Daniel Ciurlizza
+**14.** Super Mario Game Over Theme Chill Trap Remix
+**15.** Two Steps From Hell - Skyworld
+**16.** a-ha - Take On Me _Official Video_
+312782036970635264	2017-05-13 04:21:26.296000	.queue
+180571722586652672	2017-05-13 04:21:26.503000	**Queue - Playlist**
+**Playing:** San Holo - Fly
+102582760656338944	2017-05-13 04:21:33.389000	.play https://youtu.be/EaK-F8YHPJk
+180571722586652672	2017-05-13 04:21:35.309000	**Playing:** ProleteR - April Showers
+239517706766909440	2017-05-13 04:21:35.506000	I can't try again
+102582760656338944	2017-05-13 04:21:36.784000	.queue
+180571722586652672	2017-05-13 04:21:36.921000	**Queue - Playlist**
+**Playing:** San Holo - Fly
+
+**1. **ProleteR - April Showers
+239517706766909440	2017-05-13 04:21:41.274000	it locked me out for too many incorrect attemps
+312782036970635264	2017-05-13 04:21:43.386000	What? XD
+148854270693867521	2017-05-13 04:21:44.038000	skip pls
+239517706766909440	2017-05-13 04:21:45.596000	gotta contact customer sever
+102582760656338944	2017-05-13 04:21:46.563000	.skip
+180571722586652672	2017-05-13 04:21:46.772000	**Playing:** San Holo - Fly
+239517706766909440	2017-05-13 04:21:46.917000	ffs
+239517706766909440	2017-05-13 04:21:48.880000	service*
+312782036970635264	2017-05-13 04:21:49.372000	.skip
+180571722586652672	2017-05-13 04:21:49.438000	**Playing:** ProleteR - April Showers
+102582760656338944	2017-05-13 04:21:58.192000	Now thats a bug I need to fix
+102582760656338944	2017-05-13 04:22:10.372000	See this is why I need testers, would of never spotted that
+148854270693867521	2017-05-13 04:22:23.428000	what happened?
+102582760656338944	2017-05-13 04:22:26.539000	Wow, shit system
+102582760656338944	2017-05-13 04:22:27.925000	hahaha
+148854270693867521	2017-05-13 04:22:28.730000	rip
+102582760656338944	2017-05-13 04:22:45.366000	Why aws may I ask?
+148854270693867521	2017-05-13 04:22:53.199000	route 66 I'm guessing
+102582760656338944	2017-05-13 04:23:09.995000	It kept looping I guess
+102582760656338944	2017-05-13 04:23:18.551000	without the looping thing on
+102582760656338944	2017-05-13 04:24:08.529000	>twitch summit1g
+312499153181868034	2017-05-13 04:24:08.859000	**Twitch**
+102582760656338944	2017-05-13 04:25:51.225000	.play https://youtu.be/_7N1KHWsG3U
+180571722586652672	2017-05-13 04:25:54.207000	**Added to Queue:**
+Eric Rigo - Back Home
+239517706766909440	2017-05-13 04:26:26.799000	cause it's the system I have the most experience with.
+239517706766909440	2017-05-13 04:26:36.589000	their servers are insanely fast too... I dunno
+239517706766909440	2017-05-13 04:26:41.100000	I just prefer them over google cloud
+239517706766909440	2017-05-13 04:26:57.219000	plus, 12 months free is not bad
+312782036970635264	2017-05-13 04:26:58.255000	I know the struggle lol
+102582760656338944	2017-05-13 04:27:36.101000	I should probably test that out
+312782036970635264	2017-05-13 04:27:36.058000	When I was creating my Kik bot, at first I didnt have alot of testers so it crashed on a regular basis from just normal use
+102582760656338944	2017-05-13 04:28:50.729000	I should add a report system for my bots. That way I can read what happen whe x user does y
+102582760656338944	2017-05-13 04:29:18.040000	.play https://youtu.be/XggVJ2ATpTE
+180571722586652672	2017-05-13 04:29:20.060000	**Added to Queue:**
+The Purge - You're Number One [Soundtrack OST HD]
+102582760656338944	2017-05-13 04:29:34.843000	.play https://youtu.be/C0xZ-H2KYWw
+180571722586652672	2017-05-13 04:29:36.937000	**Added to Queue:**
+Audiomachine Breath and Life (Extended Version)
+239517706766909440	2017-05-13 04:31:58.877000	<@196845683280445441> I've registered kernelization.xyz ... we can get the .net or .org when I get my next paycheque
+312500702897504257	2017-05-13 04:32:08.068000	
+239517706766909440	2017-05-13 04:32:21.977000	or if someone wants to donate it 😃 if someone DOES register it, let me know so we can get it transferred to the right account
