@@ -175,6 +175,7 @@ bot.on('disconnect', event =>{
 	console.log("Exited with code: " + event.code);
 	if(event.message)
 		console.log("Message: " + event.message);
+	console.log();
 	process.exit(0);
 });
 
@@ -419,7 +420,7 @@ bot.on('message', message => {
 			// If nothing is specified the default is 100
 			if(param2){
 				if(isNumber(param2))
-					param2 = Number(param2) + 1;
+					param2 = Number(param2);
 			} else{
 				param2 = 100;
 			}
@@ -436,10 +437,14 @@ bot.on('message', message => {
 
 			if(isNumber(param)){
 				param = Number(param);
-				if(param == 0){
+				if(param <= 0){
 					mChannel.send("o_O ??");
 					return;
-				}				
+				}
+
+				// Add an extra count to exlucde couting the command message
+				// that called this
+				param+=1; 				
 
 				if(param > 100)
 					param = 100;
@@ -475,7 +480,9 @@ bot.on('message', message => {
 				if(param2 <= 0){
 					mChannel.send("o_O ??");
 					return;
-				}				
+				}
+
+				param2+=1;				
 
 				if(param2 > 100)
 					param2 = 100;
@@ -483,11 +490,12 @@ bot.on('message', message => {
 				if(param2 === 1){
 					param2 = 2;
 				}
+				
 				mChannel.fetchMessages({limit: param2})
 				 .then( messages =>{
 				 	messages = messages.filter( message =>{
 				 		return message.author.username.toLowerCase() === param
-				 	})
+				 	});
 				 	
 				 	if(!messages.size){
 				 		mChannel.send("No messages found to delete").catch(error =>{
