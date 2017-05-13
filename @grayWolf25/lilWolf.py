@@ -8,7 +8,7 @@ global LOGFILE
 global SETSTATUS
 def versionInfo():
     info = ""
-    info += "**wolfBot 0.0.1 (Alpha)**\n"
+    info += "**wolfBot 0.1.0 (Alpha2)**\n"
     info += "Author: Discord User @the_gray\n"
     info += "For help, send ```\">>help\"```\n\n"
 
@@ -16,16 +16,15 @@ def versionInfo():
 
 def commands():
     ret = discord.Embed()
-    ret.add_field(name='wolfBot Commands',value='COMMAND\nSYNTAX   DESCRIPTION',inline=False)
-    ret.add_field(name='Info',value='>>Info   Displays info about the wolfBot',inline=False)
-    ret.add_field(name='Commands',value='>>Commands or >>Help  Displays this text info',inline=False)
-    ret.add_field(name='Howl',value='>>howl   Howls at you',inline=False)
-    ret.add_field(name='Stats',value='>>stats   Displays some basic stats about the server',inline=False)
-    ret.add_field(name='Log Status',value='>>log status   Displays the status of the logging software',inline=False)
-    ret.add_field(name='Log On/Off',value='>>log ON / >>log OFF   Turns the logging on and off',inline=False)
-    ret.add_field(name='User History',value='userHistory-<displayName>   Shows the last timestamp of the last message sent by the user',inline=False)
-    ret.add_field(name='Rekt',value='>>rekt   self.getRekt()',inline=False)
-    ret.add_field(name='Rekt add',value='>>rekt <url-to-image>   Adds image from url to the rekt database',inline=False)
+    ret.add_field(name='Info',value='>>Info',inline=True)
+    ret.add_field(name='Commands',value='>>Commands or >>Help',inline=True)
+    ret.add_field(name='Howl',value='>>howl',inline=True)
+    ret.add_field(name='Stats',value='>>stats',inline=True)
+    ret.add_field(name='Log Status',value='>>log status',inline=True)
+    ret.add_field(name='Log On/Off',value='>>log ON / >>log OFF',inline=True)
+    ret.add_field(name='User History',value='userHistory-<displayName>',inline=True)
+    ret.add_field(name='Rekt',value='>>rekt',inline=True)
+    ret.add_field(name='Rekt add',value='>>rekt <url-to-image>',inline=True)
 
     ret.set_footer(text='WOOF WOOF --@the_gray')
 
@@ -33,15 +32,20 @@ def commands():
 def stats():
     channels = 0
     members = 0
+    bots = 0
     ret = ""
     for channel in client.get_all_channels():
         channels += 1
     for member in client.get_all_members():
+        roles = discord.utils.find(lambda r : r.name == 'Bots',member.roles)
+        if(roles != None):
+            bots+=1
         members += 1
 
 
     ret+="Number of channels: "+str(channels)+"\n"
     ret+="Number of members: "+str(members)+"\n"
+    ret+="Number of bots: "+str(bots)+"\n"
     return ret
 
 def userHistory(username=""):
