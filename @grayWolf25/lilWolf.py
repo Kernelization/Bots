@@ -150,18 +150,18 @@ async def on_message(message):
 
         await client.change_presence(game=game, status=status, afk=False)
         SETSTATUS = True
-    if(message.content == ">>Info"):
+    if(message.content.lower() == ">>info"):
         await client.send_message(message.channel, versionInfo())
-    if(message.content == ">>Commands") or (message.content == ">>Help") or (message.content == ">>help"):
+    if(message.content.lower() == ">>commands") or (message.content == ">>help"):
         await client.send_message(message.channel, embed=commands())
-    if message.content.startswith('>>howl'):
+    if message.content.lower().startswith('>>howl'):
         await client.send_message(message.channel, message.author.mention+' AWOOOOOO')
 
-    if message.content.startswith('>>stats'):
+    if message.content.lower().startswith('>>stats'):
         await client.send_message(message.channel,stats())
-    if message.content.startswith("good boy") or message.content.startswith("good boi") or message.content.startswith('>>good boy') or message.content.startswith('>>good boi'):
+    if message.content.lower().startswith("good boy") or message.content.startswith("good boi") or message.content.startswith('>>good boy') or message.content.startswith('>>good boi'):
         await client.send_message(message.channel, "*pants*\n WOOF\n *licks "+message.author.mention+"'s face*")
-    if message.content.startswith('>>log'):
+    if message.content.lower().startswith('>>log'):
         spl = message.content.split(' ')
         onOff = spl[1]
         if(onOff.startswith("ON")):
@@ -175,7 +175,7 @@ async def on_message(message):
                 await client.send_message(message.channel, "Logging is on")
             else:
                 await client.send_message(message.channel, "Logging is off")
-    if message.content.startswith('>>userHistory'):
+    if message.content.lower().startswith('>>userHistory'):
         spl = message.content.split("-")
         if len(spl) == 1:
             await client.send_message(message.channel, "No User!\nUsage: ```>>userHistory-<displayName>```\n")
@@ -187,7 +187,7 @@ async def on_message(message):
                 f = open('./resources/log.txt','r')
                 firstlinedate = f.readline().split('\t')[1]
                 await client.send_message(message.channel, 'First message on '+firstlinedate)
-    if message.content.startswith('>>rekt'):
+    if message.content.lower().startswith('>>rekt'):
         spl = message.content.split(" ")
         if(len(spl) == 1):
             rektFile = open('./resources/rekt.txt', 'r')
@@ -202,7 +202,7 @@ async def on_message(message):
             rektFile = open('./resources/rekt.txt','a+')
             rektFile.write(spl[1]+'\n')
         rektFile.close()
-    if message.content.startswith('>>gif'):
+    if message.content.lower().startswith('>>gif'):
         spl = message.content.split(' ')
         await client.send_message(message.channel, gif(spl))
 
