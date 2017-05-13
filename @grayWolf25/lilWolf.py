@@ -18,7 +18,7 @@ def commands():
     ret = discord.Embed()
     ret.add_field(name='wolfBot Commands',value='COMMAND\nSYNTAX   DESCRIPTION',inline=False)
     ret.add_field(name='Info',value='>>Info   Displays info about the wolfBot',inline=False)
-    ret.add_field(name='Commands',value='>>Commands   Displays this text info',inline=False)
+    ret.add_field(name='Commands',value='>>Commands or >>Help  Displays this text info',inline=False)
     ret.add_field(name='Howl',value='>>howl   Howls at you',inline=False)
     ret.add_field(name='Stats',value='>>stats   Displays some basic stats about the server',inline=False)
     ret.add_field(name='Log Status',value='>>log status   Displays the status of the logging software',inline=False)
@@ -93,7 +93,7 @@ async def on_message(message):
         SETSTATUS = True
     if(message.content == ">>Info"):
         await client.send_message(message.channel, versionInfo())
-    if(message.content == ">>Commands"):
+    if(message.content == ">>Commands") or (message.content == ">>Help"):
         await client.send_message(message.channel,embed=commands())
     if message.content.startswith('>>howl'):
         await client.send_message(message.channel, message.author.mention+' AWOOOOOO')
