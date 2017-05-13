@@ -70,7 +70,7 @@ async def on_ready():
     global SETSTATUS
     global LOG
     global LOGFILE
-    LOG = False
+    LOG = True
     SETSTATUS = False
     print('Logged in as')
     print(client.user.name)
@@ -85,8 +85,8 @@ async def on_message(message):
     global SETSTATUS
     if(not SETSTATUS):
         game = discord.Game()
-        game.name = '>>Commands for help'
-        game.url = '>>Commands for help'
+        game.name = '>>Help for help'
+        game.url = '>>Help for help'
         status = discord.Status.online
 
         await client.change_presence(game=game, status=status, afk=False)
