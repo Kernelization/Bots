@@ -254,6 +254,7 @@ bot.on('message', message => {
 			var game = mContent.slice(mContent.indexOf(' ') + 1);
 			setGame(game);
 			botLog("Game set to: " + game);
+			mChannel.send("Game set to: " + game);
 		}
 		return;
 	}
