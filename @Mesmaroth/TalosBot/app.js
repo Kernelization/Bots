@@ -714,6 +714,7 @@ bot.on('message', message => {
   		var adminCommands = [
   			'setgame', 'delcmd',
   			'addcmd', 'purge',
+  			'setinit', 'setadminrole',
   			'notify', 'setchannel',
   			'setavatar', 'setname',
   			'exit'];
