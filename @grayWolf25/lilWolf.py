@@ -6,6 +6,7 @@ import asyncio
 global LOG
 global LOGFILE
 global SETSTATUS
+
 def versionInfo():
     info = ""
     info += "**wolfBot 0.1.0 (Alpha2)**\n"
@@ -50,12 +51,65 @@ def stats():
     ret+="Number of bots: "+str(bots)+"\n"
     return ret
 
+def gif(spl=[]):
+    if(len(spl)<=1 or len(spl)>3):
+        return 'ERROR: Usage >>gif <command> or >>gif <command-to-add> <url-to-gif>'
+    elif(len(spl)==2):
+        #The command should be in the file
+        f = open('./resources/gifs.txt','r')
+        line=f.readline()
+        found = False
+        while(line not in ['\n','\r\n','END']):
+            if(line.startswith(spl[1])):
+                found = True
+                print('Found!')
+                break
+            else:
+                print('Still not found')
+                print(line)
+                line = f.readline()
+        if(not found):
+            f.close()
+            return ('Gif command not found')
+        else:
+            foundsplit = line.split(" ")
+            rand = random.randint(1,len(foundsplit)-1)
+            return foundsplit[rand]
+    elif(len(spl) == 3):
+        print('[1] Adding new command!')
+        #adding in a new command or adding a new link to an existing one
+        f = open('./resources/gifs.txt', 'r')
+        lines = f.readlines()
+        f.close()
+        f = open('./resources/gifs.txt', 'w')
+        found = False
+        for l in lines:
+            if(l.startswith('END')):
+                f.write(spl[1]+' '+spl[2]+' \n')
+                f.write('END')
+                f.close()
+                return 'Command added!'
+            elif(l.startswith(spl[1])):
+                f.write(l.rstrip()+spl[2]+' \n')
+                f.write('END')
+                f.close()
+                return 'Link added to >>'+spl[1]+' command!'
+            else:
+                f.write(l)
+        return 'Key added!\n'
+
+
+
+
+
+
 def userHistory(username=""):
     tempLOGFILE = open('./resources/log.txt', 'r')
     lines = tempLOGFILE.readlines()
     br = False
     user = discord.utils.find(lambda m: m.display_name.startswith(username), client.get_all_members())
     ret = ""
+    print(user.id)
     for line in lines:
         if not br:
             linesplit = line.split('\t')
@@ -100,7 +154,7 @@ async def on_message(message):
     if(message.content == ">>Info"):
         await client.send_message(message.channel, versionInfo())
     if(message.content == ">>Commands") or (message.content == ">>Help"):
-        await client.send_message(message.channel,embed=commands())
+        await client.send_message(message.channel, embed=commands())
     if message.content.startswith('>>howl'):
         await client.send_message(message.channel, message.author.mention+' AWOOOOOO')
 
@@ -149,6 +203,9 @@ async def on_message(message):
             rektFile = open('./resources/rekt.txt','a+')
             rektFile.write(spl[1]+'\n')
         rektFile.close()
+    if message.content.startswith('>>gif'):
+        spl = message.content.split(' ')
+        await client.send_message(message.channel, gif(spl))
 
 
 

@@ -2270,3 +2270,498 @@ Learning it for a project.
 180571722586652672	2017-05-13 15:54:52.140000	No queued song found with that index number.
 252480099130015744	2017-05-13 15:55:03.822000	.remove 1-9
 180571722586652672	2017-05-13 15:55:03.949000	No queued song found with that index number.
+252480099130015744	2017-05-13 15:55:13.986000	.remove 1
+180571722586652672	2017-05-13 15:55:14.121000	**Removed:** Mozart - Eine Kleine Nachtmusik, K 525 Allegro from queue
+252480099130015744	2017-05-13 15:55:39.026000	as in ??
+252480099130015744	2017-05-13 15:56:16.430000	english and french
+96952790961631232	2017-05-13 15:56:29.290000	reep
+311663764975910922	2017-05-13 15:56:48.093000	I'm going to double check that but pretty sure he's not in the logs
+224084213710848000	2017-05-13 15:56:52.979000	lol
+224084213710848000	2017-05-13 15:57:00.439000	i mean prog lang
+224084213710848000	2017-05-13 15:57:06.030000	programming lang
+252480099130015744	2017-05-13 15:57:14.824000	ahh just html/css
+252480099130015744	2017-05-13 15:57:17.887000	sql
+224084213710848000	2017-05-13 15:57:21.434000	ic...
+224084213710848000	2017-05-13 15:57:39.931000	i also wanna learn deeper for those stuffs
+224084213710848000	2017-05-13 15:57:42.405000	btw
+224084213710848000	2017-05-13 15:57:57.982000	you've done unity too?
+312450468678729739	2017-05-13 15:57:58.513000	No user history in logs!
+311663764975910922	2017-05-13 15:57:58.216000	>>userHistory-sjonnycapten
+312450468678729739	2017-05-13 15:57:58.695000	First message on 2017-05-12 20:11:23.375000
+224084213710848000	2017-05-13 15:58:01.295000	unity3d
+252480099130015744	2017-05-13 15:58:04.066000	no
+224084213710848000	2017-05-13 15:58:09.239000	oic
+224084213710848000	2017-05-13 15:58:27.018000	coz i've got some questions here
+224084213710848000	2017-05-13 15:58:29.010000	https://forum.unity3d.com/threads/linking-prefabs-to-another-game-object.469245/#post-3063202
+311663764975910922	2017-05-13 15:58:45.464000	Yay that means he's not in the logs
+224084213710848000	2017-05-13 15:58:46.229000	maybe there's some1 wanna answ
+224084213710848000	2017-05-13 15:59:08.924000	or probably we can share our game idea
+224084213710848000	2017-05-13 16:00:36.029000	interested for dvloping game, bro <@!252480099130015744> ?
+252480099130015744	2017-05-13 16:02:06.235000	not at the moment
+252480099130015744	2017-05-13 16:02:27.406000	im more into security stuff
+144441686418784256	2017-05-13 16:02:31.098000	anyone know a quick tool for fingerprinting hosts?
+224084213710848000	2017-05-13 16:02:38.332000	nice
+144441686418784256	2017-05-13 16:02:49.457000	I need it to be as fast as possible
+224084213710848000	2017-05-13 16:02:49.867000	what kinda sec?
+144441686418784256	2017-05-13 16:02:52.198000	and also accurate
+224084213710848000	2017-05-13 16:02:56.709000	cryptograhic?
+224084213710848000	2017-05-13 16:03:02.477000	hash?
+224084213710848000	2017-05-13 16:03:32.847000	or what?
+224084213710848000	2017-05-13 16:03:57.056000	share your e-books here too, bro
+224084213710848000	2017-05-13 16:04:06.486000	i have some too
+148854270693867521	2017-05-13 16:04:33.640000	Hey how do I see what permissions I have for the repo?
+311663764975910922	2017-05-13 16:05:52.536000	Everyone has the same permissions besides maybe <@196845683280445441> , push, pull, clone, etc
+311663764975910922	2017-05-13 16:05:54.816000	Why?
+148854270693867521	2017-05-13 16:06:23.369000	idk seems like there should be a place on the website where I would see that
+144441686418784256	2017-05-13 16:08:12.683000	HackPi?
+144441686418784256	2017-05-13 16:08:16.779000	Also
+144441686418784256	2017-05-13 16:08:29.710000	`nmap` vs `unicornscan` vs `masscan`?
+96952790961631232	2017-05-13 16:08:52.679000	There's not really a permission system in a git repo
+96952790961631232	2017-05-13 16:09:03.366000	The only this that it's available is: owener /not owner
+148854270693867521	2017-05-13 16:09:11.248000	gotcha
+148854270693867521	2017-05-13 16:09:17.114000	also is there a blame on the cli?
+148854270693867521	2017-05-13 16:09:34.959000	I wanna use the cli for this for fun and to learn it more so
+96952790961631232	2017-05-13 16:09:48.535000	cli as in Commnad Line Interface ?
+148854270693867521	2017-05-13 16:09:56.360000	ye
+311663764975910922	2017-05-13 16:10:06.369000	Hey @everyone ! I was looking over these ideas and think they're awesome. I did want to point out something though. If you guys have a cool idea that you want to get going, you do not need mods permission to do a thing! Our role here is to give you guys a louder voice and to help out with logistics. We're running a github organization where we can host your source code, and we're working on getting a website up with a lot of helpful functionality as well. Besides that, collaborate! get with people with similar goals and interests, and make cool stuff. We can shout out your code, test it, host it, all of that! But it's up to you guys to get it together.
+150600964640866304	2017-05-13 16:12:07.142000	What do you mean <@311892632282333184> ?
+148854270693867521	2017-05-13 16:12:16.500000	oh duh
+148854270693867521	2017-05-13 16:12:21.961000	```git blame```
+311663764975910922	2017-05-13 16:12:27.770000	Probably going to have to build the zipfile module into the bot I'm building with how big this log is.
+311892632282333184	2017-05-13 16:12:32.550000	O niothing
+237658542922792971	2017-05-13 16:15:11.567000	anyone got efeckted by WannaCry Ransomware ??
+229708305570856960	2017-05-13 16:16:05.946000	.source
+180571722586652672	2017-05-13 16:16:06.156000	**Source:** https://github.com/Mesmaroth/discord-HathorBot
+148854270693867521	2017-05-13 16:16:21.642000	nope
+229708305570856960	2017-05-13 16:16:28.110000	no sh files <:ThinkingPaint:261308578814623747>
+148854270693867521	2017-05-13 16:16:36.502000	nmap always
+148854270693867521	2017-05-13 16:16:45.429000	and xprobe2 for fingerprinting OS
+96952790961631232	2017-05-13 16:17:15.975000	😛
+224084213710848000	2017-05-13 16:17:44.909000	nope
+224084213710848000	2017-05-13 16:17:57.798000	i just update my AV
+224084213710848000	2017-05-13 16:18:05.602000	hope it'll works fine
+237658542922792971	2017-05-13 16:18:18.233000	me 2
+143453649769594880	2017-05-13 16:18:49.214000	doit
+143453649769594880	2017-05-13 16:19:18.512000	<@!102582760656338944> i love this so much
+224084213710848000	2017-05-13 16:19:43.328000	btw
+224084213710848000	2017-05-13 16:19:55.509000	probably you wanna patch ur os
+224084213710848000	2017-05-13 16:19:58.260000	https://technet.microsoft.com/en-us/library/security/ms17-010.aspx
+148854270693867521	2017-05-13 16:20:09.744000	?
+148854270693867521	2017-05-13 16:20:19.037000	oh
+148854270693867521	2017-05-13 16:20:24.067000	Why is it always SMB
+144441686418784256	2017-05-13 16:21:30.981000	xprobe doesnt work anymore
+144441686418784256	2017-05-13 16:21:34.958000	output comes out broken
+148854270693867521	2017-05-13 16:21:36.044000	.help
+180571722586652672	2017-05-13 16:21:36.169000	**Bot Commands**
+
+**Admin Commands**
+`.setUsername [name]`: Sets the username of bot
+`.setAvatar [URL]`: Sets the avatar of the bot
+`.exit`: Disconnects the bot
+
+**General**
+`.about`: About this bot
+`.source`: Source link
+`.invite`: Get invite link to your bot
+`.setVC`: Set the defualt channel your bot joins when ever the bot connects
+`.join`: Bot will attempt to join your channel
+
+**Music**
+`.queue or playing`: To view all songs in queue
+`.play [YT_URL]`: Plays a song from a youtube link
+`.play [index_number]`: Plays a song from a file that has been saved to the bot
+`.play [search key term]`: Plays the first result of youtube search
+`.play`: Plays song in queue if it has been stopped
+`.stop`: Stops the song from playing
+`.skip`: To skip the currently playing song
+`.replay`: Stops and replays song from the start
+`.local`: Displays all the songs saved by the bot
+`.remove [index_number]`: Removes a specific song from queue
+`.save [YT_URL]`: Saves a song from youtube and stores it
+`.save`: Saves current song that's playing
+`.remlocal [index_number]`: Removes a song that has been saved locally
+`.readd`: Re-adds the currently playing song at the bottom of the queue
+`.playlist`: List all playlist
+`.playlist [index_number]`: List all songs of the playlist
+`.playlist save [PLAYLIST_NAME]`: Saves playlist
+`.playlist play [index_number]`: Loads the playlist in queue and plays if nothing is playing
+`.playlist remove [index_number]`: Removes the playlist
+148854270693867521	2017-05-13 16:21:39.110000	.join
+148854270693867521	2017-05-13 16:21:45.984000	.play sandroll
+180571722586652672	2017-05-13 16:21:47.323000	**Playing:** Darude Astley - Sandroll
+148854270693867521	2017-05-13 16:21:53.933000	.queue
+180571722586652672	2017-05-13 16:21:54.021000	**Queue - Playlist**
+**Playing:** Arthur Rubinstein - Chopin Nocturne Op. 55, No. 1 in F Minor
+
+**1. **Prelude and Fugue No. 1 in C major, BWV 846, from Bach's Well-tempered Clavier, Gulda pianist
+**2. **Beethoven: For Elise (Für Elise), Bagatelle No. 25 in A minor
+**3. **Frédéric Chopin - Prelude in E-Minor (op.28 no. 4)
+**4. **Fable 2 Music - Summer Fields
+**5. **Hiatus - River
+**6. **Luftahraan OST - Stephen Webster - Streets of Luftahraan
+**7. **Stellaris Soundtrack - Distant Nebula
+**8. **Ori and the Blind Forest OST - 06 - First Steps Into Sunken Glades
+**9. **Darude Astley - Sandroll
+148854270693867521	2017-05-13 16:22:02.153000	<@!102582760656338944> found a glitch
+237658542922792971	2017-05-13 16:22:13.849000	<@224084213710848000> i am using osx and bootcamp
+144441686418784256	2017-05-13 16:22:19.394000	Im more than willing to let anyone join in on the project, and even add the code to your repo
+281512718744289280	2017-05-13 16:22:29.879000	Hello, I am Halftrace. Grey hat and wannabe pentester. Very familiar with Linux (Kali, and my own distribution called Aurauri) and python.
+148854270693867521	2017-05-13 16:22:32.218000	.queue clear
+180571722586652672	2017-05-13 16:22:32.427000	**Queue - Playlist**
+**Playing:** Arthur Rubinstein - Chopin Nocturne Op. 55, No. 1 in F Minor
+
+**1. **Prelude and Fugue No. 1 in C major, BWV 846, from Bach's Well-tempered Clavier, Gulda pianist
+**2. **Beethoven: For Elise (Für Elise), Bagatelle No. 25 in A minor
+**3. **Frédéric Chopin - Prelude in E-Minor (op.28 no. 4)
+**4. **Fable 2 Music - Summer Fields
+**5. **Hiatus - River
+**6. **Luftahraan OST - Stephen Webster - Streets of Luftahraan
+**7. **Stellaris Soundtrack - Distant Nebula
+**8. **Ori and the Blind Forest OST - 06 - First Steps Into Sunken Glades
+**9. **Darude Astley - Sandroll
+224084213710848000	2017-05-13 16:22:35.944000	ic
+148854270693867521	2017-05-13 16:22:36.327000	.skip
+180571722586652672	2017-05-13 16:22:36.557000	**Playing:** Arthur Rubinstein - Chopin Nocturne Op. 55, No. 1 in F Minor
+148854270693867521	2017-05-13 16:22:37.904000	.skip
+180571722586652672	2017-05-13 16:22:37.984000	**Playing:** Prelude and Fugue No. 1 in C major, BWV 846, from Bach's Well-tempered Clavier, Gulda pianist
+148854270693867521	2017-05-13 16:22:39.124000	.skip
+180571722586652672	2017-05-13 16:22:39.402000	**Playing:** Beethoven: For Elise (Für Elise), Bagatelle No. 25 in A minor
+148854270693867521	2017-05-13 16:22:40.282000	.skip
+180571722586652672	2017-05-13 16:22:40.480000	**Playing:** Frédéric Chopin - Prelude in E-Minor (op.28 no. 4)
+148854270693867521	2017-05-13 16:22:41.655000	.skip
+180571722586652672	2017-05-13 16:22:41.894000	**Playing:** Fable 2 Music - Summer Fields
+148854270693867521	2017-05-13 16:22:43.173000	.skip
+180571722586652672	2017-05-13 16:22:43.278000	**Playing:** Hiatus - River
+148854270693867521	2017-05-13 16:22:44.463000	.skip
+180571722586652672	2017-05-13 16:22:44.608000	**Playing:** Luftahraan OST - Stephen Webster - Streets of Luftahraan
+148854270693867521	2017-05-13 16:22:46.402000	.skip
+180571722586652672	2017-05-13 16:22:46.478000	**Playing:** Stellaris Soundtrack - Distant Nebula
+148854270693867521	2017-05-13 16:22:47.693000	.skip
+180571722586652672	2017-05-13 16:22:47.834000	**Playing:** Ori and the Blind Forest OST - 06 - First Steps Into Sunken Glades
+148854270693867521	2017-05-13 16:22:49.070000	.skip
+180571722586652672	2017-05-13 16:22:49.253000	**Playing:** Darude Astley - Sandroll
+144441686418784256	2017-05-13 16:22:50.133000	I just wanna see this project grow, and I think it the output will be the best with the opinion and work of others
+148854270693867521	2017-05-13 16:22:55.668000	.play tobu
+180571722586652672	2017-05-13 16:22:56.022000	**Youtube Search Error**
+```Video id (UCAA6pKrh72sARBb7JCfp8AA) does not match expected format (/^[a-zA-Z0-9-_]{11}$/)```
+148854270693867521	2017-05-13 16:23:02.771000	also the channel thing doesn't work
+237658542922792971	2017-05-13 16:23:07.472000	what is SMB?
+224084213710848000	2017-05-13 16:23:07.605000	who da hell mess in <#311529111073980419>?
+144441686418784256	2017-05-13 16:23:10.703000	After all, everyone has their own special skill that when combined with other people's skills can produce something out of this world
+148854270693867521	2017-05-13 16:23:32.903000	.playlist
+237658542922792971	2017-05-13 16:23:32.936000	just some bot testing ??
+180571722586652672	2017-05-13 16:23:32.968000	**Playlist**
+**1.** Game Music
+224084213710848000	2017-05-13 16:23:44.772000	probably
+224084213710848000	2017-05-13 16:24:00.526000	that bot is confusing af
+224084213710848000	2017-05-13 16:24:02.071000	lol
+311663764975910922	2017-05-13 16:24:21.745000	Talos has some insane functionality but yeah the testing is messy
+224084213710848000	2017-05-13 16:24:23.286000	looks like there's bug or sumthin
+311663764975910922	2017-05-13 16:24:28.729000	What's this wanna cry ransomware?
+148854270693867521	2017-05-13 16:24:28.667000	.loop
+180571722586652672	2017-05-13 16:24:28.884000	Started looping queue
+148854270693867521	2017-05-13 16:24:30.713000	.loop
+180571722586652672	2017-05-13 16:24:30.899000	Stopped looping queue
+224084213710848000	2017-05-13 16:24:38.287000	seriously??
+311663764975910922	2017-05-13 16:24:38.505000	Post a link in <#311211930561806336> if ya please
+224084213710848000	2017-05-13 16:24:51.771000	you don't know abt it??
+224084213710848000	2017-05-13 16:25:00.356000	it's a global phenomenon
+311663764975910922	2017-05-13 16:25:06.931000	Haha it's not the one that raped UK yesterday is it?
+237658542922792971	2017-05-13 16:25:11.766000	yep
+224084213710848000	2017-05-13 16:25:13.033000	https://arstechnica.com/security/2017/05/an-nsa-derived-ransomware-worm-is-shutting-down-computers-worldwide/
+224084213710848000	2017-05-13 16:25:32.217000	it's been posted in <#311211930561806336> afaik
+148854270693867521	2017-05-13 16:25:39.563000	aw
+148854270693867521	2017-05-13 16:25:47.040000	nmap does fingerprinting too
+281512718744289280	2017-05-13 16:26:01.232000	@ixdoi  Apparently a version of a worm stolen from the NSA in early April. It's found itself in NHS systems preventing emergency responses and is rapidly spreading.
+311663764975910922	2017-05-13 16:26:06.068000	Shite I need to make a security RSS feed
+237658542922792971	2017-05-13 16:26:55.317000	<@224084213710848000> why a pic of a explosion?
+148854270693867521	2017-05-13 16:27:15.110000	discord picks the first image on the page
+148854270693867521	2017-05-13 16:27:20.773000	That's probly why
+224084213710848000	2017-05-13 16:28:34.035000	<@237658542922792971> it's the article's preview
+148854270693867521	2017-05-13 16:28:34.131000	.list
+148854270693867521	2017-05-13 16:28:37.458000	.saved
+148854270693867521	2017-05-13 16:28:39.410000	.local
+180571722586652672	2017-05-13 16:28:39.589000	**Local Songs**
+**1.** ALEXISONFIRE No Transitory
+**2.** Chrono Trigger - Enhasa (Time Circuits)
+**3.** Dark Souls 3 Stress Test Menu Music
+**4.** I AM THE WALRUS
+**5.** Johann Sebastian Bach - Bouree In E Minor
+**6.** MACINTOSH PLUS - リサフランク420  現代のコンピュー
+**7.** Magazine
+**8.** Of Monsters And Men - Little Talks - Lyrics [My Head Is An Animal] HD
+**9.** Pin by Yeah Yeah Yeahs  Yeah Yeah Yeahs
+**10.** Plaid - Ralome
+**11.** Queens Of The Stone Age - Go With The Flow
+**12.** Sable - Surf
+**13.** San Holo - Fly
+**14.** Star Wars [Soundtrack] - Fan Score by Daniel Ciurlizza
+**15.** Super Mario Game Over Theme Chill Trap Remix
+**16.** Tame Impala - The Moment Music Video
+**17.** Two Steps From Hell - Skyworld
+**18.** a-ha - Take On Me _Official Video_
+224084213710848000	2017-05-13 16:28:39.652000	it's on the original article
+148854270693867521	2017-05-13 16:28:42.448000	.play 15
+180571722586652672	2017-05-13 16:28:42.725000	**Playing:** Super Mario Game Over Theme Chill Trap Remix
+237658542922792971	2017-05-13 16:28:43.292000	ohh
+311663764975910922	2017-05-13 16:29:11.307000	Holy shit that thing is a beast
+311663764975910922	2017-05-13 16:29:11.979000	Holy shit that thing is a beast
+144441686418784256	2017-05-13 16:29:19.945000	its slow AF
+144441686418784256	2017-05-13 16:29:23.320000	I need someone fast
+144441686418784256	2017-05-13 16:29:25.688000	something*
+144441686418784256	2017-05-13 16:29:40.906000	Alright well
+144441686418784256	2017-05-13 16:29:49.606000	I just need a heads on who would like to help
+144441686418784256	2017-05-13 16:29:54.054000	is it okay if I tag everyone>
+148854270693867521	2017-05-13 16:29:56.999000	why?
+148854270693867521	2017-05-13 16:30:01.161000	you can speed it up
+144441686418784256	2017-05-13 16:30:14.498000	thing is, I dont want something that depends on open ports
+148854270693867521	2017-05-13 16:30:21.417000	oh true
+143453649769594880	2017-05-13 16:30:24.110000	sure
+143453649769594880	2017-05-13 16:30:27.392000	just
+148854270693867521	2017-05-13 16:30:27.781000	idk then
+143453649769594880	2017-05-13 16:30:30.645000	use it in moderatino
+144441686418784256	2017-05-13 16:30:37.753000	Just this once xD
+224084213710848000	2017-05-13 16:30:57.062000	haven't you read it?
+224084213710848000	2017-05-13 16:30:57.691000	unfortunately wannacry is came from EternalBlue
+224084213710848000	2017-05-13 16:30:58.056000	dunno if the ShadowBroker spread it by prpse
+311663764975910922	2017-05-13 16:31:24.353000	I just read that write-up. I'd heard about it yesterday but figured it was overhyped
+144441686418784256	2017-05-13 16:32:03.280000	@everyone So, I left the documentation about the HackPi project in <#311265561046941696>. If you are interested in helping in ANY WAY, literally, ANY WAY, I will be more than glad to add you to the team! Just say here what you'd like to help in! Beta testers are welcome, as well as documentation writers or just suggesting ideas. Everyone is welcome!
+144441686418784256	2017-05-13 16:32:42.428000	You can help in anyway, from building custom tools in python, C, C++, or any langauge of your choice to be added to the arsenal of HackPi tools!
+148854270693867521	2017-05-13 16:34:02.350000	for anyone who doesn't wanna find the documentation in <#311265561046941696>:
+148854270693867521	2017-05-13 16:34:03.229000	https://cdn.discordapp.com/attachments/311265561046941696/312777314029273088/HackPi_by_DeadPackets.docx
+144441686418784256	2017-05-13 16:34:17.346000	^^ thanks
+224084213710848000	2017-05-13 16:34:19.530000	lol
+224084213710848000	2017-05-13 16:34:29.116000	no
+148854270693867521	2017-05-13 16:34:43.151000	
+224084213710848000	2017-05-13 16:34:44.087000	we're supposed to panic
+144441686418784256	2017-05-13 16:34:49.822000	Also, if there are any expert pentesters in here, I could use your help by just answering a couple of my questions
+237658542922792971	2017-05-13 16:34:52.812000	no
+224084213710848000	2017-05-13 16:34:55.862000	that's the rule
+148854270693867521	2017-05-13 16:34:56.550000	
+224084213710848000	2017-05-13 16:34:57.132000	haha
+237658542922792971	2017-05-13 16:35:02.153000	panic is bad
+148854270693867521	2017-05-13 16:35:28.660000	yea add me to the project, I want to help
+224084213710848000	2017-05-13 16:36:07.075000	haha
+224084213710848000	2017-05-13 16:36:15.174000	jk <@237658542922792971>
+224084213710848000	2017-05-13 16:36:23.535000	btw
+224084213710848000	2017-05-13 16:36:40.367000	what kinda lang you know, <@237658542922792971> ?
+148854270693867521	2017-05-13 16:36:43.103000	Let's make the ultimate skript kiddie tool
+148854270693867521	2017-05-13 16:36:56.118000	.loop
+180571722586652672	2017-05-13 16:36:56.244000	Started looping queue
+148854270693867521	2017-05-13 16:36:59.148000	.play 15
+180571722586652672	2017-05-13 16:36:59.360000	**Playing:** Super Mario Game Over Theme Chill Trap Remix
+237658542922792971	2017-05-13 16:37:17.555000	swedish
+224084213710848000	2017-05-13 16:37:24.109000	haha
+224084213710848000	2017-05-13 16:37:32.584000	i mean programming lang
+224084213710848000	2017-05-13 16:37:52.054000	like HTML, VBS, what-so-ever
+144441686418784256	2017-05-13 16:37:58.780000	Its literally going to be the ultimate script kiddie tool xD
+237658542922792971	2017-05-13 16:38:03.809000	ruby, css, html5, a bit of js
+144441686418784256	2017-05-13 16:38:04.904000	But also super helpful xD
+224084213710848000	2017-05-13 16:38:12.466000	hmm...
+224084213710848000	2017-05-13 16:38:13.985000	ic
+144441686418784256	2017-05-13 16:38:15.340000	Whats your github name?
+148854270693867521	2017-05-13 16:38:22.792000	I was thinking of doing this myself but just with a .py script
+148854270693867521	2017-05-13 16:38:24.118000	xDJx
+224084213710848000	2017-05-13 16:38:30.307000	is ruby powerful?
+237658542922792971	2017-05-13 16:38:33.415000	no
+237658542922792971	2017-05-13 16:38:43.714000	phyton is better
+224084213710848000	2017-05-13 16:38:47.350000	ic
+144441686418784256	2017-05-13 16:38:50.235000	You can help build a few custom tools in python or edit some popular tools to output just a little better
+224084213710848000	2017-05-13 16:38:51.403000	python
+224084213710848000	2017-05-13 16:39:07.374000	that's the lang i wanna learn too
+224084213710848000	2017-05-13 16:39:16.813000	but haven't done it yet
+224084213710848000	2017-05-13 16:39:35.487000	you're a web-dev?
+237658542922792971	2017-05-13 16:40:33.189000	My class wanted to drive python and the new teacher also wants it. But the old teacher wanted ruby so it became ruby.
+148854270693867521	2017-05-13 16:41:24.138000	ruby's still pretty cool
+148854270693867521	2017-05-13 16:41:35.617000	metasploit uses it
+224084213710848000	2017-05-13 16:41:50.053000	some says that one of best prog lang for now is RoR
+224084213710848000	2017-05-13 16:42:06.377000	that stands for Ruby on Rails, right?
+148854270693867521	2017-05-13 16:42:19.265000	Ruby on Rails isn't a language
+148854270693867521	2017-05-13 16:42:25.839000	it's a web framewpork
+148854270693867521	2017-05-13 16:42:31.806000	for ruby
+148854270693867521	2017-05-13 16:42:36.674000	but yes it
+224084213710848000	2017-05-13 16:42:37.528000	ic
+148854270693867521	2017-05-13 16:42:42.135000	is one of the best
+224084213710848000	2017-05-13 16:42:49.418000	framework based on ruby
+224084213710848000	2017-05-13 16:42:54.875000	what abt go?
+148854270693867521	2017-05-13 16:43:01.242000	what about it
+148854270693867521	2017-05-13 16:43:12.154000	pretty sure go is backend
+237658542922792971	2017-05-13 16:43:22.225000	the high school that i am in now, I am reading web development and programming. next year. More pro web development and borderline design, and a new programming language.
+224084213710848000	2017-05-13 16:45:08.447000	new prog lang? what's that?
+237658542922792971	2017-05-13 16:45:54.209000	i forgot, but its for next year
+224084213710848000	2017-05-13 16:47:27.132000	ow...
+224084213710848000	2017-05-13 16:48:13.039000	i mean
+224084213710848000	2017-05-13 16:48:24.083000	do you have any web for your own?
+237658542922792971	2017-05-13 16:48:29.959000	yes
+224084213710848000	2017-05-13 16:48:41.474000	then share it with us
+224084213710848000	2017-05-13 16:48:44.032000	😃
+224084213710848000	2017-05-13 16:53:57.195000	anyway, does discord is well-secured chat-app?
+311663764975910922	2017-05-13 16:55:22.106000	>>howl
+312450468678729739	2017-05-13 16:55:22.191000	<@311663764975910922> AWOOOOOO
+311663764975910922	2017-05-13 16:56:49.931000	>>howl
+312450468678729739	2017-05-13 16:56:50.334000	<@311663764975910922> AWOOOOOO
+311663764975910922	2017-05-13 16:57:18.482000	>>gif callHackerman
+312450468678729739	2017-05-13 16:57:18.660000	Gif command not found
+311663764975910922	2017-05-13 16:57:22.574000	Thank god
+148854270693867521	2017-05-13 16:57:33.885000	can you put that in <#311696428256722945> ?
+203463589405786112	2017-05-13 17:01:48.250000	Hahahaha
+312450468678729739	2017-05-13 17:02:27.973000	<@311663764975910922> AWOOOOOO
+311663764975910922	2017-05-13 17:02:27.703000	>>howl
+311663764975910922	2017-05-13 17:02:34.887000	>>gif callHackerman
+312450468678729739	2017-05-13 17:02:35.038000	Gif command not found
+203463589405786112	2017-05-13 17:02:39.727000	
+148854270693867521	2017-05-13 17:07:37.239000	.remove 1
+180571722586652672	2017-05-13 17:07:37.318000	**Removed:** Super Mario Game Over Theme Chill Trap Remix from queue
+105725740481314816	2017-05-13 17:07:52.971000	websockets 2 circuits man
+311663764975910922	2017-05-13 17:09:28.324000	>>howl
+312450468678729739	2017-05-13 17:09:28.418000	<@311663764975910922> AWOOOOOO
+96952790961631232	2017-05-13 17:10:12.466000	yes, <@224084213710848000>
+224084213710848000	2017-05-13 17:10:49.090000	hmm....
+224084213710848000	2017-05-13 17:10:50.197000	ok
+311663764975910922	2017-05-13 17:11:01.447000	>>howl
+312450468678729739	2017-05-13 17:11:01.569000	<@311663764975910922> AWOOOOOO
+311663764975910922	2017-05-13 17:11:22.490000	>>howl
+312450468678729739	2017-05-13 17:11:22.602000	<@311663764975910922> AWOOOOOO
+312450468678729739	2017-05-13 17:11:27.338000	https://www.tenor.co/view/hackerman-break-computer-programming-hacking-gif-7263541
+311663764975910922	2017-05-13 17:11:26.763000	>>gif callHackerman
+311663764975910922	2017-05-13 17:16:44.277000	>>gif callHackerman
+312450468678729739	2017-05-13 17:16:44.387000	https://www.tenor.co/view/hackerman-break-computer-programming-hacking-gif-7263541
+144441686418784256	2017-05-13 17:17:19.278000	we need proper low level libraries for nodejs tho
+144441686418784256	2017-05-13 17:17:27.840000	like python
+311663764975910922	2017-05-13 17:17:43.269000	>>howl
+312450468678729739	2017-05-13 17:17:43.432000	<@311663764975910922> AWOOOOOO
+311663764975910922	2017-05-13 17:17:51.312000	>>gif callHackerman https://www.tenor.co/view/hacker-hackerman-kungfury-gif-7953536
+312450468678729739	2017-05-13 17:17:51.494000	Key added!
+https://www.tenor.co/view/hacker-hackerman-kungfury-gif-7953536
+105725740481314816	2017-05-13 17:17:54.295000	just bridge the gap with gluecode
+105725740481314816	2017-05-13 17:18:01.509000	js2py
+105725740481314816	2017-05-13 17:18:09.557000	py2js
+105725740481314816	2017-05-13 17:18:16.248000	intermingle all the nastiest languages you can find
+148854270693867521	2017-05-13 17:18:19.765000	test
+148854270693867521	2017-05-13 17:18:22.141000	nopee
+105725740481314816	2017-05-13 17:18:27.460000	throw lua into the soup just for fun
+312450468678729739	2017-05-13 17:19:11.058000	<@311663764975910922> AWOOOOOO
+311663764975910922	2017-05-13 17:19:10.903000	>>howl
+311663764975910922	2017-05-13 17:19:15.760000	>>gif callHackerman
+312450468678729739	2017-05-13 17:19:15.872000	https://www.tenor.co/view/hacker-hackerman-kungfury-gif-7953536
+148854270693867521	2017-05-13 17:19:19.151000	.play tobu magic
+180571722586652672	2017-05-13 17:19:20.430000	**Added to Queue:**
+Tobu & Itro - Magic (Original Mix)
+148854270693867521	2017-05-13 17:19:22.093000	.skip
+180571722586652672	2017-05-13 17:19:22.135000	**Playing:** Tobu - Colors
+148854270693867521	2017-05-13 17:19:23.598000	.skip
+180571722586652672	2017-05-13 17:19:23.751000	**Playing:** Tobu & Itro - Magic (Original Mix)
+312450468678729739	2017-05-13 17:19:37.457000	Link added to >>callHackerman command!
+311663764975910922	2017-05-13 17:19:37.288000	>>gif callHackerman https://www.tenor.co/view/hackerman-break-computer-programming-hacking-gif-7263541
+311663764975910922	2017-05-13 17:21:19.117000	>>callHackerman
+311663764975910922	2017-05-13 17:21:28.161000	>>gif callHackerman
+312450468678729739	2017-05-13 17:21:28.326000	https://www.tenor.co/view/hacker-hackerman-kungfury-gif-7953536
+312450468678729739	2017-05-13 17:21:41.956000	Link added to >>callHackerman command!
+311663764975910922	2017-05-13 17:21:41.794000	>>gif callHackerman https://www.tenor.co/view/hackerman-break-computer-programming-hacking-gif-7263541
+311663764975910922	2017-05-13 17:21:52.138000	>>gif callHackerman
+312450468678729739	2017-05-13 17:21:52.335000	https://www.tenor.co/view/hacker-hackerman-kungfury-gif-7953536https://www.tenor.co/view/hackerman-break-computer-programming-hacking-gif-7263541
+148854270693867521	2017-05-13 17:22:26.931000	🇺🇸
+311663764975910922	2017-05-13 17:22:29.893000	>>gif hackingTheMainframe https://www.tenor.co/view/hackers-ncis-wtf-lol-hackthemainframe-gif-3899102
+312450468678729739	2017-05-13 17:22:30.116000	Command added!
+311663764975910922	2017-05-13 17:22:36.647000	>>hackingTheMainframe
+312450468678729739	2017-05-13 17:22:43.829000	Gif command not found
+311663764975910922	2017-05-13 17:22:43.661000	>>gif hackingTheMainframe
+148854270693867521	2017-05-13 17:22:56.347000	test
+148854270693867521	2017-05-13 17:22:58.769000	ugh
+224084213710848000	2017-05-13 17:23:05.658000	test 2
+224084213710848000	2017-05-13 17:23:10.609000	hmm
+148854270693867521	2017-05-13 17:23:19.428000	wait try it now
+224084213710848000	2017-05-13 17:23:28.911000	test 3
+311663764975910922	2017-05-13 17:23:29.695000	>>gif hackingTheMainframe
+312450468678729739	2017-05-13 17:23:29.891000	https://www.tenor.co/view/hackers-ncis-wtf-lol-hackthemainframe-gif-3899102
+224084213710848000	2017-05-13 17:23:34.385000	test 4
+224084213710848000	2017-05-13 17:23:43.120000	lol
+224084213710848000	2017-05-13 17:24:27.372000	ok
+312450468678729739	2017-05-13 17:24:33.286000	Command added!
+311663764975910922	2017-05-13 17:24:33.070000	>>gif bitchslap https://www.tenor.co/view/threat-slap-bitch-bitchslap-gif-3411609
+224084213710848000	2017-05-13 17:24:36.353000	C++ ivor horton (C++  for windows)
+http://adf.ly/1aqgaf
+311663764975910922	2017-05-13 17:24:39.847000	>>gif bitchslap
+312450468678729739	2017-05-13 17:24:39.993000	Gif command not found
+148854270693867521	2017-05-13 17:24:46.717000	thx
+224084213710848000	2017-05-13 17:24:53.733000	np
+224084213710848000	2017-05-13 17:25:01.986000	shld i delete this one?
+105725740481314816	2017-05-13 17:26:15.057000	pfffffft
+311663764975910922	2017-05-13 17:26:20.132000	>>gif bitchslap https://www.tenor.co/view/threat-slap-bitch-bitchslap-gif-3411609
+312450468678729739	2017-05-13 17:26:20.288000	Command added!
+105725740481314816	2017-05-13 17:26:21.885000	radix sort and then come talk to me
+311663764975910922	2017-05-13 17:26:26.247000	>>gif bitchslap
+312450468678729739	2017-05-13 17:26:26.393000	https://www.tenor.co/view/threat-slap-bitch-bitchslap-gif-3411609
+105725740481314816	2017-05-13 17:26:31.658000	cmon now
+148854270693867521	2017-05-13 17:26:35.195000	.stop
+105725740481314816	2017-05-13 17:26:40.741000	https://giphy.com/gifs/reaction-no-here-I4Jmrcjnr8Zfq
+311663764975910922	2017-05-13 17:26:56.836000	>>gif bitchslap https://www.tenor.co/view/gap-slapped-knockout-punch-gif-5122019
+312450468678729739	2017-05-13 17:26:56.957000	Link added to >>bitchslap command!
+311663764975910922	2017-05-13 17:27:03.181000	>>gif bitchslap
+312450468678729739	2017-05-13 17:27:03.341000	https://www.tenor.co/view/threat-slap-bitch-bitchslap-gif-3411609https://www.tenor.co/view/gap-slapped-knockout-punch-gif-5122019
+311663764975910922	2017-05-13 17:27:07.837000	HA YES
+224084213710848000	2017-05-13 17:27:10.784000	python
+224084213710848000	2017-05-13 17:27:12.780000	http://adf.ly/1aqgP9
+311663764975910922	2017-05-13 17:27:30.107000	>>gif hackingTheMainframe
+312450468678729739	2017-05-13 17:27:30.210000	https://www.tenor.co/view/hackers-ncis-wtf-lol-hackthemainframe-gif-3899102
+144441686418784256	2017-05-13 17:27:35.947000	Yeah but you cant exactly capture packets and create them in nodejs
+311663764975910922	2017-05-13 17:27:38.089000	Already applicable
+144441686418784256	2017-05-13 17:27:38.524000	just like python
+224084213710848000	2017-05-13 17:27:39.064000	Beginning C, 5th Edition
+224084213710848000	2017-05-13 17:27:45.077000	http://adf.ly/1atvWD
+224084213710848000	2017-05-13 17:28:36.178000	>>help
+224084213710848000	2017-05-13 17:28:41.262000	.help
+180571722586652672	2017-05-13 17:28:41.405000	**Bot Commands**
+
+**Admin Commands**
+`.setUsername [name]`: Sets the username of bot
+`.setAvatar [URL]`: Sets the avatar of the bot
+`.exit`: Disconnects the bot
+
+**General**
+`.about`: About this bot
+`.source`: Source link
+`.invite`: Get invite link to your bot
+`.setVC`: Set the defualt channel your bot joins when ever the bot connects
+`.join`: Bot will attempt to join your channel
+
+**Music**
+`.queue or playing`: To view all songs in queue
+`.play [YT_URL]`: Plays a song from a youtube link
+`.play [index_number]`: Plays a song from a file that has been saved to the bot
+`.play [search key term]`: Plays the first result of youtube search
+`.play`: Plays song in queue if it has been stopped
+`.stop`: Stops the song from playing
+`.skip`: To skip the currently playing song
+`.replay`: Stops and replays song from the start
+`.local`: Displays all the songs saved by the bot
+`.remove [index_number]`: Removes a specific song from queue
+`.save [YT_URL]`: Saves a song from youtube and stores it
+`.save`: Saves current song that's playing
+`.remlocal [index_number]`: Removes a song that has been saved locally
+`.readd`: Re-adds the currently playing song at the bottom of the queue
+`.playlist`: List all playlist
+`.playlist [index_number]`: List all songs of the playlist
+`.playlist save [PLAYLIST_NAME]`: Saves playlist
+`.playlist play [index_number]`: Loads the playlist in queue and plays if nothing is playing
+`.playlist remove [index_number]`: Removes the playlist
+105725740481314816	2017-05-13 17:28:44.961000	https://youtu.be/kPRA0W1kECg?t=1m56s
+224084213710848000	2017-05-13 17:28:45.765000	damn
+311663764975910922	2017-05-13 17:28:51.778000	Jesus Hathor
+105725740481314816	2017-05-13 17:28:54.966000	`timecoded to radix`
+311663764975910922	2017-05-13 17:28:58.222000	Calm the hell down
+311663764975910922	2017-05-13 17:29:09.538000	Where the hell my bot at
+224084213710848000	2017-05-13 17:29:12.046000	how to call help on your bot?
+224084213710848000	2017-05-13 17:29:31.118000	>>manual
+224084213710848000	2017-05-13 17:29:39.298000	>>gif
+312450468678729739	2017-05-13 17:29:39.660000	ERROR: Usage >>gif <command> or >>gif <command-to-add> <url-to-gif>
+224084213710848000	2017-05-13 17:29:44.136000	ah
+312450468678729739	2017-05-13 17:29:53.621000	Command added!
+224084213710848000	2017-05-13 17:29:53.468000	>>gif sexy girl
+224084213710848000	2017-05-13 17:29:59.820000	wut?
+311663764975910922	2017-05-13 17:30:06.864000	Lol no you input a gif url
+311663764975910922	2017-05-13 17:30:10.056000	XD
+224084213710848000	2017-05-13 17:30:12.313000	lol
+224084213710848000	2017-05-13 17:30:16.577000	hahhaha
+224084213710848000	2017-05-13 17:30:20.230000	ic
+105725740481314816	2017-05-13 17:30:35.974000	```use case: sorting vertex z depth to avoid issues with antique drawtriangles function that suffered from painters order nonsense```
