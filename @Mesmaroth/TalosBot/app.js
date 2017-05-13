@@ -11,6 +11,7 @@ bot.login(botLogin.token);
 const adminRole = "admin";
 const notifyChannelFile = path.resolve(__dirname, 'config/notifychannels.json');
 const botCommandsFile = path.resolve(__dirname, 'config/botCommands.json');
+const botPreference = path.resolve(__dirname, 'config/preference.json');
 const picturePath = path.resolve(__dirname, 'pictures');
 const soundsPath = path.resolve(__dirname, 'sounds');
 const bannedCommands = [
@@ -58,6 +59,11 @@ try{
 		console.log();	
 	}
 	
+	if(fs.existsSync(botPreference)){ 
+		var file = fs.readFileSync(botPreference);		
+		file = JSON.parse(file);
+		CMDINT = file.initcmd;
+	}	
 } catch(error){
 	if(error) {
 		console.log("------- ERROR --------");
