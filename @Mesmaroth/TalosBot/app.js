@@ -302,6 +302,34 @@ bot.on('message', message => {
 		return;
 	}
 
+	// Adds a role to the admin group list
+	if(isCommand(mContent, 'addadminrole') && isAdmin(message)){
+		if(mContent.indexOf(' ') !== -1){
+			var param = mContent.split(' ')[1].toLowerCase();
+
+			adminGroups.push(param);
+
+			fs.readFile(botPreference, (error, file) =>{
+				if(error) return sendError("Reading Preference File", error, mChannel);
+
+				try{
+					file = JSON.parse(file);
+				}catch(error){
+					if(error) return sendError("Parsing Preference File", error, mChannel);
+				}
+
+				file.adminGroups.push(param);
+
+				fs.writeFile(botPreference, JSON.stringify(file, null, '\t'), error =>{
+					if(error) return sendError("Writing Preference File", error, mChannel);
+
+					mChannel.send("Role `" + param + "` has been added to admin group list");
+				});
+			});
+		}
+		return;
+	}
+
 	// Sets the preferred channel for live streaming notifications
 	if(isCommand(mContent, 'setchannel') && isAdmin(message)){
 		if(mContent.indexOf(' ') !== -1){
