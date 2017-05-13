@@ -1583,3 +1583,148 @@ goto a
 312500702897504257	2017-05-13 06:29:17.079000	
 312500702897504257	2017-05-13 06:29:23.845000	
 312500702897504257	2017-05-13 06:29:24.327000	
+312500702897504257	2017-05-13 06:30:12.987000	
+239517706766909440	2017-05-13 06:30:31.225000	lulz
+239517706766909440	2017-05-13 06:30:43.689000	.help
+180571722586652672	2017-05-13 06:30:43.827000	**Bot Commands**
+
+**Admin Commands**
+`.setUsername [name]`: Sets the username of bot
+`.setAvatar [URL]`: Sets the avatar of the bot
+`.exit`: Disconnects the bot
+
+**General**
+`.about`: About this bot
+`.source`: Source link
+`.invite`: Get invite link to your bot
+`.setVC`: Set the defualt channel your bot joins when ever the bot connects
+`.join`: Bot will attempt to join your channel
+
+**Music**
+`.queue or playing`: To view all songs in queue
+`.play [YT_URL]`: Plays a song from a youtube link
+`.play [index_number]`: Plays a song from a file that has been saved to the bot
+`.play [search key term]`: Plays the first result of youtube search
+`.play`: Plays song in queue if it has been stopped
+`.stop`: Stops the song from playing
+`.skip`: To skip the currently playing song
+`.replay`: Stops and replays song from the start
+`.local`: Displays all the songs saved by the bot
+`.remove [index_number]`: Removes a specific song from queue
+`.save [YT_URL]`: Saves a song from youtube and stores it
+`.save`: Saves current song that's playing
+`.remlocal [index_number]`: Removes a song that has been saved locally
+`.readd`: Re-adds the currently playing song at the bottom of the queue
+`.playlist`: List all playlist
+`.playlist [index_number]`: List all songs of the playlist
+`.playlist save [PLAYLIST_NAME]`: Saves playlist
+`.playlist play [index_number]`: Loads the playlist in queue and plays if nothing is playing
+`.playlist remove [index_number]`: Removes the playlist
+239517706766909440	2017-05-13 06:30:48.848000	.local
+180571722586652672	2017-05-13 06:30:48.931000	**Local Songs**
+**1.** Chrono Trigger - Enhasa (Time Circuits)
+**2.** Dark Souls 3 Stress Test Menu Music
+**3.** I AM THE WALRUS
+**4.** Johann Sebastian Bach - Bouree In E Minor
+**5.** MACINTOSH PLUS - リサフランク420  現代のコンピュー
+**6.** Magazine
+**7.** Of Monsters And Men - Little Talks - Lyrics [My Head Is An Animal] HD
+**8.** Pin by Yeah Yeah Yeahs  Yeah Yeah Yeahs
+**9.** Plaid - Ralome
+**10.** Queens Of The Stone Age - Go With The Flow
+**11.** Sable - Surf
+**12.** San Holo - Fly
+**13.** Star Wars [Soundtrack] - Fan Score by Daniel Ciurlizza
+**14.** Super Mario Game Over Theme Chill Trap Remix
+**15.** Tame Impala - The Moment Music Video
+**16.** Two Steps From Hell - Skyworld
+**17.** a-ha - Take On Me _Official Video_
+311663764975910922	2017-05-13 06:30:50.188000	The hell is this big booty shit XD
+239517706766909440	2017-05-13 06:31:02.818000	.play 8
+180571722586652672	2017-05-13 06:31:03.044000	**Playing:** Pin by Yeah Yeah Yeahs  Yeah Yeah Yeahs
+239517706766909440	2017-05-13 06:31:36.240000	.play http://anonradio.net/archive/201705130000_amrowsell.mp3
+180571722586652672	2017-05-13 06:31:36.800000	**Youtube Search Error**
+```Cannot read property 'id' of undefined```
+134785279126011905	2017-05-13 06:31:39.097000	What uses .xml files? I have no idea what im doing lmao
+239517706766909440	2017-05-13 06:31:49.997000	it would be cool if you could pass it a link like that.
+239517706766909440	2017-05-13 06:31:52.193000	>play http://anonradio.net/archive/201705130000_amrowsell.mp3
+239517706766909440	2017-05-13 06:32:01.784000	>help
+312499153181868034	2017-05-13 06:32:01.922000	**Help**
+239517706766909440	2017-05-13 06:32:07.196000	>addsound http://anonradio.net/archive/201705130000_amrowsell.mp3
+312499153181868034	2017-05-13 06:32:07.426000	You need to attach a mp3 file.
+239517706766909440	2017-05-13 06:32:39.491000	gray, remember from earlier?
+239517706766909440	2017-05-13 06:32:48.317000	I made a stupid pull request to test and see ify ou could deny it
+239517706766909440	2017-05-13 06:32:53.157000	and you merged it XD
+312782036970635264	2017-05-13 06:32:53.940000	<@!102582760656338944> Swift came out in 2014 during apples annual WWDC conference.
+311663764975910922	2017-05-13 06:33:18.995000	Oooohhh...
+311663764975910922	2017-05-13 06:33:25.177000	I seem to remember something about that
+239517706766909440	2017-05-13 06:33:29.690000	lulzsec
+311663764975910922	2017-05-13 06:33:44.243000	>>rekt @me
+311663764975910922	2017-05-13 06:33:48.425000	>>rekt
+312450468678729739	2017-05-13 06:33:48.646000	@me
+311663764975910922	2017-05-13 06:33:55.597000	Da hell
+239517706766909440	2017-05-13 06:33:59.515000	you fucked it up!
+239517706766909440	2017-05-13 06:34:02.183000	>>fucked
+311663764975910922	2017-05-13 06:34:03.679000	Ah shit it added that to the file
+239517706766909440	2017-05-13 06:34:04.176000	>>it
+239517706766909440	2017-05-13 06:34:05.977000	>>up
+134785279126011905	2017-05-13 06:34:09.610000	>>help
+239517706766909440	2017-05-13 06:34:09.960000	>>rekt
+312450468678729739	2017-05-13 06:34:10.400000	https://www.tenor.co/view/rap-rapbattle-gif-5518154
+312450468678729739	2017-05-13 06:34:21.258000	https://www.tenor.co/view/obama-getrekt-rekt-get-gif-5262475
+134785279126011905	2017-05-13 06:34:20.747000	>>rekt
+134785279126011905	2017-05-13 06:34:26.898000	Shit man
+311663764975910922	2017-05-13 06:34:45.020000	What makes it even funnier, is not only did I fuck it up, but then I tried it and the random number generator landed on the fucked up line
+311663764975910922	2017-05-13 06:34:52.821000	Like hey, fuck you, and fuck you again
+311663764975910922	2017-05-13 06:34:56.797000	>>rekt
+312450468678729739	2017-05-13 06:34:57.038000	https://www.tenor.co/view/rap-rapbattle-gif-5518154
+239517706766909440	2017-05-13 06:35:07.657000	>>rekt
+312450468678729739	2017-05-13 06:35:07.734000	https://www.tenor.co/view/reaction-rekt-gif-7225045
+239517706766909440	2017-05-13 06:35:10.500000	>>rekt
+312450468678729739	2017-05-13 06:35:10.736000	https://www.tenor.co/view/rekt-anime-gif-5720919
+312450468678729739	2017-05-13 06:35:12.875000	https://www.tenor.co/view/rekt-gif-4842190
+239517706766909440	2017-05-13 06:35:12.619000	>>rekt
+134785279126011905	2017-05-13 06:35:13.487000	The bot is sentient
+312450468678729739	2017-05-13 06:35:16.491000	https://www.tenor.co/view/reaction-rekt-gif-7225045
+239517706766909440	2017-05-13 06:35:16.178000	>>rekt
+239517706766909440	2017-05-13 06:35:18.627000	>>rekt
+312450468678729739	2017-05-13 06:35:18.805000	https://www.tenor.co/view/rekt-gif-4842190
+239517706766909440	2017-05-13 06:35:21.687000	did you fix it?
+239517706766909440	2017-05-13 06:35:23.113000	>>rekt
+312450468678729739	2017-05-13 06:35:23.298000	https://www.tenor.co/view/obama-getrekt-rekt-get-gif-5262475
+239517706766909440	2017-05-13 06:35:24.945000	>>rekt
+312450468678729739	2017-05-13 06:35:25.085000	https://www.tenor.co/view/rekt-anime-mayo-chiki-gif-4524940
+312450468678729739	2017-05-13 06:35:27.294000	https://www.tenor.co/view/getrekt-shotsfired-sass-stephenhawking-hawking-gif-5271851
+239517706766909440	2017-05-13 06:35:26.973000	>>rekt
+134785279126011905	2017-05-13 06:35:36.453000	RIP
+311663764975910922	2017-05-13 06:35:39.198000	Feel free to add to that btw, just find a good reaction gif for someone getting rekt and do >>rekt <<URL>>
+134785279126011905	2017-05-13 06:37:10.986000	>>rekt http://gph.is/1EfPmWh
+134785279126011905	2017-05-13 06:37:24.414000	>>rekt
+312450468678729739	2017-05-13 06:37:24.626000	https://www.tenor.co/view/rekt-anime-gif-5720919
+134785279126011905	2017-05-13 06:37:33.807000	Okay i didnt break it good
+311663764975910922	2017-05-13 06:37:46.197000	Nah it's too simple to break if you're not an idiot
+239517706766909440	2017-05-13 06:38:13.729000	.play alexisonfire - no transitory
+134785279126011905	2017-05-13 06:38:14.631000	```"if you're not an idiot"```
+180571722586652672	2017-05-13 06:38:15.259000	**Playing:** ALEXISONFIRE: No Transitory
+239517706766909440	2017-05-13 06:38:23.029000	.save
+180571722586652672	2017-05-13 06:38:23.195000	**Saved:** *ALEXISONFIRE No Transitory*
+311663764975910922	2017-05-13 06:39:33.687000	>>rekt https://www.tenor.co/view/dbz-goku-gohan-rekt-gif-6207707
+239517706766909440	2017-05-13 06:40:24.376000	```int main(void) {
+     char msg[] = "rekt\0";
+     char *c = &msg[0];
+     while(*c != 0) {
+          putc(*c, stdout);
+     }
+     return 0;
+}````
+311663764975910922	2017-05-13 06:40:43.846000	>>rekt https://www.tenor.co/view/lostpause-lost-pause-noble-youtube-gif-4958054
+311663764975910922	2017-05-13 06:40:51.465000	Man you worked way too hard on that one
+239517706766909440	2017-05-13 06:40:56.563000	😃
+239517706766909440	2017-05-13 06:41:14.256000	I'd love to create a bot that can dynamically run code we enter and show the result
+134785279126011905	2017-05-13 06:41:24.173000	I do not understand anything of that jeezum
+134785279126011905	2017-05-13 06:41:28.983000	>>rekt http://i.imgur.com/0SXLBSV.gifv
+311663764975910922	2017-05-13 06:41:44.872000	Lol it won't be my bot, that's just asking for someone to get my bot to generate a shell that connects back to them
+311663764975910922	2017-05-13 06:42:04.931000	That one's good
+102582760656338944	2017-05-13 06:44:00.102000	<@239517706766909440> I can possibly do that where it downloads the file
+311663764975910922	2017-05-13 06:44:00.714000	Alright gents, I'm heading to bed. It's late/early where I am
+134785279126011905	2017-05-13 06:44:10.087000	Night dude

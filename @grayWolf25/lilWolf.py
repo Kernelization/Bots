@@ -136,7 +136,6 @@ async def on_message(message):
 
             rektArr = []
             for line in rektLines:
-                print("TEST\n")
                 rektArr.append(line)
             rektRand = random.randint(0,len(rektArr)-1)
             await client.send_message(message.channel, rektArr[rektRand])
