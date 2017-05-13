@@ -1344,3 +1344,242 @@ Audiomachine Breath and Life (Extended Version)
 239517706766909440	2017-05-13 04:31:58.877000	<@196845683280445441> I've registered kernelization.xyz ... we can get the .net or .org when I get my next paycheque
 312500702897504257	2017-05-13 04:32:08.068000	
 239517706766909440	2017-05-13 04:32:21.977000	or if someone wants to donate it 😃 if someone DOES register it, let me know so we can get it transferred to the right account
+311663764975910922	2017-05-13 05:35:14.385000	>>rekt
+312450468678729739	2017-05-13 05:35:14.552000	https://www.tenor.co/view/rap-rapbattle-gif-5518154
+272555333472354316	2017-05-13 05:36:09.168000	damn I really need to read alot more about asyncio before starting
+311663764975910922	2017-05-13 05:36:22.226000	Nah you don't need to know much of anything there
+311663764975910922	2017-05-13 05:36:42.004000	Just base everything out of your ```on_message(message)```function
+102582760656338944	2017-05-13 05:37:46.677000	<@!272555333472354316> Look at <@311663764975910922> 's bot for some examples too. On the same repo
+311663764975910922	2017-05-13 05:38:16.745000	D...Did senpai just say my bot could be used as an example????
+311663764975910922	2017-05-13 05:38:21.496000	SENPUUUUUU
+272555333472354316	2017-05-13 05:38:25.247000	like even looking at
+272555333472354316	2017-05-13 05:38:26.323000	import discord
+import asyncio
+client = discord.Client()
+@asyncio.coroutine
+def main_task():
+yield from client.login('token')
+yield from client.connect()
+loop = asyncio.get_event_loop()
+try:
+loop.run_until_complete(main_task())
+except:
+loop.run_until_complete(clie
+311663764975910922	2017-05-13 05:38:42.981000	Yeah no don't worry about that
+272555333472354316	2017-05-13 05:38:48.322000	I still can't comprehend why yield is used there.... and the whole loop.run.... shit
+311663764975910922	2017-05-13 05:38:48.895000	That looks gross
+272555333472354316	2017-05-13 05:39:03.281000	well, the indentation is screqwed because of discord
+102582760656338944	2017-05-13 05:39:26.205000	Wrap it in some ` ```python [code] ``` `
+272555333472354316	2017-05-13 05:39:41.065000	oh lol my bad
+272555333472354316	2017-05-13 05:39:46.493000	''' import discord
+import asyncio
+client = discord.Client()
+@asyncio.coroutine
+def main_task():
+yield from client.login('token')
+yield from client.connect()
+loop = asyncio.get_event_loop()
+try:
+loop.run_until_complete(main_task())
+except:
+loop.run_until_complete(clie '''
+102582760656338944	2017-05-13 05:39:58.110000	back tick where `~` is at
+272555333472354316	2017-05-13 05:40:09.967000	``` import discord
+import asyncio
+client = discord.Client()
+@asyncio.coroutine
+def main_task():
+yield from client.login('token')
+yield from client.connect()
+loop = asyncio.get_event_loop()
+try:
+loop.run_until_complete(main_task())
+except:
+loop.run_until_complete(clie ```
+272555333472354316	2017-05-13 05:40:11.255000	ic
+102582760656338944	2017-05-13 05:40:37.595000	I...I never mind. I'll be on later and maybe spy on the server via mobile once in a while
+311663764975910922	2017-05-13 05:41:31.945000	just focus on 
+```@client.event
+async def on_message(message):
+   if(message == "!test"):
+      await client.send_message(channel, 'TEST')
+   if(message == "!test2"):
+      await client.send_message(channel, test2())
+   ....
+```
+311663764975910922	2017-05-13 05:41:42.353000	That's the main body of the whole bot
+272555333472354316	2017-05-13 05:41:45.920000	Can I expect to find asyncio confusing as a semi-beginner? Not a complete noob, but not advanced
+102582760656338944	2017-05-13 05:42:22.175000	You''ll learn asyncio as you go along. Do what <@311663764975910922> is saying
+272555333472354316	2017-05-13 05:42:29.428000	alright
+272555333472354316	2017-05-13 05:42:59.021000	omg tired. going to sleep. night all. & thanks for the help!
+102582760656338944	2017-05-13 05:43:14.761000	It doesnt hurt to copy someone else's code and run it on your computer as well. That way you can break down everyting that happens in that code.
+102582760656338944	2017-05-13 05:43:26.690000	Try to understand what everthing is doing
+311663764975910922	2017-05-13 05:43:32.606000	Goodnight <@!272555333472354316>
+311663764975910922	2017-05-13 05:43:40.210000	>>howl
+312450468678729739	2017-05-13 05:43:40.399000	<@311663764975910922> AWOOOOOO
+272555333472354316	2017-05-13 05:43:44.080000	loggin now. later i guess xD
+311663764975910922	2017-05-13 05:43:53.466000	lilWolf says goodnight as well
+272555333472354316	2017-05-13 05:43:58.359000	lmaoooo
+102582760656338944	2017-05-13 05:44:37.656000	I should actually add that command huh? How often does someone say goodnight when theyn't going to bed?
+102582760656338944	2017-05-13 05:45:12.436000	wait nevermind, just thought of the possiblity of everyone saying goodnight the bot will spam it
+102582760656338944	2017-05-13 05:45:13.850000	hahah
+102582760656338944	2017-05-13 05:45:30.298000	>addcmd goodnight Goodnight 👋
+312499153181868034	2017-05-13 05:45:30.396000	Command `goodnight` added
+102582760656338944	2017-05-13 05:45:33.949000	GOODNIGHT
+312499153181868034	2017-05-13 05:45:34.086000	Goodnight 👋
+102582760656338944	2017-05-13 05:45:50.125000	ah fuck it
+102582760656338944	2017-05-13 05:45:53.639000	>delcmd goodnight
+312499153181868034	2017-05-13 05:45:53.711000	Command `goodnight` removed
+311663764975910922	2017-05-13 05:46:32.404000	What would be even worse is if you accidentally set it to send a goodnight message, containing goodnight, every time it read the word goodnight
+311663764975910922	2017-05-13 05:46:32.636000	Infinite loop mayhem
+102582760656338944	2017-05-13 05:47:27.630000	Ah, I had that before
+102582760656338944	2017-05-13 05:48:08.862000	Bot reading his own message containg a command, and the command is excuted
+102582760656338944	2017-05-13 05:48:15.652000	Bot reading his own message containg a command, and the command is excuted
+102582760656338944	2017-05-13 05:48:16.910000	Bot reading his own message containg a command, and the command is excuted
+102582760656338944	2017-05-13 05:48:19.176000	hahahah
+102582760656338944	2017-05-13 05:48:20.711000	Yeah
+102582760656338944	2017-05-13 05:48:38.316000	That's why I always set the bot to not read his own or any bot's message
+311663764975910922	2017-05-13 05:49:15.897000	We should get two bots having a convo though
+102582760656338944	2017-05-13 05:49:22.272000	```js
+if(mMember){
+    if(mMember.user.bot) return;
+}
+```
+102582760656338944	2017-05-13 05:51:14.795000	I mean, we can just implement that one api. Forgot what it was called. But it's semi-ai
+102582760656338944	2017-05-13 05:51:20.433000	Damn, I can't remember the name
+311663764975910922	2017-05-13 05:51:29.673000	cleverbot?
+102582760656338944	2017-05-13 05:52:41.057000	Yeah!
+102582760656338944	2017-05-13 05:52:41.987000	hahaha
+102582760656338944	2017-05-13 05:52:46.058000	that one
+102582760656338944	2017-05-13 05:52:57.942000	https://www.cleverbot.com/api/
+311663764975910922	2017-05-13 05:52:58.186000	That api is freaking brilliant too
+102582760656338944	2017-05-13 05:53:27.085000	I'll have to add that to my todo list but not until I finish with everthing else
+311663764975910922	2017-05-13 05:53:49.293000	What all do you have planned?
+312500702897504257	2017-05-13 05:55:03.307000	
+102582760656338944	2017-05-13 05:55:30.950000	all that <@311663764975910922> https://github.com/Kernelization/Bots/commit/87f315176c9249945e2aa5cf2f300c9866549b50
+311892632282333184	2017-05-13 05:55:34.414000	omg lmao
+311892632282333184	2017-05-13 05:55:35.088000	https://www.facebook.com/gaillardremi/videos/10154701078448525/
+311663764975910922	2017-05-13 05:56:11.395000	Just read it over
+311663764975910922	2017-05-13 05:56:19.036000	That XP system will be dope
+102582760656338944	2017-05-13 05:57:17.202000	Yeah, you helped someone out. All I have to do to give you karma/xp/points/whatever is emoji you
+102582760656338944	2017-05-13 05:57:46.329000	So each person is 1 point per emoji
+102582760656338944	2017-05-13 05:58:03.634000	So you would gain 1 point or something like that
+102582760656338944	2017-05-13 05:58:17.324000	Idk, just what I have so far. Still looking for better suggestions
+311663764975910922	2017-05-13 05:58:53.452000	So yeah you could have some emojis designated as negative, like 👎 etc.
+311663764975910922	2017-05-13 05:58:59.928000	Those would give 0 xp
+102582760656338944	2017-05-13 05:59:05.451000	HAHAHA
+311663764975910922	2017-05-13 05:59:32.523000	But the positive ones given by other members (so you can't just react to your own message to give yourself XP) will give you, say, 1 each.
+311663764975910922	2017-05-13 05:59:44.353000	Then if you level up, you get put into a different role.
+102582760656338944	2017-05-13 05:59:44.898000	Yeah
+311663764975910922	2017-05-13 06:00:19.251000	We could see if we can do github based XP rewards too, like, if you push a certain amount of code you get a certain amount of XP
+102582760656338944	2017-05-13 06:01:16.481000	I still need to mess with the github api as well. Haven't got time. Maybe summer I'll be more focused and determined
+102582760656338944	2017-05-13 06:01:28.048000	Which is like 2 months from now or 1
+102582760656338944	2017-05-13 06:01:57.014000	I do plan on learning python. That way if we collaborate on a bot, I know what you're talking about
+311663764975910922	2017-05-13 06:04:26.242000	Haha yeah I think both have their strong points
+311663764975910922	2017-05-13 06:05:11.448000	It's annoying as all hell to have to keep restarting the bot every time I change the code
+102582760656338944	2017-05-13 06:06:33.808000	<@311663764975910922> Try using PM2 like what I use
+102582760656338944	2017-05-13 06:06:35.693000	https://www.npmjs.com/package/pm2
+102582760656338944	2017-05-13 06:06:53.873000	You can starup python apps
+102582760656338944	2017-05-13 06:07:04.761000	```
+  # Start, Daemonize and auto-restart application (Python)```
+102582760656338944	2017-05-13 06:07:32.464000	`start lilWolf.py`
+102582760656338944	2017-05-13 06:09:08.716000	Either that or find a dedicated python process manager that restarts the bot when ever it disconnects
+102582760656338944	2017-05-13 06:09:31.716000	That way, when you run the bot. and enter a exit command the porcess manager can restart it
+102582760656338944	2017-05-13 06:09:57.897000	Either that or if you're on windows. Make a bash script to start the bot again when it process exits
+102582760656338944	2017-05-13 06:11:26.727000	I think tis will work
+```bash
+@echo off
+:a
+[Your COMMAND]
+timeout 2
+goto a
+```
+134785279126011905	2017-05-13 06:12:10.792000	I love .bat files
+102582760656338944	2017-05-13 06:13:03.984000	Only if I need it, I'll use it haha
+134785279126011905	2017-05-13 06:13:10.709000	Anyways i was wondering, simce im planning on developing a bot but i cannot host it, if there is someone who has been planning to host some bots or if there are services i could use?
+311663764975910922	2017-05-13 06:13:35.948000	What do you mean by host a bot?
+102582760656338944	2017-05-13 06:13:53.128000	I pay around $4-$5 at https://www.digitalocean.com/
+134785279126011905	2017-05-13 06:14:11.577000	From what i understand you need to have someone running the program at all times for a bot to work
+102582760656338944	2017-05-13 06:14:23.988000	No, you can host it yourself.
+102582760656338944	2017-05-13 06:14:28.854000	If you wanted to
+102582760656338944	2017-05-13 06:14:46.823000	But I have my bots running 24/7 because people use it in other servers.
+311663764975910922	2017-05-13 06:15:02.608000	Oh! Yeah, but you can host it yourself. Either set it to run in the background with minimal overhead, or set up a VirtualBox with them running
+102582760656338944	2017-05-13 06:15:19.679000	That's why I have it, but if you don't plan on having it usable to the public yet then host it when ever you are working on it
+134785279126011905	2017-05-13 06:15:45.992000	Oh, I just remembered i have an extra computer or two i might be able to run some on, would that work? Its not very beefy and is from 2011 lmao
+102582760656338944	2017-05-13 06:15:56.835000	Yeah it would
+311663764975910922	2017-05-13 06:15:58.804000	Should be fine
+102582760656338944	2017-05-13 06:16:50.169000	Depends though how many users are using it. 5k users doesnt sound exciting for the rPi 😛
+134785279126011905	2017-05-13 06:16:59.828000	Neato, then 3gb 2.13 Ghz (give or take some cause i haven't used that in years) it should be fine
+102582760656338944	2017-05-13 06:17:29.705000	You're fine. Okay now I'm really out. Peace
+311663764975910922	2017-05-13 06:17:40.420000	Haha I just checked out my SysMonitor. My bot only causes a ~5% spike in CPU usage
+311663764975910922	2017-05-13 06:17:45.582000	<@!134785279126011905>
+134785279126011905	2017-05-13 06:17:45.592000	Seeya dude
+312450468678729739	2017-05-13 06:18:00.419000	<@311663764975910922> AWOOOOOO
+311663764975910922	2017-05-13 06:18:00.250000	>>howl
+239517706766909440	2017-05-13 06:18:17.354000	<@!102582760656338944> role restored 😃
+134785279126011905	2017-05-13 06:18:56.178000	My Laptop has a static like 20-70% cpu usage for some reason       ~~but pirated some games so i shouldnt be surprised~~
+311663764975910922	2017-05-13 06:19:05.542000	HA
+311663764975910922	2017-05-13 06:19:08.355000	>>rekt
+312450468678729739	2017-05-13 06:19:08.537000	https://www.tenor.co/view/rekt-anime-mayo-chiki-gif-4524940
+311663764975910922	2017-05-13 06:19:20.295000	^ to your laptop
+134785279126011905	2017-05-13 06:19:24.701000	Wow already being implimented into everyday use
+311663764975910922	2017-05-13 06:19:48.984000	Haha I've been trying to ironically use my bot and find more ways it can be useful.
+144441686418784256	2017-05-13 06:19:51.416000	Attacking hospitals
+144441686418784256	2017-05-13 06:19:58.731000	Is not cool. Period.
+311663764975910922	2017-05-13 06:20:03.484000	Mesmaroth's bot controls music and all that.
+311663764975910922	2017-05-13 06:20:11.354000	^
+134785279126011905	2017-05-13 06:20:43.098000	Btw whoever adds people to the GitHub my Git handle is IronicallyGold
+239517706766909440	2017-05-13 06:21:39.018000	.play tame impala - the moment
+180571722586652672	2017-05-13 06:21:40.382000	**Playing:** Tame Impala - The Moment (Music Video)
+144441686418784256	2017-05-13 06:21:41.460000	What if someones life was on the line and the systems went offline?
+239517706766909440	2017-05-13 06:21:42.144000	.save
+180571722586652672	2017-05-13 06:21:42.263000	**Saved:** *Tame Impala - The Moment Music Video*
+144441686418784256	2017-05-13 06:22:02.394000	I can already imagine some stupid skid thinking he is l33t by hacking a hospital
+239517706766909440	2017-05-13 06:22:03.688000	That's me
+239517706766909440	2017-05-13 06:22:07.173000	I'll add you now
+144441686418784256	2017-05-13 06:22:10.015000	Not knowing how it might affect people
+134785279126011905	2017-05-13 06:22:23.287000	Gracias
+311663764975910922	2017-05-13 06:22:26.339000	And I'll add him to the bot team
+239517706766909440	2017-05-13 06:22:33.193000	I can do that with the invite 😃
+311663764975910922	2017-05-13 06:22:41.226000	Even better!
+239517706766909440	2017-05-13 06:22:45.339000	invite sent
+239517706766909440	2017-05-13 06:22:58.402000	check your email, or go to http://github.com/Kernelization to accept
+311663764975910922	2017-05-13 06:23:12.021000	The unfortunate part is, I doubt this was some 1337 kid. It was a much more malicious group
+239517706766909440	2017-05-13 06:23:31.954000	I'm not sure it was intentional
+239517706766909440	2017-05-13 06:23:44.781000	When you release a worm, it attacks *any* vulnerable computer
+144441686418784256	2017-05-13 06:24:03.117000	Yee, it was just using the SMB exploit
+239517706766909440	2017-05-13 06:24:03.826000	What's **truly** fucked up here is that a hosptial A) was using vulnerable PCs and B) didn't have backups
+239517706766909440	2017-05-13 06:24:18.359000	if they had backups, they could have just said "fuck you ransomware" and done a restore
+239517706766909440	2017-05-13 06:24:21.497000	presto, problem solves
+239517706766909440	2017-05-13 06:24:24.948000	solved*
+144441686418784256	2017-05-13 06:24:26.120000	Yeah who doesnt patch their systems for 2 months?
+239517706766909440	2017-05-13 06:24:33.276000	a LOT of people
+134785279126011905	2017-05-13 06:24:48.451000	to quote every hacker ever
+239517706766909440	2017-05-13 06:25:00.443000	hence why these things happen
+239517706766909440	2017-05-13 06:25:05.028000	I really think Mesmaroth would make a good mod.
+134785279126011905	2017-05-13 06:25:09.306000	*"I'm in"*
+239517706766909440	2017-05-13 06:25:12.071000	anyone have input?
+144441686418784256	2017-05-13 06:25:15.661000	Sadly, human laziness will always play a huge role in hacking
+311663764975910922	2017-05-13 06:25:36.991000	That's it
+311663764975910922	2017-05-13 06:25:45.342000	I'm adding a corny hacker gif command
+144441686418784256	2017-05-13 06:25:48.576000	Even after multiple years, I still see organizations using windows XP and unpatched against MS08-064
+239517706766909440	2017-05-13 06:25:54.685000	strangely, he shouldn't even have access in here as far as I can tell
+311663764975910922	2017-05-13 06:26:24.516000	I tend to agree, he's pretty levelheaded and knows his shit
+134785279126011905	2017-05-13 06:26:46.009000	Just get a database of hacker stock images and have a >>breach command, it'll post a photo and say im in
+134785279126011905	2017-05-13 06:26:51.145000	10/10 bot right there
+239517706766909440	2017-05-13 06:27:20.440000	Alright, that makes 2
+239517706766909440	2017-05-13 06:27:27.592000	I'll bring it up with <@196845683280445441>
+311663764975910922	2017-05-13 06:27:30.198000	Hahaha that's basically what >>rekt does
+134785279126011905	2017-05-13 06:27:49.063000	nice dude 11/3
+239517706766909440	2017-05-13 06:27:55.397000	yeah, exactly
+239517706766909440	2017-05-13 06:28:00.063000	just using XP at all is silly
+239517706766909440	2017-05-13 06:28:08.516000	they're not even doing security updates anymore.
+311663764975910922	2017-05-13 06:28:12.426000	you can add image urls to it, it spits the url out into a text file, and when you just type >>rekt it generates a random number and picks from the links
+239517706766909440	2017-05-13 06:28:15.207000	only super urgent stuff.
+239517706766909440	2017-05-13 06:28:27.595000	11/10 would bot again
+134785279126011905	2017-05-13 06:29:10.557000	If you make a bot to generate goals for you is it *techinically* an **aim-bot**?
+312500702897504257	2017-05-13 06:29:11.883000	
+312500702897504257	2017-05-13 06:29:11.934000	
+312500702897504257	2017-05-13 06:29:17.079000	
+312500702897504257	2017-05-13 06:29:23.845000	
+312500702897504257	2017-05-13 06:29:24.327000	
