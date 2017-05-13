@@ -7,3 +7,9 @@ This bot is a branched version of AkephalosBot dedicated and improved by Kerneli
 https://github.com/Mesmaroth/discord-AkephalosBot
 
 Run 'npm install' in this directory to download modules needed to run this bot
+
+
+
+TODO:
+	- editcmd: Edit a command to be able to change the command or it's contents
+	- editsound: Renameing a sound file to something else

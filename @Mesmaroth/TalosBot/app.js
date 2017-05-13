@@ -58,7 +58,7 @@ try{
 		console.log("COMMANDS FILE CREATED AT: " + botCommandsFile);
 		console.log();	
 	}
-	
+
 	if(fs.existsSync(botPreference)){ 
 		var file = fs.readFileSync(botPreference);		
 		file = JSON.parse(file);
@@ -72,7 +72,7 @@ try{
 	}
 }
 
-var defaultStatus = "v"+botVersion + " | " + CMDINT + "help";
+var defaultStatus = "v" + botVersion + " | " + CMDINT + "help";
 
 // Checks if the message is a command input from the user
 function isCommand(message, command){
