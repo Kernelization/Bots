@@ -1,6 +1,6 @@
 # used for the help command
-USAGE = "ping"
-DESCRIPTION = "because it'd be stupid not to have it"
+USAGE = "lmao"
+DESCRIPTION = "lol"
 
 # the lol message
 LOL = ":regional_indicator_l: :regional_indicator_m: :regional_indicator_a: :regional_indicator_o: :joy: :joy:"
