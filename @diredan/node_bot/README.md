@@ -1,7 +1,7 @@
 ## Installation
 
-1) `git clone https://github.com/DireDan/DiscordJS_Bot.git`
-2) `cd DiscordJS_Bot`
+1) `git clone https://github.com/Kernelization/Bots.git`
+2) `cd Bots/@diredan/node_bot`
 3) `npm install`
 4) `node index.js`
 5) follow instructions in terminal
