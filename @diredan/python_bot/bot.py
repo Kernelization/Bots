@@ -31,6 +31,7 @@ async def on_message(message):
             await importlib.import_module("commands." + command).run(message, client, arguments)
         except ImportError:
             await client.send_message(message.channel, "```That isn't a command!```")
-
+        except discord.Forbidden:
+            print("[Error] Forbidden error!")
 # logging into our bot
 client.run(config["Auth"]["token"])
