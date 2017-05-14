@@ -12,7 +12,7 @@
 ## Adding a command
 1. make a new python file in commands with the name you want it to be triggered with
 2. 
-`
+``
 # used for the help command
 USAGE = ""
 DESCRIPTION = ""
@@ -24,5 +24,5 @@ async def run(message, client, args):
 # function called by help to retrieve info about the command
 async def get_help():
     return USAGE, DESCRIPTION
-`
+``
 3. restart the bot
