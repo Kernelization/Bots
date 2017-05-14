@@ -3,7 +3,7 @@
 2. `git clone https://github.com/Kernelization/Bots.git`
 3. `cd Bots/@diredan/python_bot`
 4. modify config.ini to have your bot token, prefix, and your user id
-5. python3.5 bot.py
+5. `python3.5 bot.py`
 6. success?
 
 ## Credits
