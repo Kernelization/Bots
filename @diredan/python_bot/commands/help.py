@@ -3,7 +3,12 @@
 from os import listdir
 from os.path import isfile, join
 import importlib
-
+import configparser
+# creating our config file stuffs
+config = configparser.ConfigParser()
+config.read('config.ini')
+# setting our globals from config file
+PREFIX = config["Settings"]["prefix"]
 # used for the help command
 USAGE = "help <command>"
 DESCRIPTION = "getting help"
@@ -21,7 +26,7 @@ async def run(message, client, args):
         elif len(args) > 0:
             if args[0] == command.replace(".py", ""):
                 help_info = await importlib.import_module("commands." + command.replace(".py", "")).get_help()
-                help_message += command.replace(".py", " -> " + help_info[1] + " -> <prefix>" + help_info[0] + "\n")
+                help_message += command.replace(".py", " -> " + help_info[1] + " -> " + PREFIX + help_info[0] + "\n")
     # finish making the message
     help_message += "```"
     # if the help message isn't just what it would be if it never added any help text ( i can't word )
