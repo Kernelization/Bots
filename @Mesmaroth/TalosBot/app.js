@@ -449,12 +449,6 @@ bot.on('message', message => {
 				if(param > 100)
 					param = 100;
 
-				// Incase the user decides to delete just one message.
-				// It will delete the message that called this and their 1 message
-				if(param === 1){
-					param = 2;
-				}
-
 				mChannel.fetchMessages({limit: param})
 				 .then( messages =>{
 				 	if(messages.length > 2){
@@ -482,37 +476,53 @@ bot.on('message', message => {
 					return;
 				}
 
-				param2+=1;				
+				/*	Add one if the user is purging himself to include the
+				 	the command that initialized it
+				*/
+				if(param === mMember.user.username.toLowerCase()){
+					param2+=1;	
+				}
 
 				if(param2 > 100)
 					param2 = 100;
 
-				if(param2 === 1){
-					param2 = 2;
-				}
-				
-				mChannel.fetchMessages({limit: param2})
+				mChannel.fetchMessages({limit: 100})
 				 .then( messages =>{
-				 	messages = messages.filter( message =>{
-				 		return message.author.username.toLowerCase() === param
-				 	});
+				 	messages = messages.array();
+				 	var userMessages = [];
+
+
+				 	for(var i = 0; i < messages.length; i++){
+				 		if(messages[i].author.username.toLowerCase() === param){
+				 			userMessages.push(messages[i]);
+				 		}
+				 	}
 				 	
-				 	if(!messages.size){
+				 	if(userMessages.length === 0){
 				 		mChannel.send("No messages found to delete").catch(error =>{
 				  		 	if(error) sentMessageError(error, mChannel);
 				  		});
 				 		return;
 				 	}
 
-				 	if(param2 > 2){
-				 		mChannel.bulkDelete(messages)
+				 	/*	Get's a certain amount messages based on if the user
+				 		entered a specific amount of messages to purge.
+						Otherwise it will count to max. Max = 100						
+				 	*/
+				 	var bulk = [];
+			 		for(var i = 0; i < userMessages.length && i !== param2; i++){
+		 				bulk.push(userMessages[i]);			 			
+			 		}
+
+			 		//	Based on the size use different methods for deletion
+				 	if(bulk.length > 2){
+				 		mChannel.bulkDelete(bulk)
 				 	 	.catch(error=>{
 				 	 		if(error) return sendError('Deleting Messages', error, mChannel);
 				 		});
-				 	 } else{
-				 	 	messages = messages.array();
-				 	 	for(var i = 0; i < messages.length; i++){
-				 			messages[i].delete()
+				 	 } else if(bulk.length <= 2){
+				 	 	for(var i = 0; i < bulk.length; i++){
+				 			bulk[i].delete()
 				 			 .catch(error =>{
 				 			 	if(error) return sendError('Deleting Message', error, mChannel);
 				 			 });
