@@ -211,8 +211,8 @@ bot.on('presenceUpdate', (oldGuildMember, newGuildMember) =>{
 				var user = newGuildMember.presence.game.url.slice(newGuildMember.presence.game.url.indexOf('/', newGuildMember.presence.game.url.indexOf('www.twitch.tv')) + 1);
 
 				liveStream.getTwitchStream(user, (error, status, gameTitle, streamURL, thumbnailURL) =>{
-					if(gameTitle === '' || gameTitle === null){
-						gameTitle = "None"
+					if(gameTitle === '' || gameTitle === 'undefined'){
+						gameTitle = "N/A";
 					}
 					
 					textChannel.send("**LIVE**", {
