@@ -1064,6 +1064,37 @@ bot.on('message', message => {
   		return;
   	}
 
+  	// Renaming sounds from the existing list of sounds
+  	if(isCommand(mContent, 'editsound') && isAdmin(message)){
+  		if(mContent.indexOf(' ') !== -1){
+  			var param = mContent.split(' ')[1].toLowerCase();
+  			var param2 = (mContent.split(' ')[2]) ? mContent.split(' ')[2].toLowerCase() : null;
+
+  			if(!param2){
+  				mChannel.send("Missing new filename parameter");
+  				return;
+  			}
+
+  			fs.readdir(soundsPath, (error, files)=>{
+  				if(error) return sendError("Reading Sounds Path Directory", error, mChannel);
+
+  				for(var i = 0; i < files.length; i++){
+  					var fileName = files[i].split('.')[0];
+
+  					if(fileName === param){
+  						fs.rename(path.join(soundsPath, '/' + files[i]), path.join(soundsPath, '/' + param2 + '.mp3'), error =>{
+  							if(error) return sendError("Renaming File", error, mChannel);
+
+  							mChannel.send("Sound `" + fileName + "` renamed to `" + param2 + "`");
+  						});
+  						return;
+  					}
+  				}
+  			});
+  		}
+  		return;
+  	}
+
   	if(isCommand(mContent, 'addsound') && isAdmin(message)){
   		var file = message.attachments.first();
 		if(file){
