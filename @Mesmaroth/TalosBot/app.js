@@ -160,13 +160,38 @@ function sentMessageError(error, mChannel){
 	var guild = mChannel.guild;
 	var channel = getChannelByName(guild, "general");
 	sendError("Sending message", error, channel);
-}	
+}
+
+function getDateTime() {
+
+    var date = new Date();
+
+    var hour = date.getHours();
+    hour = (hour < 10 ? "0" : "") + hour;
+
+    var min  = date.getMinutes();
+    min = (min < 10 ? "0" : "") + min;
+
+    var sec  = date.getSeconds();
+    sec = (sec < 10 ? "0" : "") + sec;
+
+    var year = date.getFullYear();
+
+    var month = date.getMonth() + 1;
+    month = (month < 10 ? "0" : "") + month;
+
+    var day  = date.getDate();
+    day = (day < 10 ? "0" : "") + day;
+
+
+    return month + "/" + day + "/" + year + "," + hour + ":" + min + ":" + sec;
+}
 
 bot.on('ready', () => {
 	console.log("TalosBot v" + botVersion);
 	console.log(bot.user.username + " - (" + bot.user.id + ")");
 	bot.generateInvite().then( link =>{
-		console.log("\nInvite: " + link);
+		console.log("\nINVITE: " + link);
 	});
 	console.log();
 	displayServers();
