@@ -1,17 +1,18 @@
 // Dedicated to Kernelization
 const Discord = require('discord.js');
-const botLogin = require('./config/botlogin.js');
-const liveStream = require('./modules/livestream.js');
 const fs = require('fs');
 const path = require('path');
 const request = require('request');
+const botLogin = require(path.resolve(__dirname, 'config/botlogin.js'));
+const liveStream = require(path.resolve(__dirname, 'modules/livestream.js'));
 const bot = new Discord.Client();
 bot.login(botLogin.token);
 
 
 const notifyChannelFile = path.resolve(__dirname, 'config/notifychannels.json');
 const botCommandsFile = path.resolve(__dirname, 'config/botCommands.json');
-const botPreference = path.resolve(__dirname, 'config/preference.json');
+const botPreferenceFile = path.resolve(__dirname, 'config/preference.json');
+const logsPath = path.resolve(__dirname, 'logs');
 const picturePath = path.resolve(__dirname, 'pictures');
 const soundsPath = path.resolve(__dirname, 'sounds');
 const bannedCommands = [
@@ -20,10 +21,11 @@ const bannedCommands = [
 	'setchannel', 'notify',
 	'purge', 'delcmd',
 	'addcmd', 'help',
+	'report', 'setinit',
 	'about', 'source',
 	'invite', 'uptime',
 	'twitch', 'commands',
-	'sounds', 'setadminrole', 'setinit'];
+	'sounds', 'setadminrole'];
 
 var adminGroups = ["admin"];
 var notifyChannel = {}
@@ -725,7 +727,7 @@ bot.on('message', message => {
   	if(isCommand(mContent, 'help')){
   		var generalCommands = [
   			'about', 'help',
-  			'commands',
+  			'commands', 'report',
   			'invite', 'uptime',
   			'source', 'twitch'];
 
@@ -739,13 +741,11 @@ bot.on('message', message => {
 
   		var customCommands = [
   			'cmd', 'addcmd*',
-  			'editcmd*', 'delcmd*'
-  		]
+  			'editcmd*', 'delcmd*'];
 
   		var sounds = [
   			'sounds', 'addsound*',
-  			'delsound*', 'editsound*'
-  		]
+  			'delsound*', 'editsound*'];
 
   		function reList(command){
   			for(var i = 0; i < command.length; i++){
@@ -861,6 +861,41 @@ bot.on('message', message => {
   		mChannel.send("**Uptime:** " + uptimeHours + " hour(s) : " + uptimeMinutes + " minute(s) : " + uptimeSeconds +" second(s)").catch(error =>{
   		 	if(error) sentMessageError(error, mChannel);
   		});;
+  		return;
+  	}
+
+  	
+  	if(isCommand(mContent, 'report')){
+  		if(mContent.indexOf(' ') !== -1){
+  			var user = mMember.user.username;
+  			var msg = mContent.split(' ');
+  			var report;
+  			var reportFile = path.join(logsPath, mGuild.name + '_reports.txt');
+
+  			msg.splice(0,1);
+  			msg = msg.join(' ');
+  			report = getDateTime() + " " + user + "@"+ mGuild.name + ": " + msg;
+
+  			if(fs.existsSync(reportFile)){
+  				fs.readFile(reportFile, 'utf-8', (error, file)=>{
+  					if(error) return sendError("Reading Report File", error, mChannel);
+  					file = file.split('\n');
+  					file.push(report);
+  					fs.writeFile(reportFile, file.join('\n'), error=>{
+  						if(error) return sendError("Writing Report File", error, mChannel);
+  						mChannel.send("You're report has been filed. Thank you");				  						
+  					});
+  				});
+  			}else{
+  				fs.writeFile(reportFile, report, error =>{
+  					if(error) return sendError("Writing Report File", error, mChannel);
+  					mChannel.send("You're report has been filed. Thank you");
+  				});
+  			}
+  			console.log("REPORT: " + user + " from " + mGuild.name + " submitted a report.");
+  		} else{
+  			mChannel.send("o_O ??");
+  		}
   		return;
   	}
 
