@@ -871,6 +871,10 @@ bot.on('message', message => {
   			liveStream.getTwitchStream(name, (error, status, gameTitle, streamURL, thumbnailURL)=> {
   				if(error) return sendError("Getting Twitch Stream Data", error, mChannel);
   				if(status){
+
+  					if(gameTitle === '' || gameTitle === 'undefined')
+  						gameTitle = "N/A";
+  					
   					mChannel.send("**Twitch**\n", {
   						embed: {
   							color: 10181046,
