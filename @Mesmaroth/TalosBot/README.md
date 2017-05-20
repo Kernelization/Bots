@@ -11,8 +11,8 @@ Run 'npm install' in this directory to download modules needed to run this bot
 
 
 # TODO:
-	- report: Add a report system
 	- editcmd: Edit a command to be able to change the command or it's contents
+	- command: Be able to see what custom commands properties
 	- addsound: with youtube url and direct mp3 url and the ability to enter a sound name
 	- Add a exp system to reward players for their contribution
 	- Add a leader board system listing the top players with the highest xp for their contribution
