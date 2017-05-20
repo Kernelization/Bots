@@ -62,8 +62,8 @@ try{
 		console.log();	
 	}
 
-	if(fs.existsSync(botPreference)){ 
-		var file = fs.readFileSync(botPreference);		
+	if(fs.existsSync(botPreferenceFile)){ 
+		var file = fs.readFileSync(botPreferenceFile);		
 		file = JSON.parse(file);
 		CMDINT = file.initcmd;
 		adminGroups = file.adminGroups;
@@ -309,7 +309,7 @@ bot.on('message', message => {
 
 			CMDINT = init;
 
-			fs.readFile(botPreference, (error, file) =>{
+			fs.readFile(botPreferenceFile, (error, file) =>{
 				if(error) return sendError("Reading preference config file", error, mChannel);
 
 				try{
@@ -320,7 +320,7 @@ bot.on('message', message => {
 
 				file.initcmd = init;
 
-				fs.writeFile(botPreference, JSON.stringify(file, null, '\t'), error =>{
+				fs.writeFile(botPreferenceFile, JSON.stringify(file, null, '\t'), error =>{
 					if(error) return sendError("Writing to preference config file", error, mChannel);
 
 					mChannel.send("Command initializer set as `" + init + "`");
@@ -338,7 +338,7 @@ bot.on('message', message => {
 
 			adminGroups.push(param);
 
-			fs.readFile(botPreference, (error, file) =>{
+			fs.readFile(botPreferenceFile, (error, file) =>{
 				if(error) return sendError("Reading Preference File", error, mChannel);
 
 				try{
@@ -349,7 +349,7 @@ bot.on('message', message => {
 
 				file.adminGroups.push(param);
 
-				fs.writeFile(botPreference, JSON.stringify(file, null, '\t'), error =>{
+				fs.writeFile(botPreferenceFile, JSON.stringify(file, null, '\t'), error =>{
 					if(error) return sendError("Writing Preference File", error, mChannel);
 
 					mChannel.send("Role `" + param + "` has been added to admin group list");
