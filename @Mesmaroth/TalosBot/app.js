@@ -329,7 +329,7 @@ bot.on('message', message => {
 	}
 
 	// Adds a role to the admin group list
-	if(isCommand(mContent, 'addadminrole') && isAdmin(message)){
+	if(isCommand(mContent, 'addadmingroup') && isAdmin(message)){
 		if(mContent.indexOf(' ') !== -1){
 			var param = mContent.split(' ')[1].toLowerCase();
 
