@@ -1,6 +1,6 @@
 {
   "name": "TalosBot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A multi-purpose bot dedicated to Kernelization",
   "main": "app.js",
   "scripts": {
