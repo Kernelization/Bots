@@ -809,7 +809,7 @@ bot.on('message', message => {
   			'about', 'help',
   			'report', 'stats',
   			'invite', 'uptime',
-  			'source', 'twitch'];
+  			'source', 'twitch', 'donate'];
 
   		var adminCommands = [
   			'delcmd',
