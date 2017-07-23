@@ -244,7 +244,7 @@ function donateRem(){
 
 	channel.sendMessage("Please consider supporting us and what we do @ https://www.patreon.com/kernelization.");
 	setInterval(()=>{
-		channel.sendMessage("Please consider supporting us and what we do @ https://www.patreon.com/kernelization.");
+		channel.send("Please consider supporting us and what we do @ https://www.patreon.com/kernelization.");
 	}, 36000000);
 }
 
