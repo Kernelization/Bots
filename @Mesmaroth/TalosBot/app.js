@@ -238,6 +238,16 @@ function getInvite(callback){
 	});
 }
 
+function donateRem(){
+	var guild = bot.guilds.find( guild => guild.id === "311211930561806336");
+	var channel = getChannelByName(guild, 'general');
+
+	channel.sendMessage("Please consider supporting us and what we do @ https://www.patreon.com/kernelization.");
+	setInterval(()=>{
+		channel.sendMessage("Please consider supporting us and what we do @ https://www.patreon.com/kernelization.");
+	}, 36000000);
+}
+
 bot.on('ready', () => {
 	console.log("Talos Bot v" + botVersion);
 	console.log(bot.user.username + " - (" + bot.user.id + ")");
@@ -247,6 +257,8 @@ bot.on('ready', () => {
 	console.log();
 	displayServers();
 	setGame(defaultStatus);
+
+	donateRem();
 });
 
 bot.on('disconnect', event =>{
